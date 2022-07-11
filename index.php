@@ -11,6 +11,10 @@
     </style>
 </head>
 <body>
+    <script>
+        alert("Em breve novidades!!");
+        alert("Fique ligado!!!");
+    </script>
     <h1>World War 2 CUP</h1>
     <h2>Em construção!!!!</h2>
     <h5>By: G O K U & DALMO-ROJO</h5>
