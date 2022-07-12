@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>WWC</title>
+    <style>
+        .regras{
+            width: 300px;
+            height: 100%;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 1em gray;
+            text-align: center;
+            padding: 20px; 
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -24,9 +35,9 @@
             <div class="clear"></div>
         </div>
     </header>
-    <div class="conteudo">
-        <h1>World War 2 CUP</h1>
-        <h2>Em construção!!!!</h2>
+    <div class="regras">
+        <h1>REGRAS</h1>
+        <h3>Em breve...</h3>
     </div>
     <footer><h5>By: G O K U & DALMO-ROJO</h5></footer>
 </body>

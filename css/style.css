@@ -37,7 +37,6 @@ nav.desktop li{
 }
 nav.desktop li:hover{
     background-color: aliceblue;
-    transition: 0.5s;
     border-radius: 4px;
 }
 .logo img {width: 200px; padding: 0;}
