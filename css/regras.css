@@ -1,0 +1,13 @@
+.regras{
+    width: 300px;
+    height: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 1em gray;
+    text-align: center;
+    padding: 20px; 
+}
+
+#cont-s1, #cont-s2, #cont-s3{
+    display: none;
+}

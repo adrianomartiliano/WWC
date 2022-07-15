@@ -5,18 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/regras.css">
+    <script src="js/function-regras.js"></script>
     <title>WWC</title>
-    <style>
-        .regras{
-            width: 300px;
-            height: 100%;
-            margin: 20px auto;
-            border-radius: 10px;
-            box-shadow: 0 0 1em gray;
-            text-align: center;
-            padding: 20px; 
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -37,7 +28,18 @@
     </header>
     <div class="regras">
         <h1>REGRAS</h1>
-        <h3>Em breve...</h3>
+        <div class="regras-s1">
+            <h3 onclick="MudarVisibilidade('cont-s1')">Sobre as Equipes</h3>
+            <div id="cont-s1">Conteudo 1</div>
+        </div>
+        <div class="regras-s2">
+            <h3 onclick="MudarVisibilidade('cont-s2')">Sobre as Partidas</h3>
+            <div id="cont-s2">Conteudo 1</div>
+        </div>
+        <div class="regras-s3">
+            <h3 onclick="MudarVisibilidade('cont-s3')">Sobre o Torneio</h3>
+            <div id="cont-s3">Conteudo 1</div>
+        </div>
     </div>
     <footer><h5>By: G O K U & DALMO-ROJO</h5></footer>
 </body>
