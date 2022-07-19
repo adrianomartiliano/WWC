@@ -42,7 +42,9 @@ nav.desktop li:hover{
 .logo img {width: 200px; padding: 0;}
 nav.desktop a{color: #215d94; text-decoration: none;}
 
-
+.cont-regras{
+    color: red;
+}
 
 footer{
     color: #215d94;

@@ -14,6 +14,7 @@
             <nav class="desktop right">
                 <ul>
                     <a href="regras.php"><li>REGRAS</li></a>
+                    <a href="#"><li>INSCRIÇÃO</li></a>
                 </ul>
             </nav>
             <nav class="mobile right">
