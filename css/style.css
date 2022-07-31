@@ -28,7 +28,7 @@ header{
 .mobile {
     display: none;
 }
-nav.desktop ul { list-style-type: none;}
+/*nav.desktop ul { list-style-type: none;}
 nav.desktop li{
     padding: 10px 40px;
     display: inline-block;
@@ -51,4 +51,4 @@ footer{
     bottom: 0;
     text-align: center;
     line-height: 50px;
-}
+}*/
