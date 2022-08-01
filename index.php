@@ -38,7 +38,7 @@
         <h4>WINN - THE KILL TEAM</h4>
         <h4>TEAM - SONS OF THOR</h4>
         <h4>MUNM - BESTIAS DE ASALTO</h4>
-        <h4>CAN - CLAN-PEÕS</h4>
+        <h4>CAN - CLAN-PEÕES</h4>
         
     </div>
     </div>
