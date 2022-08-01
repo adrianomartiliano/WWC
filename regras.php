@@ -28,6 +28,10 @@
                     <li class="cont-regras">O mesmo jogador (id) não pode participar em mais de uma equipe;</li>
                     <li class="cont-regras">Os integrantes da equipe devem ser da mesma filiação do clan;</li>
                     <li class="cont-regras">Após o início do torneio, os jogadores não poderão mudar de equipe;</li>
+                    <li class="cont-regras">Caso falte 1 integrante para acontecer a batalha, poderá jogar um substituto.</li>
+                    <li class="cont-regras">Esse integrante precisa ser do mesmo clan.</li>
+                    <li class="cont-regras">O integrante não pode ter sido inscrito em nenhuma equipe.</li>
+                    <p class="cont-regras">Esse intregrante não pode jogar por mais de 1 equipe por rodada.</p>
                     <li class="cont-regras">Um capitão deverá ser nomeado para ser o responsável por agendamentos de combates;</li>
                     <li class="cont-regras">No ato da inscrição da equipe, um nome deverá ser dado para se unir a tag do CLAN;</li>
                     <p class="cont-regras">Exemplo: CAN – Soldados do Mal, Mund – Matadores, WU – Fantasma;</p>
