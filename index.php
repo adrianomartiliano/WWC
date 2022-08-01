@@ -5,25 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/menu.css">
     
     <title>WWC</title>
 </head>
 <body>
-    <header id="header">
-        <a href="index.html"><img src="images/wwc2.png" alt=""></a>
-        <nav id="nav">
-            <button id="btn-mobile">MENU
-                <span id="hamburger"></span>
-            </button>
-            <ul id="menu">
-                <li><a href="regras.html">REGRAS</a></li>
-                <li><a href="#">SORTEIO</a></li>
-                <li><a href="#">EQUIPES</a></li>
-                <li><a href="inscricao.html">INSCRIÇÃO</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php
+        include 'menu.html';
+    ?>
     <div class="conteudo">
         <br/><br/>
         <h2>O maior torneio de WW2, feito de jogador para jogador!!</h2><br/><br/>
@@ -55,6 +43,5 @@
     </div>
     </div>
     <!--<footer><h5>By: G O K U & DALMO-ROJO</h5></footer>-->
-    <script src="js/menu.js"></script>
 </body>
 </html>

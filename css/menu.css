@@ -17,6 +17,7 @@ header img {
     padding: 0;
 }
 #header{
+    background-color: #ffab07;
     box-sizing: border-box;
     height: 120px;
     padding: 1rem;

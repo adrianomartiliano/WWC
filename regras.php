@@ -6,43 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/regras.css">
-    <link rel="stylesheet" href="css/menu.css">
     <script src="js/function-regras.js"></script>
     <title>WWC</title>
     <style>
 
-#cont-s1, #cont-s2, #cont-s3, #cont-s4, #cont-s5{
-    display: none;
-}
 
-.regras .cont-regras{
-    margin: 5px 20px;
-}
-.cont-regras{
-    text-align: left;
-}
-h3{
-    cursor: pointer;
-}
+
     </style>
 </head>
 <body>
-    <header id="header">
-        
-            <a href="index.html"><img src="images/wwc2.png" alt=""></a>
-        <nav id="nav">
-            <button id="btn-mobile">MENU
-                <span id="hamburger"></span>
-            </button>
-            <ul id="menu">
-                <li><a href="regras.html">REGRAS</a></li>
-                <li><a href="#">SORTEIO</a></li>
-                <li><a href="#">EQUIPES</a></li>
-                <li><a href="inscricao.html">INSCRIÇÃO</a></li>
-            </ul>
-        </nav>
-        
-    </header>
+    <?php
+        include 'menu.html';
+    ?>
     <div class="regras">
         <h1>REGRAS</h1>
         <div class="regras-s1">
@@ -95,6 +70,5 @@ h3{
         </div>
     </div>
     <!--<footer><h5>By: G O K U & DALMO-ROJO</h5></footer>-->
-    <script src="js/menu.js"></script>
 </body>
 </html>
