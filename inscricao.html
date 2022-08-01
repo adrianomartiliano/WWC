@@ -5,28 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
     <title>WWC</title>
 </head>
 <body>
-    <header>
-        <div class="center">
-            <div class="logo left"><a href="index.html"><img src="images/wwc2.png" alt=""></a></div><!--logo-->
-            <nav class="desktop right">
-                <ul>
-                    <a href="regras.html"><li>REGRAS</li></a>
-                    <a href="#"><li>INSCRIÇÃO</li></a>
-                </ul>
-            </nav>
-            <nav class="mobile right">
-                <ul>
-                    <a href=""><li>REGRAS</li></a>
-                </ul>
-            </nav>
-            <div class="clear"></div>
-        </div>
+    <header id="header">
+        <a href="index.html"><img src="images/wwc2.png" alt=""></a>
+        <nav id="nav">
+            <button id="btn-mobile">MENU
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu">
+                <li><a href="regras.html">REGRAS</a></li>
+                <li><a href="#">SORTEIO</a></li>
+                <li><a href="#">EQUIPES</a></li>
+                <li><a href="inscricao.html">INSCRIÇÃO</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="conteudo">
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdkCcgFlfSaWa7Q2um793bmYEoGbkoETk5H5vI2y1ZKQQ8rxg/viewform?embedded=true" width="400" height="1396" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
     </div>
+    <script src="js/menu.js"></script>
 </body>
 </html>
