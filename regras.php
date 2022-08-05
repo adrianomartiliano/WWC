@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="css/regras.css">
     <script src="js/function-regras.js"></script>
     <title>WWC</title>
-    <style>
-
-
-
-    </style>
 </head>
 <body>
     <?php

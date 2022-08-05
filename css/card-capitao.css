@@ -3,10 +3,12 @@
             padding: 5px 25px;
             width: 250px;
             height: 200px;
-            border: 1px solid black;
             display: inline-block;
             border-radius: 15px;
             margin-top: 10px;
+            background-color: rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0 10px gray;
+            border: 1px solid gray;
         }
         .nome-equipe {
             width: 100%;
@@ -40,6 +42,7 @@
         .conteudo {
             width: 1000px;
             height: 100%;
+            background-color: aquamarine;
         }
         @media (max-width: 600px){
             .conteudo{
@@ -49,6 +52,5 @@
             .card{
                 width: 80%;
                 margin: 10px auto;
-
             } 
         }
