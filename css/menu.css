@@ -10,14 +10,15 @@ a {
     font-style:normal;
 }
 #nav a:hover{
-    background-color: #ffab07;
+    background-color: white;
 }
 header img {
     width: 100px; 
     padding: 0;
 }
 #header{
-    background-color: #ffab07;
+    width: 1200px;
+    background-color: white;
     box-sizing: border-box;
     height: 120px;
     padding: 1rem;

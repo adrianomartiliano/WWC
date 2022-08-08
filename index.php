@@ -39,6 +39,7 @@
         <h4>21 - TEAM - SONS OF THOR</h4>
         <h4>22 - MUNM - BESTIAS DE ASALTO</h4>
         <h4>23 - CAN - CLAN-PEÕES</h4>
+        <h4>24 - MUNU - DEPREDADORES</h4>
         
     </div>
     </div>

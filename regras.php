@@ -65,7 +65,13 @@
         </div>
         <div class="regras-s5">
             <h3 onclick="MudarVisibilidade('cont-s5')">Sobre o Torneio</h3>
-            <div id="cont-s5">A definir formato...</div>
+            <ul id="cont-s5">
+                <li class="cont-regras">As equipes nos grupos se enfrentam;</li>
+                <li class="cont-regras">Os 2 primeiros passam de fase direta;</li>
+                <li class="cont-regras">os 4 terceiros colocados mais bem pontuados passarão de fase;</li>
+                <li class="cont-regras">Novo sorteio para definir as chaves;</li>
+                <li class="cont-regras">Sequência das chave até o final;</li>
+            </ul>
         </div>
     </div>
     <!--<footer><h5>By: G O K U & DALMO-ROJO</h5></footer>-->
