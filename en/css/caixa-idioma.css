@@ -1,0 +1,36 @@
+.idioma{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.idioma-op{
+    min-width: 300px;
+    width: 40%;
+    box-shadow: 0 0 0 4px white;
+    border: 4px solid #ffab07;
+    padding: 10px;
+    background: white;
+}
+input{
+    width: 80%;
+    background-color: #ffab07;
+    padding: 6px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 0 2px #ffab07;
+    border: 2px solid white;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.idioma-oculto {
+    display: none !important; 
+}

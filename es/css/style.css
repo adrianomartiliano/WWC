@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.w33{ width: 33%;}
+.w50{ width: 50%;}
+.left{ float: left;}
+.right{ float: right;}
+.clear{ clear: both;}
+
+.conteudo{
+    text-align: center;
+}
+.center {
+    max-width: 800px;
+    padding: 0 2%;
+    margin: 0 auto;
+}

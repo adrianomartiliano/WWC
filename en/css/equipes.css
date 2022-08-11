@@ -1,0 +1,12 @@
+.conteudo{
+    width: 1200px;
+    margin: 0 auto;
+}
+.cardequipe{
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+}

@@ -46,17 +46,6 @@
         
     </div>
     </div>
-    <div class="idioma">
-        <div id="caixa-idioma" class="idioma-op">
-            <form>
-                <input type="button" value="PORTUGUESE" onclick="ocultarIdioma();">
-                <a href="en/index.php"><input type="button" value="ENGLISH"></button></a>
-                <a href="es/index.php"><input type="button" value="ESPAÑOL"></button></a>
-            </form>
-        </div>
-    </div>
     <!--<footer><h5>By: G O K U & DALMO-ROJO</h5></footer>-->
-    
 </body>
-<script src="js/idioma.js"></script>
 </html>
