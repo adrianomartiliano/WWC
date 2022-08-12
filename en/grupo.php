@@ -55,7 +55,7 @@
         <div class="grupo">
             <table border="1" class="classificao">
                 <tr>
-                    <th colspan="3">GRUPO A</th><th colspan="3">P</th><th colspan="3">PC</th>
+                    <th colspan="3">GROUP A</th><th colspan="3">P</th><th colspan="3">PC</th>
                 </tr>
                 <tr>
                     <td colspan="3">PRO GAMING</td><th colspan="3">0</th><th colspan="3">0</th>
@@ -71,7 +71,7 @@
                 </tr>        
                 </table>
                 <table border="1" class="rodada">
-                    <tr><th colspan="6" >RODADA 1</th></tr>
+                    <tr><th colspan="6" >ROUND 1</th></tr>
                     <tr>
                         <th>PRO GAMING</th><td> - </td><th>X</th><td> - </td><th>UNITED</th>
                     </tr>
@@ -83,7 +83,7 @@
         <div class="grupo">
             <table border="1" class="classificao">
                 <tr>
-                    <th colspan="3">GRUPO B</th><th colspan="3">P</th><th colspan="3">PC</th>
+                    <th colspan="3">GROUP B</th><th colspan="3">P</th><th colspan="3">PC</th>
                 </tr>
                 <tr>
                     <td colspan="3">SONS OF THOR</td><th colspan="3">0</th><th colspan="3">0</th>
@@ -99,7 +99,7 @@
                 </tr>        
                 </table>
                 <table border="1" class="rodada">
-                    <tr><th colspan="6" >RODADA 1</th></tr>
+                    <tr><th colspan="6" >ROUND 1</th></tr>
                     <tr>
                         <th>SONS OF THOR</th><td> - </td><th>X</th><td> - </td><th>CLAN-DESTINOS</th>
                     </tr>
@@ -111,7 +111,7 @@
         <div class="grupo">
             <table border="1" class="classificao">
                 <tr>
-                    <th colspan="3">GRUPO C</th><th colspan="3">P</th><th colspan="3">PC</th>
+                    <th colspan="3">GROUP C</th><th colspan="3">P</th><th colspan="3">PC</th>
                 </tr>
                 <tr>
                     <td colspan="3">Z SPECIAL UNITED</td><th colspan="3">0</th><th colspan="3">0</th>
@@ -127,7 +127,7 @@
                 </tr>        
                 </table>
                 <table border="1" class="rodada">
-                    <tr><th colspan="6" >RODADA 1</th></tr>
+                    <tr><th colspan="6" >ROUND 1</th></tr>
                     <tr>
                         <th>SWAT BRASIL PRO</th><td> - </td><th>X</th><td> - </td><th>LOS GEDES</th>
                     </tr>
@@ -139,7 +139,7 @@
         <div class="grupo">
             <table border="1" class="classificao">
                 <tr>
-                    <th colspan="3">GRUPO D</th><th colspan="3">P</th><th colspan="3">PC</th>
+                    <th colspan="3">GROUP D</th><th colspan="3">P</th><th colspan="3">PC</th>
                 </tr>
                 <tr>
                     <td colspan="3">VETERANOS DE GUERRA</td><th colspan="3">0</th><th colspan="3">0</th>
@@ -155,7 +155,7 @@
                 </tr>        
                 </table>
                 <table border="1" class="rodada">
-                    <tr><th colspan="6" >RODADA 1</th></tr>
+                    <tr><th colspan="6" >ROUND 1</th></tr>
                     <tr>
                         <th>VETERANOS DE GUERRA</th><td> - </td><th>X</th><td> - </td><th>PANDILLEROS</th>
                     </tr>
@@ -163,11 +163,11 @@
                         <th>DEATH SQUAD</th><td> - </td><th>X</th><td> - </td><th>KAMIKAZES</th>
                     </tr>
                 </table>
-        </div><!--GRUPO D-->
+        </div><!--GROUP D-->
         <div class="grupo">
             <table border="1" class="classificao">
                 <tr>
-                    <th colspan="3">GRUPO E</th><th colspan="3">P</th><th colspan="3">PC</th>
+                    <th colspan="3">GROUP E</th><th colspan="3">P</th><th colspan="3">PC</th>
                 </tr>
                 <tr>
                     <td colspan="3">CANNABIS</td><th colspan="3">0</th><th colspan="3">0</th>
@@ -183,7 +183,7 @@
                 </tr>        
                 </table>
                 <table border="1" class="rodada">
-                    <tr><th colspan="6" >RODADA 1</th></tr>
+                    <tr><th colspan="6" >ROUND 1</th></tr>
                     <tr>
                         <th>BESTIAS DE ASALTO</th><td> - </td><th>X</th><td> - </td><th>CANNABIS</th>
                     </tr>
@@ -191,11 +191,11 @@
                         <th>LOS 4 FANTÁSTICOS</th><td> - </td><th>X</th><td> - </td><th>GLORIOSOS PATRIOTAS</th>
                     </tr>
                 </table>
-        </div><!--GRUPO E-->
+        </div><!--GROUP E-->
         <div class="grupo">
             <table border="1" class="classificao">
                 <tr>
-                    <th colspan="3">GRUPO F</th><th colspan="3">P</th><th colspan="3">PC</th>
+                    <th colspan="3">GROUP F</th><th colspan="3">P</th><th colspan="3">PC</th>
                 </tr>
                 <tr>
                     <td colspan="3">BLACK ORDERS</td><th colspan="3">0</th><th colspan="3">0</th>
@@ -211,7 +211,7 @@
                 </tr>        
                 </table>
                 <table border="1" class="rodada">
-                    <tr><th colspan="6" >RODADA 1</th></tr>
+                    <tr><th colspan="6" >ROUND 1</th></tr>
                     <tr>
                         <th>JAGUNÇOS</th><td> - </td><th>X</th><td> - </td><th>DEPREDADORES</th>
                     </tr>
@@ -219,7 +219,7 @@
                         <th>THE KILL TEAM</th><td> - </td><th>X</th><td> - </td><th>BLACK ORDERS</th>
                     </tr>
                 </table>
-        </div><!--GRUPO F-->
+        </div><!--GROUP F-->
         
     </div>
     

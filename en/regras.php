@@ -14,63 +14,63 @@
         include 'menu.html';
     ?>
     <div class="regras">
-        <h1>REGRAS</h1>
+        <h1>RULES</h1>
         <div class="regras-s1">
-            <h3 onclick="MudarVisibilidade('cont-s1')">Sobre as Equipes</h3>
+            <h3 onclick="MudarVisibilidade('cont-s1')">Teams</h3>
                 <ul id="cont-s1">
-                    <li class="cont-regras">Compostas por 4 jogadores;</li>
-                    <li class="cont-regras">Máximo de 5 equipes por CLAN;</li>
-                    <li class="cont-regras">O mesmo jogador (id) não pode participar em mais de uma equipe;</li>
-                    <li class="cont-regras">Os integrantes da equipe devem ser da mesma filiação do clan;</li>
-                    <li class="cont-regras">Após o início do torneio, os jogadores não poderão mudar de equipe;</li>
-                    <li class="cont-regras">Caso falte 1 integrante para acontecer a batalha, poderá jogar um substituto.</li>
-                    <li class="cont-regras">Esse integrante precisa ser do mesmo clan.</li>
-                    <li class="cont-regras">O integrante não pode ter sido inscrito em nenhuma equipe.</li>
-                    <p class="cont-regras">Esse intregrante não pode jogar por mais de 1 equipe por rodada.</p>
-                    <li class="cont-regras">Um capitão deverá ser nomeado para ser o responsável por agendamentos de combates;</li>
-                    <li class="cont-regras">No ato da inscrição da equipe, um nome deverá ser dado para se unir a tag do CLAN;</li>
-                    <p class="cont-regras">Exemplo: CAN – Soldados do Mal, Mund – Matadores, WU – Fantasma;</p>
+                    <li class="cont-regras">Composed of 4 players;</li>
+                    <li class="cont-regras">Maximum of 5 teams per CLAN;</li>
+                    <li class="cont-regras">The same player (id) cannot participate in more than one team;</li>
+                    <li class="cont-regras">Team members must be of the same clan affiliation;</li>
+                    <li class="cont-regras">After the tournament starts, players will not be able to change teams;</li>
+                    <li class="cont-regras">If 1 member is missing for the battle to take place, a substitute can be played;</li>
+                    <li class="cont-regras">This member must be from the same clan;</li>
+                    <li class="cont-regras">The member cannot have been enrolled in any team;</li>
+                    <p class="cont-regras">This member cannot play for more than 1 team per round;</p>
+                    <li class="cont-regras">A captain must be appointed to be responsible for scheduling fights;</li>
+                    <li class="cont-regras">Upon team registration, a name must be given to join the CLAN tag;</li>
+                    <p class="cont-regras">Example: CAN – Soldiers of Evil, Mund – Killers, WU – Ghost;</p>
                 </ul>
             
         </div>
         <div class="regras-s2">
-            <h3 onclick="MudarVisibilidade('cont-s2')">Sobre as Partidas</h3>
+            <h3 onclick="MudarVisibilidade('cont-s2')">Matches</h3>
             <ul id="cont-s2">
-                <li class="cont-regras">Modo mata-mata;</li>
-                <li class="cont-regras">Total de 3 partidas</li>
-                <li class="cont-regras">A equipe que conseguir 2 vitórias primeiro vence;</li>
-                <li class="cont-regras">As primeiras 2 partidas serão em HOST alternadas;</li>
-                <li class="cont-regras">Caso precise da terceira, a equipe com mais pontos somados tem o direito da host;</li>
+                <li class="cont-regras">Deathmatch mode;</li>
+                <li class="cont-regras">Total of 3 matches;</li>
+                <li class="cont-regras">The team that gets 2 victories first wins;</li>
+                <li class="cont-regras">The first 2 matches will be on alternate HOST;</li>
+                <li class="cont-regras">If you need the third, the team with the most points has the right to host;</li>
             </ul>
         </div>
         <div class="regras-s3">
-            <h3 onclick="MudarVisibilidade('cont-s3')">Sobre os Equipamentos</h3>
+            <h3 onclick="MudarVisibilidade('cont-s3')">Equipment</h3>
             <ul id="cont-s3">
-                <li class="cont-regras">Apenas granadas básicas;</li>
-                <li class="cont-regras">Kit médico a escolha do jogador;</li>
-                <li class="cont-regras">Apenas Radar e Anti Radar;</li>
-                <li class="cont-regras">Todas as armas permitidas;</li>
-                <li class="cont-regras">Todos os coletes Permitidos;</li>
+                <li class="cont-regras">Basic grenades only;</li>
+                <li class="cont-regras">Medical kit of the player's choice;</li>
+                <li class="cont-regras">Only Radar and Anti Radar;</li>
+                <li class="cont-regras">All weapons allowed;</li>
+                <li class="cont-regras">All vests Allowed;</li>
             </ul>
         </div>
 
         <div class="regras-s4">
-            <h3 onclick="MudarVisibilidade('cont-s4')">Sobre as Datas</h3>
+            <h3 onclick="MudarVisibilidade('cont-s4')">Dates</h3>
             <ul id="cont-s4">
-                <li class="cont-regras">A rodada terá uma duração de 4 dias;</li>
-                <li class="cont-regras">Os capitães serão avisados sobre o início da rodada;</li>
-                <li class="cont-regras">Caso um capitão não consiga ou não tenha retorno da outra equipe, Vencerão por WO;</li>
-                <li class="cont-regras">Para ganhar o pontos por WO o capitão precisará provar com capturas de tela a falta de 	interesse do adversário;</li>
+                <li class="cont-regras">The round will last for 4 days;</li>
+                <li class="cont-regras">Captains will be notified of the start of the round;</li>
+                <li class="cont-regras">If a captain is unable or does not have a return from the other team, they will win by WO;</li>
+                <li class="cont-regras">To earn points by WO, the captain will need to prove with screenshots the lack of interest of the opponent;</li>
             </ul>
         </div>
         <div class="regras-s5">
-            <h3 onclick="MudarVisibilidade('cont-s5')">Sobre o Torneio</h3>
+            <h3 onclick="MudarVisibilidade('cont-s5')">Tournament</h3>
             <ul id="cont-s5">
-                <li class="cont-regras">As equipes nos grupos se enfrentam;</li>
-                <li class="cont-regras">Os 2 primeiros passam de fase direta;</li>
-                <li class="cont-regras">os 4 terceiros colocados mais bem pontuados passarão de fase;</li>
-                <li class="cont-regras">Novo sorteio para definir as chaves;</li>
-                <li class="cont-regras">Sequência das chave até o final;</li>
+                <li class="cont-regras">The teams in the groups face off;</li>
+                <li class="cont-regras">The first 2 pass from direct phase;</li>
+                <li class="cont-regras">The 4 highest-scoring third-placed teams will advance to the next stage;</li>
+                <li class="cont-regras">New draw to define the keys;</li>
+                <li class="cont-regras">Key sequence to the end;</li>
             </ul>
         </div>
     </div>

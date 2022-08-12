@@ -41,7 +41,7 @@
     </div><!--PRO GAMING-->
     <div class="card">
         <div class="nome-equipe"><h1>DEPREDADORES</h1><h4>MUNDIALES - MUNU</h4></div>
-        <div class="nome-capitao"><h3><a href="https://api.whatsapp.com/send?phone=5491159140895">CAPTANIJONNI<span class="icon-whats"><i class="fa-brands fa-whatsapp"></i></span></h3></a></div>
+        <div class="nome-capitao"><h3><a href="https://api.whatsapp.com/send?phone=524613678692">CAPTANIJONNI<span class="icon-whats"><i class="fa-brands fa-whatsapp"></i></span></h3></a></div>
         <div class="horario">
             <div class="hor-atual">
                 <p id="mexico" onload="horaMexico();"></p>

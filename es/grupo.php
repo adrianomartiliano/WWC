@@ -71,7 +71,7 @@
                 </tr>        
                 </table>
                 <table border="1" class="rodada">
-                    <tr><th colspan="6" >RODADA 1</th></tr>
+                    <tr><th colspan="6" >REDONDO 1</th></tr>
                     <tr>
                         <th>PRO GAMING</th><td> - </td><th>X</th><td> - </td><th>UNITED</th>
                     </tr>
@@ -99,7 +99,7 @@
                 </tr>        
                 </table>
                 <table border="1" class="rodada">
-                    <tr><th colspan="6" >RODADA 1</th></tr>
+                    <tr><th colspan="6" >REDONDO 1</th></tr>
                     <tr>
                         <th>SONS OF THOR</th><td> - </td><th>X</th><td> - </td><th>CLAN-DESTINOS</th>
                     </tr>
@@ -127,7 +127,7 @@
                 </tr>        
                 </table>
                 <table border="1" class="rodada">
-                    <tr><th colspan="6" >RODADA 1</th></tr>
+                    <tr><th colspan="6" >REDONDO 1</th></tr>
                     <tr>
                         <th>SWAT BRASIL PRO</th><td> - </td><th>X</th><td> - </td><th>LOS GEDES</th>
                     </tr>
@@ -155,7 +155,7 @@
                 </tr>        
                 </table>
                 <table border="1" class="rodada">
-                    <tr><th colspan="6" >RODADA 1</th></tr>
+                    <tr><th colspan="6" >REDONDO 1</th></tr>
                     <tr>
                         <th>VETERANOS DE GUERRA</th><td> - </td><th>X</th><td> - </td><th>PANDILLEROS</th>
                     </tr>
@@ -183,7 +183,7 @@
                 </tr>        
                 </table>
                 <table border="1" class="rodada">
-                    <tr><th colspan="6" >RODADA 1</th></tr>
+                    <tr><th colspan="6" >REDONDO 1</th></tr>
                     <tr>
                         <th>BESTIAS DE ASALTO</th><td> - </td><th>X</th><td> - </td><th>CANNABIS</th>
                     </tr>
@@ -211,7 +211,7 @@
                 </tr>        
                 </table>
                 <table border="1" class="rodada">
-                    <tr><th colspan="6" >RODADA 1</th></tr>
+                    <tr><th colspan="6" >REDONDO 1</th></tr>
                     <tr>
                         <th>JAGUNÇOS</th><td> - </td><th>X</th><td> - </td><th>DEPREDADORES</th>
                     </tr>
