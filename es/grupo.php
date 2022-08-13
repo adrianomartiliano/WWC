@@ -58,22 +58,22 @@
                     <th colspan="3">GRUPO A</th><th colspan="3">P</th><th colspan="3">PC</th>
                 </tr>
                 <tr>
-                    <td colspan="3">PRO GAMING</td><th colspan="3">0</th><th colspan="3">0</th>
+                    <td colspan="3">PRO GAMING</td><th colspan="3">3</th><th colspan="3">1.137</th>
+                </tr>
+                <tr>
+                    <td colspan="3">UNITED</td><th colspan="3">0</th><th colspan="3">555</th>
                 </tr>
                 <tr>
                     <td colspan="3" width="200px">TERRORISTAS DELTA</td><th colspan="3">0</th><th colspan="3">0</th>
                 </tr>
                 <tr>
-                    <td colspan="3">UNITED</td><th colspan="3">0</th><th colspan="3">0</th>
-                </tr>
-                <tr>
                     <td colspan="3" >HEROES DE LA PATRIA</td><th colspan="3">0</th><th colspan="3">0</th>
-                </tr>        
+                </tr>          
                 </table>
                 <table border="1" class="rodada">
                     <tr><th colspan="6" >REDONDO 1</th></tr>
                     <tr>
-                        <th>PRO GAMING</th><td> - </td><th>X</th><td> - </td><th>UNITED</th>
+                        <th>PRO GAMING</th><td> 2 </td><th>X</th><td> 0 </td><th>UNITED</th>
                     </tr>
                     <tr>
                         <th>TERRORISTAS DELTA</th><td> - </td><th>X</th><td> - </td><th>HEROES DE LA PATRIA</th>
@@ -86,22 +86,22 @@
                     <th colspan="3">GRUPO B</th><th colspan="3">P</th><th colspan="3">PC</th>
                 </tr>
                 <tr>
-                    <td colspan="3">SONS OF THOR</td><th colspan="3">0</th><th colspan="3">0</th>
+                    <td colspan="3">SONS OF THOR</td><th colspan="3">3</th><th colspan="3">861</th>
+                </tr>
+                <tr>
+                    <td colspan="3">CLAN-DESTINOS</td><th colspan="3">0</th><th colspan="3">538</th>
                 </tr>
                 <tr>
                     <td colspan="3" width="200px">HUNTERS</td><th colspan="3">0</th><th colspan="3">0</th>
                 </tr>
                 <tr>
-                    <td colspan="3">CLAN-DESTINOS</td><th colspan="3">0</th><th colspan="3">0</th>
-                </tr>
-                <tr>
                     <td colspan="3" >CLAN-PEOES</td><th colspan="3">0</th><th colspan="3">0</th>
-                </tr>        
+                </tr>         
                 </table>
                 <table border="1" class="rodada">
                     <tr><th colspan="6" >REDONDO 1</th></tr>
                     <tr>
-                        <th>SONS OF THOR</th><td> - </td><th>X</th><td> - </td><th>CLAN-DESTINOS</th>
+                        <th>SONS OF THOR</th><td> 2 </td><th>X</th><td> 0 </td><th>CLAN-DESTINOS</th>
                     </tr>
                     <tr>
                         <th>HUNTERS</th><td> - </td><th>X</th><td> - </td><th>CLAN-PEOES</th>
