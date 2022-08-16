@@ -26,6 +26,7 @@
         }
         .rodada{
             width: 450px;
+            display: none;
         }
         @media (max-width:600px){
             .grupo{
@@ -42,14 +43,15 @@
                 width: 90%;
             }
         }
-        .btn-rodada{
+        .btn-direita, .btn-esquerda{
             cursor: pointer;
         }
-        .inativa {
-            display: none;
+        .rodada-ativa {
+            display: block;
         }
-        .right {
-            margin-right: 100px;
+        .titulo-rodada{
+            justify-content: space-between;
+            display: flex;
         }
 
     </style>
@@ -78,10 +80,10 @@
                 <tr>
                     <td colspan="3" width="200px">TERRORISTAS DELTA</td><th colspan="3">0</th><th colspan="3">547</th>
                 </tr>
-                        
-                </table>
-                <table border="1" class="rodada" id="rodada1a">
-                    <tr><th style="width:100%" colspan="6" >RODADA 1<span class="btn-rodada right" onclick="nextrodada('rodada1a')">></span></th></tr>
+                       
+            </table>
+                <table border="1" class="rodada rodada-ativa">
+                    <tr><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda"><</div>RODADA 1<div class="btn-direita" onclick="NextRodada();">></div></div></th></tr>
                     <tr>
                         <th>PRO GAMING</th><td> 2 </td><th>X</th><td> 0 </td><th>UNITED</th>
                     </tr>
@@ -89,19 +91,19 @@
                         <th>TERRORISTAS DELTA</th><td> 0 </td><th>X</th><td> 2 </td><th>HEROES DE LA PATRIA</th>
                     </tr>
                 </table>
-                <table border="1" class="rodada inativa" id="rodada2a">
-                    <tr><th colspan="6" ><span><</span>RODADA 2<span class="btn-rodada" onclick="nextrodada('rodada2a')">></span></th></tr>
+                <table border="1" class="rodada">
+                <tr><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodada();"><</div>RODADA 2<div class="btn-direita" onclick="NextRodada();">></div></div></th></tr>
                     <tr>
                         <th>UNITED</th><td> - </td><th>X</th><td> - </td><th>TERRORISTAS DELTA</th>
                     </tr>
                     <tr>
-                        <th>PRO GAMING</th><td> - </td><th>X</th><td> - </td><th>HEROES DE LA PATRIA</th>
+                        <th>HEROES DE LA PATRIA</th><td> - </td><th>X</th><td> - </td><th>PRO GAMING</th>
                     </tr>
                 </table>
-                <table border="1" class="rodada inativa" id="rodada3a">
-                    <tr><th colspan="6" ><span><</span>RODADA 3<span>></span></th></tr>
+                <table border="1" class="rodada">
+                    <tr><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodada();"><</div>RODADA 3<div class="btn-direita">></div></div></th></tr>
                     <tr>
-                        <th>UNITED</th><td> - </td><th>X</th><td> - </td><th>HEROES DE LA PATRIA</th>
+                        <th>HEROES DE LA PATRIA</th><td> - </td><th>X</th><td> - </td><th>UNITED</th>
                     </tr>
                     <tr>
                         <th>PRO GAMING</th><td> - </td><th>X</th><td> - </td><th>TERRORISTAS DELTA</th>
@@ -111,13 +113,7 @@
                 
         
     </div>
-    <script>
-
-function nextrodada(el){
-    var display = document.getElementById(el).style.display;
-    document.getElementById(el).style.display = 'none';
-    document.getElementById('rodada2a').style.display = 'block';
-}
+    <script src="js/rodada.js">
     </script>
 </body>
 </html>

@@ -26,6 +26,7 @@
         }
         .rodada{
             width: 450px;
+            display: none;
         }
         @media (max-width:600px){
             .grupo{
@@ -41,6 +42,16 @@
                 margin: 20px auto;
                 width: 90%;
             }
+        }
+        .btn-direita, .btn-esquerda{
+            cursor: pointer;
+        }
+        .rodada-ativa {
+            display: block;
+        }
+        .titulo-rodada{
+            justify-content: space-between;
+            display: flex;
         }
 
     </style>
@@ -71,13 +82,32 @@
                 </tr>
                         
                 </table>
-                <table border="1" class="rodada">
-                    <tr><th colspan="6" >RODADA 1</th></tr>
+                </table>
+                <table border="1" class="rodada rodada-ativa" id="rodada1">
+                    <tr><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda"><</div>RODADA 1<div class="btn-direita" onclick="NextRodada('rodada1');">></div></div></th></tr>
                     <tr>
                         <th>PRO GAMING</th><td> 2 </td><th>X</th><td> 0 </td><th>UNITED</th>
                     </tr>
                     <tr>
                         <th>TERRORISTAS DELTA</th><td> 0 </td><th>X</th><td> 2 </td><th>HEROES DE LA PATRIA</th>
+                    </tr>
+                </table>
+                <table border="1" class="rodada">
+                <tr><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodada();"><</div>RODADA 2<div class="btn-direita" onclick="NextRodada();">></div></div></th></tr>
+                    <tr>
+                        <th>UNITED</th><td> - </td><th>X</th><td> - </td><th>TERRORISTAS DELTA</th>
+                    </tr>
+                    <tr>
+                        <th>HEROES DE LA PATRIA</th><td> - </td><th>X</th><td> - </td><th>PRO GAMING</th>
+                    </tr>
+                </table>
+                <table border="1" class="rodada">
+                    <tr><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodada();"><</div>RODADA 3<div class="btn-direita">></div></div></th></tr>
+                    <tr>
+                        <th>HEROES DE LA PATRIA</th><td> - </td><th>X</th><td> - </td><th>UNITED</th>
+                    </tr>
+                    <tr>
+                        <th>PRO GAMING</th><td> - </td><th>X</th><td> - </td><th>TERRORISTAS DELTA</th>
                     </tr>
                 </table>
         </div><!--Grupo A-->
@@ -99,13 +129,31 @@
                     <td colspan="3">CLAN-DESTINOS</td><th colspan="3">0</th><th colspan="3">538</th>
                 </tr>        
                 </table>
-                <table border="1" class="rodada">
-                    <tr><th colspan="6" >RODADA 1</th></tr>
+                <table border="1" class="rodada rodada-ativa">
+                    <tr><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda"><</div>RODADA 1<div class="btn-direita" onclick="NextRodada();">></div></div></th></tr>
                     <tr>
                         <th>SONS OF THOR</th><td> 2 </td><th>X</th><td> 0 </td><th>CLAN-DESTINOS</th>
                     </tr>
                     <tr>
                         <th>HUNTERS</th><td> 2 </td><th>X</th><td> 0 </td><th>CLAN-PEOES</th>
+                    </tr>
+                </table>
+                <table border="1" class="rodada">
+                    <tr><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodada();"><</div>RODADA 2<div class="btn-direita" onclick="NextRodada();">></div></div></th></tr>
+                    <tr>
+                        <th>UNITED</th><td> - </td><th>X</th><td> - </td><th>TERRORISTAS DELTA</th>
+                    </tr>
+                    <tr>
+                        <th>HEROES DE LA PATRIA</th><td> - </td><th>X</th><td> - </td><th>PRO GAMING</th>
+                    </tr>
+                </table>
+                <table border="1" class="rodada">
+                    <tr><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodada();"><</div>RODADA 3<div class="btn-direita">></div></div></th></tr>
+                    <tr>
+                        <th>HEROES DE LA PATRIA</th><td> - </td><th>X</th><td> - </td><th>UNITED</th>
+                    </tr>
+                    <tr>
+                        <th>PRO GAMING</th><td> - </td><th>X</th><td> - </td><th>TERRORISTAS DELTA</th>
                     </tr>
                 </table>
         </div><!--GRUPO B-->
@@ -226,6 +274,7 @@
         </div><!--GRUPO F-->
         
     </div>
-    
+    <script src="js/rodada.js">
+    </script>
 </body>
 </html>
