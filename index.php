@@ -9,32 +9,20 @@
      
     <title>WWC</title>
     <style>
-        .conteudo {
-            width: 200px;
-            height: 200px;
-            border: 1px solid gray;
-            border-radius: 10px;
-            padding: 5px;
-            margin: 40px auto;
-            box-shadow: 0 0 10px gray;
-        }
-        .cronometro{
-            margin-top: 30px;
-        }
     </style>
 </head>
 <body>
     
     <?php
-        require_once 'menu.html';
+        require_once 'grupo.php';
     ?>
 
-<div class="conteudo">
-        <div class="cronometro" >
+    <div class="conteudo">
+       <!-- <div class="cronometro" >
             <div>RODADA 1 ACABA EM:</div><br>
             <div><span class="days" id="day"></span>h : <span class="minutes" id="minute"></span>m : <span class="seconds" id="second"></span>s </div>
             
-        </div>
+        </div>-->
     </div>
     <div class="idioma">
         <div id="caixa-idioma" class="idioma-op">
@@ -44,8 +32,7 @@
                 <a href="es/index.php"><input type="button" value="ESPAÑOL"></button></a>
             </form>
         </div>
-    </div>
-    <!--<footer><h5>By: G O K U & DALMO-ROJO</h5></footer>-->
+    </div><!--idioma-->
     
 </body>
 <script src="js/idioma.js"></script>
