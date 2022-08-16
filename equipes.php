@@ -176,7 +176,7 @@
         <div class="cardequipe">
             <h1>THE KILL TEAM</h1>
             <h4>WINN</h4>
-            <p>BLESSED</p>
+            <p><p>THE PUNISHER</p></p>
             <p>MESSI</p>
             <p>UN PERUANITO</p>
             <p>BABA YAGA</p>
