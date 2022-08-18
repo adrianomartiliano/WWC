@@ -174,7 +174,7 @@
     </div><!--BESTIAS DE ASALTO-->
     <div class="card">
         <div class="nome-equipe"><h1>THE KILL TEAM</h1><h4>WINNERS</h4></div>
-        <div class="nome-capitao"><h3><a href="https://api.whatsapp.com/send?phone=56952548355">MESSI<span class="icon-whats"><i class="fa-brands fa-whatsapp"></i></span></h3></a></div>
+        <div class="nome-capitao"><h3><a href="https://api.whatsapp.com/send?phone=56952548355">BABA YAGA<span class="icon-whats"><i class="fa-brands fa-whatsapp"></i></span></h3></a></div>
         <div class="horario">
             <div class="hor-atual">
                 <p id="messi" onload="horaMessi();"></p>
@@ -214,7 +214,7 @@
     </div><!--KAMIKAZES-->
     <div class="card">
         <div class="nome-equipe"><h1>SWAT BRASIL PRO</h1><h4>SWBR</h4></div>
-        <div class="nome-capitao"><h3><a href="https://api.whatsapp.com/send?phone=5531991892518">TROPA BRASIL<span class="icon-whats"><i class="fa-brands fa-whatsapp"></i></span></h3></a></div>
+        <div class="nome-capitao"><h3><a href="https://api.whatsapp.com/send?phone=5531991892517">TROPA BRASIL<span class="icon-whats"><i class="fa-brands fa-whatsapp"></i></span></h3></a></div>
         <div class="horario">
             <div class="hor-atual">
                 <p id="tropa" onload="horaTropa();"></p>

@@ -12,18 +12,14 @@
 <body>
     
     <?php
-        require_once 'grupo.php';
+        require_once 'menu.html';
+        require_once '../cronometro.html';
     ?>
 
+
 <div class="conteudo">
-       <!-- <div class="cronometro" >
-            <div>RODADA 1 ACABA EM:</div><br>
-            <div><span class="days" id="day"></span>h : <span class="minutes" id="minute"></span>m : <span class="seconds" id="second"></span>s </div>
-            
-        </div>-->
+       
     </div>
     
-    <!--<footer><h5>By: G O K U & DALMO-ROJO</h5></footer>-->
 </body>
-<script src="js/cronometro.js"></script>
 </html>
