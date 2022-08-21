@@ -219,13 +219,13 @@
                     <th colspan="3">GRUPO D</th><th colspan="3">P</th><th colspan="3">PC</th>
                 </tr>
                 <tr>
+                    <td colspan="3">VETERANOS DE GUERRA</td><th colspan="3">6</th><th colspan="3">1.662</th>
+                </tr>
+                <tr>
                     <td colspan="3" >KAMIKAZES</td><th colspan="3">3</th><th colspan="3">1.195</th>
                 </tr>
                 <tr>
-                    <td colspan="3">VETERANOS DE GUERRA</td><th colspan="3">3</th><th colspan="3">725</th>
-                </tr>
-                <tr>
-                    <td colspan="3" width="200px">DEATH SQUAD</td><th colspan="3">0</th><th colspan="3">753</th>
+                    <td colspan="3" width="200px">DEATH SQUAD</td><th colspan="3">0</th><th colspan="3">1.381</th>
                 </tr>
                 <tr>
                     <td colspan="3">PANDILLEROS</td><th colspan="3">0</th><th colspan="3">521</th>
@@ -247,7 +247,7 @@
                         <th>KAMIKAZES</th><td> - </td><th>X</th><td> - </td><th>PANDILLEROS</th>
                     </tr>
                     <tr>
-                        <th>VETERANOS DE GUERRA</th><td> - </td><th>X</th><td> - </td><th>DEATH SQUAD</th>
+                        <th>VETERANOS DE GUERRA</th><td> 2 </td><th>X</th><td> 0 </td><th>DEATH SQUAD</th>
                     </tr>
                 </table>
                 <table border="1" class="rodadaD">
@@ -266,10 +266,10 @@
                     <th colspan="3">GRUPO E</th><th colspan="3">P</th><th colspan="3">PC</th>
                 </tr>
                 <tr>
-                    <td colspan="3" width="200px">GLORIOSOS PATRIOTAS</td><th colspan="3">3</th><th colspan="3">1.365</th>
+                    <td colspan="3">CANNABIS</td><th colspan="3">6</th><th colspan="3">2.571</th>
                 </tr>
                 <tr>
-                    <td colspan="3">CANNABIS</td><th colspan="3">3</th><th colspan="3">1.306</th>
+                    <td colspan="3" width="200px">GLORIOSOS PATRIOTAS</td><th colspan="3">3</th><th colspan="3">2.104</th>
                 </tr>
                 <tr>
                     <td colspan="3">LOS 4 FANTÁSTICOS</td><th colspan="3">0</th><th colspan="3">692</th>
@@ -292,7 +292,7 @@
                 <table border="1" class="rodadaE">
                     <tr class="tamanho-rodada"><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodadaE();"><</div>RODADA 2<div class="btn-direita" onclick="NextRodadaE();">></div></div></th></tr>
                     <tr>
-                        <th>CANNABIS</th><td> - </td><th>X</th><td> - </td><th>GLORIOSOS PATRIOTAS</th>
+                        <th>CANNABIS</th><td> 2 </td><th>X</th><td> 0 </td><th>GLORIOSOS PATRIOTAS</th>
                     </tr>
                     <tr>
                         <th>BESTIAS DE ASALTO</th><td> - </td><th>X</th><td> - </td><th>LOS 4 FANTÁSTICOS</th>
@@ -314,10 +314,10 @@
                     <th colspan="3">GRUPO F</th><th colspan="3">P</th><th colspan="3">PC</th>
                 </tr>
                 <tr>
-                    <td colspan="3">BLACK ORDERS</td><th colspan="3">3</th><th colspan="3">837</th>
+                    <td colspan="3">JAGUNÇOS</td><th colspan="3">6</th><th colspan="3">1.786</th>
                 </tr>
                 <tr>
-                    <td colspan="3">JAGUNÇOS</td><th colspan="3">3</th><th colspan="3">787</th>
+                    <td colspan="3">BLACK ORDERS</td><th colspan="3">3</th><th colspan="3">2.014</th>
                 </tr>
                 <tr>
                     <td colspan="3" width="200px">THE KILL TEAM</td><th colspan="3">0</th><th colspan="3">792</th>
@@ -344,7 +344,7 @@
                         <th>DEPREDADORES</th><td> - </td><th>X</th><td> - </td><th>THE KILL TEAM</th>
                     </tr>
                     <tr>
-                        <th>JAGUNÇOS</th><td> - </td><th>X</th><td> - </td><th>BLACK ORDERS</th>
+                        <th>JAGUNÇOS</th><td> null </td><th>X</th><td> null </td><th>BLACK ORDERS</th>
                     </tr>
                 </table>
                 <table border="1" class="rodadaF">
