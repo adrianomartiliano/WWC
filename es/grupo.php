@@ -358,6 +358,34 @@
         </table>
 </div><!--GRUPO F-->
 
+<div class="grupo">
+            <table border="1" class="classificao">
+                <tr>
+                    <th colspan="3">SEGUNDA OPORTUNIDAD</th><th colspan="3">P</th><th colspan="3">PC</th>
+                </tr>
+                <tr>
+                    <td colspan="3" >BESTIAS DE ASALTO</td><th colspan="3">3</th><th colspan="3">1.871</th>
+                </tr>
+                <tr>
+                    <td colspan="3" width="200px">THE KILL TEAM</td><th colspan="3">3</th><th colspan="3">1.865</th>
+                </tr> 
+                <tr>
+                    <td colspan="3" >CLAN-PEOES</td><th colspan="3">3</th><th colspan="3">1.838</th>
+                </tr>
+                <tr>
+                    <td colspan="3" >HEROES DE LA PATRIA</td><th colspan="3">3</th><th colspan="3">1.419</th>
+                </tr>
+                <tr>
+                    <td colspan="3" width="200px">DEATH SQUAD</td><th colspan="3">0</th><th colspan="3">1.381</th>
+                </tr>
+                <tr>
+                    <td colspan="3">LOS VERDUGOS</td><th colspan="3">0</th><th colspan="3">946</th>
+                </tr>
+                
+                       
+            </table>
+        </div><!--GRUPO DOS TERCEIROS-->
+
 </div>
 <script src="../js/rodada.js">
 </script>
