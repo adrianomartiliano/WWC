@@ -17,7 +17,7 @@
             $sql_query = $mysqli->query($sql_code) or die("Falha na execução!" . $mysqli->error);
             
 
-            $quantidade_linhas = $sql_query->num_rows;
+            $quantidade_linhas = $sql_query->num_rows;//Quantas linhas a consulta retorna
 
             if ($quantidade_linhas == 1){
                 $dados_usuario = $sql_query->fetch_assoc();
