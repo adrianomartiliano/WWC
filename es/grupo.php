@@ -78,17 +78,17 @@
             <th colspan="3">GRUPO A</th><th colspan="3">P</th><th colspan="3">PC</th>
         </tr>
         <tr>
-            <td colspan="3">PRO GAMING</td><th colspan="3">3</th><th colspan="3">1.137</th>
+            <td colspan="3">PRO GAMING</td><th colspan="3">6</th><th colspan="3">1.877</th>
         </tr>
-        <tr>
-            <td colspan="3" >HEROES DE LA PATRIA</td><th colspan="3">3</th><th colspan="3">890</th>
-        </tr>
-        <tr>
-            <td colspan="3">UNITED</td><th colspan="3">0</th><th colspan="3">555</th>
-        </tr>
-        <tr>
-            <td colspan="3" width="200px">TERRORISTAS DELTA</td><th colspan="3">0</th><th colspan="3">547</th>
-        </tr>
+                <tr>
+                    <td colspan="3" width="200px">TERRORISTAS DELTA</td><th colspan="3">3</th><th colspan="3">1.447</th>
+                </tr>
+                <tr>
+                    <td colspan="3" >HEROES DE LA PATRIA</td><th colspan="3">3</th><th colspan="3">1.419</th>
+                </tr>
+                <tr>
+                    <td colspan="3">UNITED</td><th colspan="3">0</th><th colspan="3">1.208</th>
+                </tr>
                 
     </table><!--Classificao-->
         <table border="1" class="rodadaA rodada-ativa" id="rodada1">
@@ -103,10 +103,10 @@
         <table border="1" class="rodadaA">
             <tr class="tamanho-rodada"><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodada();"><</div>RODADA 2<div class="btn-direita" onclick="NextRodada();">></div></div></th></tr>
             <tr>
-                <th>UNITED</th><td> - </td><th>X</th><td> - </td><th>TERRORISTAS DELTA</th>
+                <th>UNITED</th><td> 1 </td><th>X</th><td> 2 </td><th>TERRORISTAS DELTA</th>
             </tr>
             <tr>
-                <th>HEROES DE LA PATRIA</th><td> - </td><th>X</th><td> - </td><th>PRO GAMING</th>
+                <th>HEROES DE LA PATRIA</th><td> 0 </td><th>X</th><td> 2 </td><th>PRO GAMING</th>
             </tr>
         </table>
         <table border="1" class="rodadaA">
@@ -125,17 +125,17 @@
             <th colspan="3">GRUPO B</th><th colspan="3">P</th><th colspan="3">PC</th>
         </tr>
         <tr>
-            <td colspan="3" width="200px">HUNTERS</td><th colspan="3">3</th><th colspan="3">936</th>
-        </tr>
-        <tr>
-            <td colspan="3">SONS OF THOR</td><th colspan="3">3</th><th colspan="3">861</th>
-        </tr>
-        <tr>
-            <td colspan="3" >CLAN-PEOES</td><th colspan="3">0</th><th colspan="3">733</th>
-        </tr>
-        <tr>
-            <td colspan="3">CLAN-DESTINOS</td><th colspan="3">0</th><th colspan="3">538</th>
-        </tr>        
+                    <td colspan="3" width="200px">HUNTERS</td><th colspan="3">6</th><th colspan="3">1.694</th>
+                </tr>
+                <tr>
+                    <td colspan="3">SONS OF THOR</td><th colspan="3">3</th><th colspan="3">1.896</th>
+                </tr>
+                <tr>
+                    <td colspan="3" >CLAN-PEOES</td><th colspan="3">3</th><th colspan="3">1.838</th>
+                </tr>
+                <tr>
+                    <td colspan="3">CLAN-DESTINOS</td><th colspan="3">0</th><th colspan="3">1.108</th>
+                </tr>       
     </table>
         <table border="1" class="rodadaB rodada-ativa">
             <tr class="tamanho-rodada"><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda"><</div>RODADA 1<div class="btn-direita" onclick="NextRodadaB();">></div></div></th></tr>
@@ -149,10 +149,10 @@
         <table border="1" class="rodadaB">
             <tr class="tamanho-rodada"><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodadaB();"><</div>RODADA 2<div class="btn-direita" onclick="NextRodadaB();">></div></div></th></tr>
             <tr>
-                <th>CLAN-DESTINOS</th><td> - </td><th>X</th><td> - </td><th>HUNTERS</th>
+                <th>CLAN-DESTINOS</th><td> 0 </td><th>X</th><td> 2 </td><th>HUNTERS</th>
             </tr>
             <tr>
-                <th>CLAN-PEOES</th><td> - </td><th>X</th><td> - </td><th>SONS OF THOR</th>
+                <th>CLAN-PEOES</th><td> 2 </td><th>X</th><td> 1 </td><th>SONS OF THOR</th>
             </tr>
         </table>
         <table border="1" class="rodadaB">
@@ -171,17 +171,17 @@
             <th colspan="3">GRUPO C</th><th colspan="3">P</th><th colspan="3">PC</th>
         </tr>
         <tr>
-            <td colspan="3">Z SPECIAL UNITED</td><th colspan="3">3</th><th colspan="3">1.294</th>
-        </tr>
-        <tr>
-            <td colspan="3" >SWAT BRASIL PRO</td><th colspan="3">3</th><th colspan="3">466</th>
-        </tr>
-        <tr>
-            <td colspan="3">LOS VERDUGOS</td><th colspan="3">0</th><th colspan="3">473</th>
-        </tr>
-        <tr>
-            <td colspan="3" width="200px">LOS GEDES</td><th colspan="3">0</th><th colspan="3">261</th>
-        </tr> 
+                    <td colspan="3">Z SPECIAL UNITED</td><th colspan="3">6</th><th colspan="3">2.210</th>
+                </tr>
+                <tr>
+                    <td colspan="3" >SWAT BRASIL PRO</td><th colspan="3">6</th><th colspan="3">1.083</th>
+                </tr>
+                <tr>
+                    <td colspan="3">LOS VERDUGOS</td><th colspan="3">0</th><th colspan="3">946</th>
+                </tr>
+                <tr>
+                    <td colspan="3" width="200px">LOS GEDES</td><th colspan="3">0</th><th colspan="3">818</th>
+                </tr> 
     </table>
         
         
@@ -197,10 +197,10 @@
         <table border="1" class="rodadaC">
             <tr class="tamanho-rodada"><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodadaC();"><</div>RODADA 2<div class="btn-direita" onclick="NextRodadaC();">></div></div></th></tr>
             <tr>
-                <th>LOS VERDUGOS</th><td> - </td><th>X</th><td> - </td><th>SWAT BRASIL PRO</th>
+                <th>LOS VERDUGOS</th><td> 1 </td><th>X</th><td> 2 </td><th>SWAT BRASIL PRO</th>
             </tr>
             <tr>
-                <th>LOS GEDES</th><td> - </td><th>X</th><td> - </td><th>Z SPECIAL UNITED</th>
+                <th>LOS GEDES</th><td> 0 </td><th>X</th><td> 2 </td><th>Z SPECIAL UNITED</th>
             </tr>
         </table>
         <table border="1" class="rodadaC">
@@ -219,16 +219,16 @@
             <th colspan="3">GRUPO D</th><th colspan="3">P</th><th colspan="3">PC</th>
         </tr>
         <tr>
-                    <td colspan="3">VETERANOS DE GUERRA</td><th colspan="3">6</th><th colspan="3">1.662</th>
+                    <td colspan="3" >KAMIKAZES</td><th colspan="3">6</th><th colspan="3">2.316</th>
                 </tr>
                 <tr>
-                    <td colspan="3" >KAMIKAZES</td><th colspan="3">3</th><th colspan="3">1.195</th>
+                    <td colspan="3">VETERANOS DE GUERRA</td><th colspan="3">6</th><th colspan="3">1.662</th>
                 </tr>
                 <tr>
                     <td colspan="3" width="200px">DEATH SQUAD</td><th colspan="3">0</th><th colspan="3">1.381</th>
                 </tr>
                 <tr>
-                    <td colspan="3">PANDILLEROS</td><th colspan="3">0</th><th colspan="3">521</th>
+                    <td colspan="3">PANDILLEROS</td><th colspan="3">0</th><th colspan="3">1.289</th>
                 </tr>        
         </table>
         
@@ -244,7 +244,7 @@
         <table border="1" class="rodadaD">
             <tr class="tamanho-rodada"><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodadaD();"><</div>RODADA 2<div class="btn-direita" onclick="NextRodadaD();">></div></div></th></tr>
             <tr>
-                <th>KAMIKAZES</th><td> - </td><th>X</th><td> - </td><th>PANDILLEROS</th>
+                <th>KAMIKAZES</th><td> 2 </td><th>X</th><td> 0 </td><th>PANDILLEROS</th>
             </tr>
             <tr>
                 <th>VETERANOS DE GUERRA</th><td> 2 </td><th>X</th><td> 0 </td><th>DEATH SQUAD</th>
@@ -272,10 +272,10 @@
                     <td colspan="3" width="200px">GLORIOSOS PATRIOTAS</td><th colspan="3">3</th><th colspan="3">2.104</th>
                 </tr>
                 <tr>
-                    <td colspan="3">LOS 4 FANTÁSTICOS</td><th colspan="3">0</th><th colspan="3">692</th>
+                    <td colspan="3" >BESTIAS DE ASALTO</td><th colspan="3">3</th><th colspan="3">1.871</th>
                 </tr>
                 <tr>
-                    <td colspan="3" >BESTIAS DE ASALTO</td><th colspan="3">0</th><th colspan="3">588</th>
+                    <td colspan="3">LOS 4 FANTÁSTICOS</td><th colspan="3">0</th><th colspan="3">1.419</th>
                 </tr>        
     </table>
         
@@ -295,7 +295,7 @@
                 <th>CANNABIS</th><td> 2 </td><th>X</th><td> 0 </td><th>GLORIOSOS PATRIOTAS</th>
             </tr>
             <tr>
-                <th>BESTIAS DE ASALTO</th><td> - </td><th>X</th><td> - </td><th>LOS 4 FANTÁSTICOS</th>
+                <th>BESTIAS DE ASALTO</th><td> 2 </td><th>X</th><td> 0 </td><th>LOS 4 FANTÁSTICOS</th>
             </tr>
         </table>
         <table border="1" class="rodadaE">
@@ -320,10 +320,10 @@
                     <td colspan="3">BLACK ORDERS</td><th colspan="3">3</th><th colspan="3">2.014</th>
                 </tr>
                 <tr>
-                    <td colspan="3" width="200px">THE KILL TEAM</td><th colspan="3">0</th><th colspan="3">792</th>
+                    <td colspan="3" width="200px">THE KILL TEAM</td><th colspan="3">3</th><th colspan="3">1.865</th>
                 </tr>
                 <tr>
-                    <td colspan="3" >DEPREDADORES</td><th colspan="3">0</th><th colspan="3">285</th>
+                    <td colspan="3" >DEPREDADORES</td><th colspan="3">0</th><th colspan="3">736</th>
                 </tr>
         
                
@@ -341,7 +341,7 @@
         <table border="1" class="rodadaF">
             <tr class="tamanho-rodada"><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodadaF();"><</div>RODADA 2<div class="btn-direita" onclick="NextRodadaF();">></div></div></th></tr>
             <tr>
-                <th>DEPREDADORES</th><td> - </td><th>X</th><td> - </td><th>THE KILL TEAM</th>
+                <th>DEPREDADORES</th><td> 0 </td><th>X</th><td> 2 </td><th>THE KILL TEAM</th>
             </tr>
             <tr>
                 <th>JAGUNÇOS</th><td> null </td><th>X</th><td> null </td><th>BLACK ORDERS</th>
