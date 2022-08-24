@@ -8,7 +8,7 @@
     <style>
         
         .status_rodada{
-            width: 75%;
+            width: 0%;
             background-color: green;
             height: 20px;
             text-align: center;
@@ -18,11 +18,8 @@
     </style>
 </head>
 <body>
-    <?php
-        require_once 'menu.html';
-        require_once 'cronometro.html';
-    ?>
-    <div class="status_rodada">STATUS 75%</div>
+    
+    <div class="status_rodada"></div>
     
         
         
