@@ -19,7 +19,11 @@
     ?>
 
     <div class="conteudo">
-       
+        <section class="apresentacao">
+            <p>Como o objetivo de tornar nossa diversão ainda mais dinâmica e ativa, World War 2 Cup foi criado.</br>
+                De forma séria, organizada e imparcial estamos tentando fazer aquilo que a EDKON não faz.     
+            Torneio feito de jogadores para jogadores. </p>
+        </section>
     </div>
     <div class="idioma">
         <div id="caixa-idioma" class="idioma-op">
