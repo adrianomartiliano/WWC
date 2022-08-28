@@ -149,3 +149,11 @@ function backRodadaF(){
     })
     caixasRodadasF[rodadaAtualF].classList.add('rodada-ativa');
 }
+
+
+var grupo = document.querySelectorAll(".grupo");
+
+function avancaFase(){
+    grupo.classList.add('escondido');
+    alert('oi');
+}

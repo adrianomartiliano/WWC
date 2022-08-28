@@ -78,10 +78,10 @@
             <th colspan="3">GRUPO A</th><th colspan="3">P</th><th colspan="3">PC</th>
         </tr>
         <tr>
-            <td colspan="3">PRO GAMING</td><th colspan="3">6</th><th colspan="3">1.877</th>
-        </tr>
+                    <td colspan="3">PRO GAMING</td><th colspan="3">9</th><th colspan="3">3.138</th>
+                </tr>
                 <tr>
-                    <td colspan="3" width="200px">TERRORISTAS DELTA</td><th colspan="3">3</th><th colspan="3">1.447</th>
+                    <td colspan="3" width="200px">TERRORISTAS DELTA</td><th colspan="3">3</th><th colspan="3">2.035</th>
                 </tr>
                 <tr>
                     <td colspan="3" >HEROES DE LA PATRIA</td><th colspan="3">3</th><th colspan="3">1.419</th>
@@ -115,7 +115,7 @@
                 <th>HEROES DE LA PATRIA</th><td> - </td><th>X</th><td> - </td><th>UNITED</th>
             </tr>
             <tr>
-                <th>PRO GAMING</th><td> - </td><th>X</th><td> - </td><th>TERRORISTAS DELTA</th>
+                <th>PRO GAMING</th><td> 2 </td><th>X</th><td> 0 </td><th>TERRORISTAS DELTA</th>
             </tr>
         </table>
 </div><!--Grupo A-->
