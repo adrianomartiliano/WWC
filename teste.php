@@ -8,7 +8,7 @@
     <style>
         
         .status_rodada{
-            width: 8.33%;
+            width: 41.65%;
             background-color: green;
             height: 20px;
             text-align: center;
@@ -19,7 +19,7 @@
 </head>
 <body>
     
-    <div class="status_rodada">8,33%</div>
+    <div class="status_rodada">41,65%</div>
     
         
         

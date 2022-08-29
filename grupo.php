@@ -99,13 +99,13 @@
                         <td colspan="3">PRO GAMING</td><th colspan="3">9</th><th colspan="3">3.138</th>
                     </tr>
                     <tr>
+                        <td colspan="3" >HEROES DE LA PATRIA</td><th colspan="3">6</th><th colspan="3">2.506</th>
+                    </tr>
+                    <tr>
                         <td colspan="3" width="200px">TERRORISTAS DELTA</td><th colspan="3">3</th><th colspan="3">2.035</th>
                     </tr>
                     <tr>
-                        <td colspan="3" >HEROES DE LA PATRIA</td><th colspan="3">3</th><th colspan="3">1.419</th>
-                    </tr>
-                    <tr>
-                        <td colspan="3">UNITED</td><th colspan="3">0</th><th colspan="3">1.208</th>
+                        <td colspan="3">UNITED</td><th colspan="3">0</th><th colspan="3">1.719</th>
                     </tr>
                     
                             
@@ -131,7 +131,7 @@
                     <table border="1" class="rodadaA">
                         <tr class="tamanho-rodada"><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodada();"><</div>RODADA 3<div class="btn-direita">></div></div></th></tr>
                         <tr>
-                            <th>HEROES DE LA PATRIA</th><td> - </td><th>X</th><td> - </td><th>UNITED</th>
+                            <th>HEROES DE LA PATRIA</th><td> 2 </td><th>X</th><td> 0 </td><th>UNITED</th>
                         </tr>
                         <tr>
                             <th>PRO GAMING</th><td> 2 </td><th>X</th><td> 0 </td><th>TERRORISTAS DELTA</th>
@@ -244,10 +244,10 @@
                         <td colspan="3">VETERANOS DE GUERRA</td><th colspan="3">6</th><th colspan="3">1.662</th>
                     </tr>
                     <tr>
-                        <td colspan="3" width="200px">DEATH SQUAD</td><th colspan="3">0</th><th colspan="3">1.381</th>
+                        <td colspan="3" width="200px">DEATH SQUAD</td><th colspan="3">3</th><th colspan="3">2.377</th>
                     </tr>
                     <tr>
-                        <td colspan="3">PANDILLEROS</td><th colspan="3">0</th><th colspan="3">1.289</th>
+                        <td colspan="3">PANDILLEROS</td><th colspan="3">0</th><th colspan="3">2.252</th>
                     </tr>        
                     </table>
                     
@@ -272,7 +272,7 @@
                     <table border="1" class="rodadaD">
                         <tr class="tamanho-rodada"><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodadaD();"><</div>RODADA 3<div class="btn-direita">></div></div></th></tr>
                         <tr>
-                            <th>PANDILLEROS</th><td> - </td><th>X</th><td> - </td><th>DEATH SQUAD</th>
+                            <th>PANDILLEROS</th><td> 1 </td><th>X</th><td> 2 </td><th>DEATH SQUAD</th>
                         </tr>
                         <tr>
                             <th>KAMIKAZES</th><td> - </td><th>X</th><td> - </td><th>VETERANOS DE GUERRA</th>
@@ -285,17 +285,17 @@
                         <th colspan="3">GRUPO E</th><th colspan="3">P</th><th colspan="3">PC</th>
                     </tr>
                     <tr>
-                        <td colspan="3">CANNABIS</td><th colspan="3">6</th><th colspan="3">2.571</th>
-                    </tr>
-                    <tr>
-                        <td colspan="3" width="200px">GLORIOSOS PATRIOTAS</td><th colspan="3">3</th><th colspan="3">2.104</th>
-                    </tr>
-                    <tr>
-                        <td colspan="3" >BESTIAS DE ASALTO</td><th colspan="3">3</th><th colspan="3">1.871</th>
-                    </tr>
-                    <tr>
-                        <td colspan="3">LOS 4 FANTÁSTICOS</td><th colspan="3">0</th><th colspan="3">1.419</th>
-                    </tr>
+                    <td colspan="3">CANNABIS</td><th colspan="3">9</th><th colspan="3">4.573</th>
+                </tr>
+                <tr>
+                    <td colspan="3" width="200px">GLORIOSOS PATRIOTAS</td><th colspan="3">3</th><th colspan="3">2.104</th>
+                </tr>
+                <tr>
+                    <td colspan="3" >BESTIAS DE ASALTO</td><th colspan="3">3</th><th colspan="3">1.871</th>
+                </tr>
+                <tr>
+                    <td colspan="3">LOS 4 FANTÁSTICOS</td><th colspan="3">0</th><th colspan="3">2.050</th>
+                </tr>   
                             
                 </table>
                     
@@ -324,7 +324,7 @@
                             <th>GLORIOSOS PATRIOTAS</th><td> - </td><th>X</th><td> - </td><th>BESTIAS DE ASALTO</th>
                         </tr>
                         <tr>
-                            <th>LOS 4 FANTÁSTICOS</th><td> - </td><th>X</th><td> - </td><th>CANNABIS</th>
+                            <th>LOS 4 FANTÁSTICOS</th><td> 0 </td><th>X</th><td> 2 </td><th>CANNABIS</th>
                         </tr>
                     </table>
             </div><!--GRUPO E-->
@@ -334,17 +334,17 @@
                         <th colspan="3">GRUPO F</th><th colspan="3">P</th><th colspan="3">PC</th>
                     </tr>
                     <tr>
-                        <td colspan="3">JAGUNÇOS</td><th colspan="3">6</th><th colspan="3">1.786</th>
-                    </tr>
-                    <tr>
-                        <td colspan="3">BLACK ORDERS</td><th colspan="3">3</th><th colspan="3">2.014</th>
-                    </tr>
-                    <tr>
-                        <td colspan="3" width="200px">THE KILL TEAM</td><th colspan="3">3</th><th colspan="3">1.865</th>
-                    </tr>
-                    <tr>
-                        <td colspan="3" >DEPREDADORES</td><th colspan="3">0</th><th colspan="3">736</th>
-                    </tr> 
+                    <td colspan="3" width="200px">THE KILL TEAM</td><th colspan="3">6</th><th colspan="3">2.432</th>
+                </tr>
+        <tr>
+                    <td colspan="3">JAGUNÇOS</td><th colspan="3">6</th><th colspan="3">2.226</th>
+                </tr>
+                <tr>
+                    <td colspan="3">BLACK ORDERS</td><th colspan="3">3</th><th colspan="3">2.014</th>
+                </tr>
+                <tr>
+                    <td colspan="3" >DEPREDADORES</td><th colspan="3">0</th><th colspan="3">736</th>
+                </tr> 
                     
                         
                     </table>
@@ -370,7 +370,7 @@
                     <table border="1" class="rodadaF">
                         <tr class="tamanho-rodada"><th colspan="6" ><div class="titulo-rodada"><div class="btn-esquerda" onclick="backRodadaF();"><</div>RODADA 3<div class="btn-direita">></div></div></th></tr>
                         <tr>
-                            <th>THE KILL TEAM</th><td> - </td><th>X</th><td> - </td><th>JAGUNÇOS</th>
+                            <th>THE KILL TEAM</th><td> 2 </td><th>X</th><td> 0 </td><th>JAGUNÇOS</th>
                         </tr>
                         <tr>
                             <th>BLACK ORDERS</th><td> - </td><th>X</th><td> - </td><th>DEPREDADORES</th>
@@ -384,23 +384,24 @@
                         <th colspan="3">SEGUNDA CHANCE</th><th colspan="3">P</th><th colspan="3">PC</th>
                     </tr>
                     <tr>
-                        <td colspan="3" >BESTIAS DE ASALTO</td><th colspan="3">3</th><th colspan="3">1.871</th>
+                        <td colspan="3" width="200px">DEATH SQUAD</td><th colspan="3">3</th><th colspan="3">2.377</th>
                     </tr>
                     <tr>
-                        <td colspan="3" width="200px">THE KILL TEAM</td><th colspan="3">3</th><th colspan="3">1.865</th>
-                    </tr> 
+                        <td colspan="3" width="200px">TERRORISTAS DELTA</td><th colspan="3">3</th><th colspan="3">2.035</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3">BLACK ORDERS</td><th colspan="3">3</th><th colspan="3">2.014</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3" >BESTIAS DE ASALTO</td><th colspan="3">3</th><th colspan="3">1.871</th>
+                    </tr>
                     <tr>
                         <td colspan="3" >CLAN-PEOES</td><th colspan="3">3</th><th colspan="3">1.838</th>
                     </tr>
                     <tr>
-                        <td colspan="3" >HEROES DE LA PATRIA</td><th colspan="3">3</th><th colspan="3">1.419</th>
-                    </tr>
-                    <tr>
-                        <td colspan="3" width="200px">DEATH SQUAD</td><th colspan="3">0</th><th colspan="3">1.381</th>
-                    </tr>
-                    <tr>
                         <td colspan="3">LOS VERDUGOS</td><th colspan="3">0</th><th colspan="3">946</th>
                     </tr>
+                    
                     
                         
                 </table>
