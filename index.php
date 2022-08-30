@@ -15,8 +15,6 @@
     
     <?php
         require_once 'menu.html';
-        require_once 'cronometro.html';
-        require_once 'teste.php';
     ?>
 
     <!--<div class="conteudo">
