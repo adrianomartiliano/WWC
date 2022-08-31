@@ -96,10 +96,10 @@
     ?>
     <div class="conteudo">
     <div class="controles-fase">
-            <p id="voltar-fase"><img onclick="voltaFase();" src="icons/seta-esquerda.ico" alt=""></p><h1>ETAPAS</h1><p id="avanca-fase"><img onclick="avancaFase();" src="icons/seta-direita.ico" alt=""></p>
+            <p id="voltar-fase"><img onclick="voltaFase();" src="icons/seta-esquerda.ico" alt=""></p><h1>PHASES</h1><p id="avanca-fase"><img onclick="avancaFase();" src="icons/seta-direita.ico" alt=""></p>
         </div>
         <div class="fases">
-            <div class="fase-grupo fase-ativa">
+            <div class="fase-grupo">
 
         
 <div class="grupo">
@@ -208,11 +208,11 @@
                             <td colspan="3" >SWAT BRASIL PRO</td><th colspan="3">6</th><th colspan="3">1.231</th>
                         </tr>
                         <tr>
-                            <td colspan="3">LOS VERDUGOS</td><th colspan="3">1</th><th colspan="3">946</th>
+                            <td colspan="3" width="200px">LOS GEDES</td><th colspan="3">3</th><th colspan="3">1.507</th>
                         </tr>
                         <tr>
-                            <td colspan="3" width="200px">LOS GEDES</td><th colspan="3">1</th><th colspan="3">818</th>
-                        </tr> 
+                            <td colspan="3">LOS VERDUGOS</td><th colspan="3">0</th><th colspan="3">1.447</th>
+                        </tr>
     </table>
         
         
@@ -240,7 +240,7 @@
                 <th>Z SPECIAL UNITED</th><td> 2 </td><th>X</th><td> 0 </td><th>SWAT BRASIL PRO</th>
             </tr>
             <tr>
-                <th>LOS GEDES</th><td> null </td><th>X</th><td> null </td><th>LOS VERDUGOS</th>
+                <th>LOS GEDES</th><td> 2 </td><th>X</th><td> 0 </td><th>LOS VERDUGOS</th>
             </tr>
         </table>
 </div><!--GROUP C-->
@@ -405,13 +405,13 @@
                             <td colspan="3" width="200px" style="color:green">TERRORISTAS DELTA</td><th colspan="3">3</th><th colspan="3">2.035</th>
                         </tr>
                         <tr>
-                            <td colspan="3" style="color:green">LOS VERDUGOS</td><th colspan="3">1</th><th colspan="3">946</th>
-                        </tr>
-                        <tr>
-                            <td colspan="3" width="200px">LOS GEDES</td><th colspan="3">1</th><th colspan="3">818</th>
+                            <td colspan="3" width="200px" style="color:green">LOS GEDES</td><th colspan="3">3</th><th colspan="3">1.507</th>
                         </tr>
                         <tr>
                             <td colspan="3" >DEPREDADORES</td><th colspan="3">1</th><th colspan="3">736</th>
+                        </tr>
+                        <tr>
+                            <td colspan="3" >LOS VERDUGOS</td><th colspan="3">0</th><th colspan="3">1.447</th>
                         </tr>
                         <tr>
                             <td colspan="3">PANDILLEROS</td><th colspan="3">0</th><th colspan="3">2.252</th>
@@ -436,19 +436,192 @@
             </table>
         </div><!--GRUPO DOS TERCEIROS-->
         </div>
-            <div class="oitavas">Oitavas
+        <style>
+                .box-oitavas{
+                    border: 1px solid gray;
+                    border-radius: 4px;
+                    box-shadow: 0 0 10px gray;
+                    margin: 20px auto;
+                    text-align: center;
+                    max-width: 600px;
+                    padding: 10px;
+                }
+                .box-oitavas th {width: 250px;}
+                .box-oitavas h4{
+                    color: gray;
+                    opacity: 0.7;
+                }
+                .box-confrontos-oitavas{
+                    display: flex;
+                    justify-content: space-between;
+                }
+            </style>
+            <div class="oitavas fase-ativa">
+                <div class="box-oitavas">
+                    <h4>Oitavas 1</h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="box-oitavas">
+                    <h4>Oitavas 2</h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                </div>
+                <div class="box-oitavas">
+                    <h4>Oitavas 3</h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="box-oitavas">
+                    <h4>Oitavas 4</h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="box-oitavas">
+                    <h4>Oitavas 5</h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="box-oitavas">
+                    <h4>Oitavas 6</h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="box-oitavas">
+                    <h4>Oitavas 7</h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="box-oitavas">
+                    <h4>Oitavas 8</h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
             </div>
-            <div class="quartas">quartas
+            <div class="quartas">
+                <div class="box-oitavas">
+                    <h4>Quartas 1</h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>VENCEDOR OITAVAS 1</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR OITAVAS 2</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="box-oitavas">
+                    <h4>Quartas 2</h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>VENCEDOR OITAVAS 3</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR OITAVAS 4</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="box-oitavas">
+                    <h4>Quartas 3</h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>VENCEDOR OITAVAS 5</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR OITAVAS 6</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="box-oitavas">
+                    <h4>Quartas 4</h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>VENCEDOR OITAVAS 7</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR OITAVAS 8</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
-            <div class="semifinal">Semi Final
+            <div class="semifinal">
+                <div class="box-oitavas">
+                    <h4>SEMI FINAL 1</h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>VENCEDOR QUARTAS 1</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR QUARTAS 2</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="box-oitavas">
+                    <h4>SEMI FINAL 2</h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>VENCEDOR QUARTAS 3</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR QUARTAS 4</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
-            <div class="final">final
+            <div class="final">
+            <div class="box-oitavas">
+                    <h4>FINAL </h4>
+                    <div class="box-confrontos-oitavas">
+                        <table border="1">
+                            <tr>
+                                <th>VENCEDOR SEMFINAL 1</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR SEMIFINAL 2</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
 
     </div>
-<script src="../js/rodada.js">
-</script>
+    <script src="js/rodada.js">
+    </script>
+<script src="js/controles-fases.js"></script>
     
 </body>
 </html>
