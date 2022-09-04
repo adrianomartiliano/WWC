@@ -462,7 +462,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                                <th>DEATH SQUAD</th><td>2</td><td>X</td><td>1</td><th>HEROES DE LA PATRIA</th>
                             </tr>
                         </table>
                     </div>
@@ -472,7 +472,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                                <th>PRO GAMING</th><td>-</td><td>X</td><td>-</td><th>SWAT BRASIL PRO</th>
                             </tr>
                         </table>
                     </div>
@@ -483,7 +483,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                                <th>HUNTERS</th><td>-</td><td>X</td><td>-</td><th>VETERANOS DE GUERRA</th>
                             </tr>
                         </table>
                     </div>
@@ -493,7 +493,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                                <th>Z SPECIAL UNITED</th><td>-</td><td>X</td><td>-</td><th>CLAN-PEOES</th>
                             </tr>
                         </table>
                     </div>
@@ -503,7 +503,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                                <th>JAGUNÇOS</th><td>-</td><td>X</td><td>-</td><th>CANNABIS</th>
                             </tr>
                         </table>
                     </div>
@@ -513,7 +513,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                                <th>TERRORISTAS DELTA</th><td>0</td><td>X</td><td>2</td><th>THE KILL TEAM</th>
                             </tr>
                         </table>
                     </div>
@@ -523,7 +523,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                                <th>LOS GEDES</th><td>-</td><td>X</td><td>-</td><th>BESTIAS DE ASALTO</th>
                             </tr>
                         </table>
                     </div>
@@ -533,7 +533,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>SORTEIO</th><td>-</td><td>X</td><td>-</td><th>SORTEIO</th>
+                                <th>KAMIKAZES</th><td>-</td><td>X</td><td>-</td><th>GLORIOSOS PATRIOTAS</th>
                             </tr>
                         </table>
                     </div>
@@ -546,7 +546,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>VENCEDOR OITAVAS 1</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR OITAVAS 2</th>
+                                <th>DEATH SQUAD</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR OITAVAS 2</th>
                             </tr>
                         </table>
                     </div>
@@ -566,7 +566,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>VENCEDOR OITAVAS 5</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR OITAVAS 6</th>
+                                <th>VENCEDOR OITAVAS 5</th><td>-</td><td>X</td><td>-</td><th>THE KILL TEAM</th>
                             </tr>
                         </table>
                     </div>
