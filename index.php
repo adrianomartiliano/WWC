@@ -15,6 +15,7 @@
     
     <?php
         require_once 'menu.html';
+        require_once 'campeonatos.html';
     ?>
 
     <!--<div class="conteudo">
@@ -33,6 +34,8 @@
             </form>
         </div>
     </div><!--idioma-->
+
+
     
 </body>
 <script src="js/idioma.js"></script>

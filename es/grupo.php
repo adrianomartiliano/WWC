@@ -472,7 +472,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>PRO GAMING</th><td>-</td><td>X</td><td>-</td><th>SWAT BRASIL PRO</th>
+                                <th>PRO GAMING</th><td>2</td><td>X</td><td>0</td><th>SWAT BRASIL PRO</th>
                             </tr>
                         </table>
                     </div>
@@ -483,7 +483,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>HUNTERS</th><td>-</td><td>X</td><td>-</td><th>VETERANOS DE GUERRA</th>
+                                <th>HUNTERS</th><td>0</td><td>X</td><td>2</td><th>VETERANOS DE GUERRA</th>
                             </tr>
                         </table>
                     </div>
@@ -503,7 +503,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>JAGUNÇOS</th><td>-</td><td>X</td><td>-</td><th>CANNABIS</th>
+                                <th>JAGUNÇOS</th><td>0</td><td>X</td><td>2</td><th>CANNABIS</th>
                             </tr>
                         </table>
                     </div>
@@ -523,7 +523,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>LOS GEDES</th><td>-</td><td>X</td><td>-</td><th>BESTIAS DE ASALTO</th>
+                                <th>LOS GEDES</th><td>1</td><td>X</td><td>2</td><th>BESTIAS DE ASALTO</th>
                             </tr>
                         </table>
                     </div>
@@ -533,7 +533,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>KAMIKAZES</th><td>-</td><td>X</td><td>-</td><th>GLORIOSOS PATRIOTAS</th>
+                                <th>KAMIKAZES</th><td>2</td><td>X</td><td>0</td><th>GLORIOSOS PATRIOTAS</th>
                             </tr>
                         </table>
                     </div>
@@ -546,7 +546,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>DEATH SQUAD</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR OITAVAS 2</th>
+                                <th>DEATH SQUAD</th><td>-</td><td>X</td><td>-</td><th>PRO GAMING</th>
                             </tr>
                         </table>
                     </div>
@@ -556,7 +556,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>VENCEDOR OITAVAS 3</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR OITAVAS 4</th>
+                                <th>VETERANOS DE GUERRA</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR OITAVAS 4</th>
                             </tr>
                         </table>
                     </div>
@@ -566,7 +566,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>VENCEDOR OITAVAS 5</th><td>-</td><td>X</td><td>-</td><th>THE KILL TEAM</th>
+                                <th>CANNABIS</th><td>-</td><td>X</td><td>-</td><th>THE KILL TEAM</th>
                             </tr>
                         </table>
                     </div>
@@ -576,7 +576,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>VENCEDOR OITAVAS 7</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR OITAVAS 8</th>
+                                <th>BESTIAS DE ASALTO</th><td>-</td><td>X</td><td>-</td><th>KAMIKAZES</th>
                             </tr>
                         </table>
                     </div>
