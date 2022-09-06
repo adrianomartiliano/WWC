@@ -4,16 +4,13 @@
             margin: 0;
             padding: 0;
         }
-        #modalidades{
-            padding: 20px;
-
-        }
-        .center{
-            display: flex;
-            justify-content: space-between;
-            align-items: center ;
-            max-width: 900px;
+        .opcao-modalidade{
             margin: 20px auto;
+        }
+        .modo-camp{
+            margin: 10px auto;
+            width: 290px;
+            height: 190px;
         }
         .modo-camp img{
             width: 290px;
@@ -21,22 +18,30 @@
             border-radius: 10px;
             box-shadow: 0 0 10px black;
         }
+        .center{
+            display: flex;
+        }
         @media (max-width:680px){
+            body{
+                background: url("https://i.pinimg.com/736x/b2/93/c9/b293c956105a8dd67fdf1e95740b2ad9.jpg");
+            }
             .center{
                 display: block;
-            }
-            .modo-camp{
-                margin: 20px auto;
-                width: 50%;
             }
         }
         
     </style>
 <section id="modalidades">
     <div class="center">
-        <a href="x1.php"><div class="modo-camp"><img src="images/umxum.png" alt=""></div></a>
-        <a href="#"><div class="modo-camp"><img src="images/duplaxdupla.png" alt=""></div></a>
-        <a href="grupo.php"><div class="modo-camp"><img src="images/timextime.png" alt=""></div></a>
+        <div class="opcao-modalidade">
+            <a href="x1.php"><div class="modo-camp"><img src="images/umxum.png" alt=""></div></a>
+        </div>
+        <div class="opcao-modalidade">
+            <div class="modo-camp"><img src="images/duplaxdupla.png" alt=""></div>
+        </div>
+        <div class="opcao-modalidade">
+            <a href="grupo.php"><div class="modo-camp"><img src="images/timextime.png" alt=""></div></a>    
+        </div>
     </div>
 </section>
     
