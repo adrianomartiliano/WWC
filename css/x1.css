@@ -3,15 +3,16 @@
     width: 100%;
     height: 200px;
 }
-.inscricao{
-    background: url("https://p4.wallpaperbetter.com/wallpaper/294/539/679/war-thunder-4k-download-wallpaper-preview.jpg");
-    width: 100%;
-}
+
 .form{
     margin: 20px auto;
     max-width: 400px;
     width: 100%;
     text-align: center;
+}
+h1{
+    color: white;
+    margin: 20px auto;
 }
 label{
     width: 50%;
@@ -39,4 +40,11 @@ label{
 .inscritos{
     width: 100%;
     height: 200px;
+}
+
+@media (max-width: 700px){
+    .inscricao{
+        background: url("https://p4.wallpaperbetter.com/wallpaper/294/539/679/war-thunder-4k-download-wallpaper-preview.jpg");
+        width: 100%;
+    }
 }
