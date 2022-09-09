@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/35d9b76d78.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WWC - GRUPOS</title>
     <style>
@@ -93,6 +94,7 @@
 <body>
     <?php
         require_once 'menu.html';
+        require_once 'cronometro.html';
     ?>
     <div class="conteudo">
 
@@ -459,8 +461,9 @@
                     display: flex;
                     justify-content: space-between;
                 }
+                i { color: green;}
             </style>
-            <div class="oitavas fase-ativa">
+            <div class="oitavas">
                 <div class="box-oitavas">
                     <h4>Oitavas 1</h4>
                     <div class="box-confrontos-oitavas">
@@ -497,7 +500,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>Z SPECIAL UNITED</th><td>-</td><td>X</td><td>-</td><th>CLAN-PEOES</th>
+                                <th>Z SPECIAL UNITED</th><td>2</td><td>X</td><td>0</td><th>CLAN-PEOES</th>
                             </tr>
                         </table>
                     </div>
@@ -544,13 +547,13 @@
                 </div>
                 
             </div>
-            <div class="quartas">
+            <div class="quartas fase-ativa">
                 <div class="box-oitavas">
                     <h4>Quartas 1</h4>
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>DEATH SQUAD</th><td>-</td><td>X</td><td>-</td><th>PRO GAMING</th>
+                                <th><a href="https://api.whatsapp.com/send?phone=51974281563"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>DEATH SQUAD</th><td>-</td><td>X</td><td>-</td><th>PRO GAMING<a href="https://api.whatsapp.com/send?phone=6282112908593"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
                             </tr>
                         </table>
                     </div>
@@ -560,7 +563,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>VETERANOS DE GUERRA</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR OITAVAS 4</th>
+                                <th><a href="https://api.whatsapp.com/send?phone=5491159140895"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>VETERANOS DE GUERRA</th><td>-</td><td>X</td><td>-</td><th>Z SPECIAL UNITED<a href="https://api.whatsapp.com/send?phone=51982735381"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
                             </tr>
                         </table>
                     </div>
@@ -570,7 +573,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>CANNABIS</th><td>-</td><td>X</td><td>-</td><th>THE KILL TEAM</th>
+                                <th><a href="https://api.whatsapp.com/send?phone=553497157305"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>CANNABIS</th><td>-</td><td>X</td><td>-</td><th>THE KILL TEAM<a href="https://api.whatsapp.com/send?phone=56952548355"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
                             </tr>
                         </table>
                     </div>
@@ -580,7 +583,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>BESTIAS DE ASALTO</th><td>-</td><td>X</td><td>-</td><th>KAMIKAZES</th>
+                                <th><a href="https://api.whatsapp.com/send?phone=59892234054"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>BESTIAS DE ASALTO</th><td>-</td><td>X</td><td>-</td><th>KAMIKAZES<a href="https://api.whatsapp.com/send?phone=905432536133"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
                             </tr>
                         </table>
                     </div>
