@@ -595,7 +595,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>VENCEDOR QUARTAS 1</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR QUARTAS 2</th>
+                                <th><a href="https://api.whatsapp.com/send?phone=6282112908593"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>PRO GAMING</th><td>-</td><td>X</td><td>-</td><th>Z SPECIAL UNITED<a href="https://api.whatsapp.com/send?phone=51982735381"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
                             </tr>
                         </table>
                     </div>
@@ -605,7 +605,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>VENCEDOR QUARTAS 3</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR QUARTAS 4</th>
+                                <th>VENCEDOR QUARTAS 3</th><td>-</td><td>X</td><td>-</td><th>KAMIKAZES<a href="https://api.whatsapp.com/send?phone=905432536133"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
                             </tr>
                         </table>
                     </div>
