@@ -1,6 +1,6 @@
 
 const fases = document.querySelectorAll(".fase-grupo, .oitavas, .quartas, .semifinal, .final");
-let faseAtual = 0;
+let faseAtual = 3;
 
 function avancaFase(){
     if (faseAtual === fases.length - 1){

@@ -543,13 +543,13 @@
                 </div>
                 
             </div>
-            <div class="quartas fase-ativa">
+            <div class="quartas">
                 <div class="box-oitavas">
                     <h4>Quartas 1</h4>
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th><a href="https://api.whatsapp.com/send?phone=51974281563"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>DEATH SQUAD</th><td>-</td><td>X</td><td>-</td><th>PRO GAMING<a href="https://api.whatsapp.com/send?phone=6282112908593"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
+                                <th><a href="https://api.whatsapp.com/send?phone=51974281563"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>DEATH SQUAD</th><td>1</td><td>X</td><td>2</td><th>PRO GAMING<a href="https://api.whatsapp.com/send?phone=6282112908593"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
                             </tr>
                         </table>
                     </div>
@@ -559,7 +559,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th><a href="https://api.whatsapp.com/send?phone=5491159140895"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>VETERANOS DE GUERRA</th><td>-</td><td>X</td><td>-</td><th>Z SPECIAL UNITED<a href="https://api.whatsapp.com/send?phone=51982735381"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
+                                <th><a href="https://api.whatsapp.com/send?phone=5491159140895"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>VETERANOS DE GUERRA</th><td>0</td><td>X</td><td>2</td><th>Z SPECIAL UNITED<a href="https://api.whatsapp.com/send?phone=51982735381"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
                             </tr>
                         </table>
                     </div>
@@ -569,7 +569,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th><a href="https://api.whatsapp.com/send?phone=553497157305"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>CANNABIS</th><td>-</td><td>X</td><td>-</td><th>THE KILL TEAM<a href="https://api.whatsapp.com/send?phone=56952548355"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
+                                <th><a href="https://api.whatsapp.com/send?phone=553497157305"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>CANNABIS</th><td>2</td><td>X</td><td>1</td><th>THE KILL TEAM<a href="https://api.whatsapp.com/send?phone=56952548355"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
                             </tr>
                         </table>
                     </div>
@@ -579,13 +579,13 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th><a href="https://api.whatsapp.com/send?phone=59892234054"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>BESTIAS DE ASALTO</th><td>-</td><td>X</td><td>-</td><th>KAMIKAZES<a href="https://api.whatsapp.com/send?phone=905432536133"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
+                                <th><a href="https://api.whatsapp.com/send?phone=59892234054"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>BESTIAS DE ASALTO</th><td>0</td><td>X</td><td>2</td><th>KAMIKAZES<a href="https://api.whatsapp.com/send?phone=905432536133"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="semifinal">
+            <div class="semifinal fase-ativa">
                 <div class="box-oitavas">
                     <h4>SEMI FINAL 1</h4>
                     <div class="box-confrontos-oitavas">
@@ -601,7 +601,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>VENCEDOR QUARTAS 3</th><td>-</td><td>X</td><td>-</td><th>KAMIKAZES<a href="https://api.whatsapp.com/send?phone=905432536133"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
+                                <th><a href="https://api.whatsapp.com/send?phone=553497157305"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>CANNABIS</th><td>-</td><td>X</td><td>-</td><th>KAMIKAZES<a href="https://api.whatsapp.com/send?phone=905432536133"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
                             </tr>
                         </table>
                     </div>
