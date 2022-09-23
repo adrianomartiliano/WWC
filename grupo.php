@@ -595,7 +595,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th><a href="https://api.whatsapp.com/send?phone=6282112908593"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>PRO GAMING</th><td>-</td><td>X</td><td>-</td><th>Z SPECIAL UNITED<a href="https://api.whatsapp.com/send?phone=51982735381"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
+                                <th><a href="https://api.whatsapp.com/send?phone=6282112908593"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>PRO GAMING</th><td>2</td><td>X</td><td>1</td><th>Z SPECIAL UNITED<a href="https://api.whatsapp.com/send?phone=51982735381"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
                             </tr>
                         </table>
                     </div>
@@ -617,7 +617,7 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th>VENCEDOR SEMFINAL 1</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR SEMIFINAL 2</th>
+                                <th><a href="https://api.whatsapp.com/send?phone=6282112908593"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>PRO GAMING</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR SEMIFINAL 2</th>
                             </tr>
                         </table>
                     </div>
