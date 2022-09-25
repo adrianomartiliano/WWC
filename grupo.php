@@ -589,7 +589,7 @@
                     </div>
                 </div>
             </div>
-            <div class="semifinal fase-ativa">
+            <div class="semifinal">
                 <div class="box-oitavas">
                     <h4>SEMI FINAL 1</h4>
                     <div class="box-confrontos-oitavas">
@@ -605,19 +605,19 @@
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th><a href="https://api.whatsapp.com/send?phone=553497157305"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>CANNABIS</th><td>-</td><td>X</td><td>-</td><th>KAMIKAZES<a href="https://api.whatsapp.com/send?phone=905432536133"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
+                                <th><a href="https://api.whatsapp.com/send?phone=553497157305"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>CANNABIS</th><td>2</td><td>X</td><td>0</td><th>KAMIKAZES<a href="https://api.whatsapp.com/send?phone=905432536133"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="final">
+            <div class="final fase-ativa">
             <div class="box-oitavas">
                     <h4>FINAL </h4>
                     <div class="box-confrontos-oitavas">
                         <table border="1">
                             <tr>
-                                <th><a href="https://api.whatsapp.com/send?phone=6282112908593"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>PRO GAMING</th><td>-</td><td>X</td><td>-</td><th>VENCEDOR SEMIFINAL 2</th>
+                                <th><a href="https://api.whatsapp.com/send?phone=6282112908593"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a>PRO GAMING</th><td>-</td><td>X</td><td>-</td><th>CANNABIS<a href="https://api.whatsapp.com/send?phone=553497157305"><i style="margin:5px;" class="fa-brands fa-whatsapp"></i></a></th>
                             </tr>
                         </table>
                     </div>
