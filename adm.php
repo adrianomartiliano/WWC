@@ -31,7 +31,6 @@
             }else {
                 echo "Usuário sem permissão!!";
             }
-
         }
     }
 
