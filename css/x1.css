@@ -1,23 +1,22 @@
 
 .regras{
     width: 100%;
-    height: 200px;
+    background-image: linear-gradient(#ffab07, #ffab07,  #215D94);
+    padding-top: 40px;
+    padding-bottom: 100px;
+
 }
 
 .inscricao{
-    background: url('imagens/fundo-ww2.png');
+    background: #215D94;
     width: 100%;
     height: 600px;
 }
 .form{
-    margin: 20px auto;
+    margin: 0 auto;
     max-width: 400px;
     width: 100%;
     text-align: center;
-}
-h1{
-    color: white;
-    margin: 20px auto;
 }
 label{
     width: 50%;
@@ -41,12 +40,51 @@ label{
     color: white;
     background-color: rgba(0, 0, 0, 0.596);
 }
-
+h1{
+    color: white;
+}
+.center{
+    display: block;
+}
 .inscritos{
     width: 100%;
     height: 200px;
 }
+.tituloregras{
+    width: 100%;
+}
+.regras h1 {
+    text-align: center;
+    margin: 0 auto;
+    color: #E0453D;
+    text-shadow: -2px 1px 1px #215D94;
+}
+.regras h3{
+    text-shadow: -1px 1px 1px #215D94;
+    color: #E0453D;
+}
+.baixar-regras{
+    color: #E0453D;
+}
+.regras-idiomas{
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.regras-idiomas h3{
+    margin: 10px;
+}
+
+.regras-idiomas div{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
 
 @media (max-width: 700px){
-    
+    .regras-idiomas{
+        display: block;
+    }
 }

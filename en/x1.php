@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/x1.css">
+    <script src="https://kit.fontawesome.com/35d9b76d78.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/x1.css">
     <title>X1</title>
 </head>
     
 <body>
     <?php
      require_once 'menu.html';
+     require_once '../regrasx1.html';
     ?>
     <section class="inscricao">
         <div class="center">

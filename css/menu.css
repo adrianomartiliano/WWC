@@ -4,7 +4,8 @@
 }
 
 #header{
-    background-image:url("../images/header-background.png");
+    /*background-image:url("../images/header-background.png");*/
+    background-color: #ffab07;
     background-size: cover;
     background-position:right;
     display: flex;
