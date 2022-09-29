@@ -1,16 +1,16 @@
 
 .regras{
     width: 100%;
-    background-image: linear-gradient(#ffab07, #ffab07,  #215D94);
+    background: #ffab07;
     padding-top: 40px;
     padding-bottom: 100px;
 
 }
 
 .inscricao{
+    padding: 50px 0;
     background: #215D94;
     width: 100%;
-    height: 600px;
 }
 .form{
     margin: 0 auto;
@@ -48,7 +48,7 @@ h1{
 }
 .inscritos{
     width: 100%;
-    height: 200px;
+
 }
 .tituloregras{
     width: 100%;

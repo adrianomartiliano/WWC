@@ -62,8 +62,9 @@
             </div>
         </div>
     </section><!--INSCRICAO-->
-    
-    <section class="inscritos"></section><!--INSCRITOS-->
+    <?php
+     require_once 'inscritosx1.php';
+    ?>
     
 </body>
 </html>
