@@ -7,6 +7,8 @@
     <script src="https://kit.fontawesome.com/35d9b76d78.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/x1.css">
+    <link rel="stylesheet" href="../css/inscritosx1.css">
+    
     <title>X1</title>
 </head>
     
@@ -38,8 +40,9 @@
             </div>
         </div>
     </section><!--INSCRICAO-->
-    <section class="regras"></section><!--REGRAS-->
-    <section class="inscritos"></section><!--INSCRITOS-->
+    <?php
+     require_once '../inscritosx1.php';
+    ?>
     
 </body>
 </html>

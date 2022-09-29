@@ -8,26 +8,32 @@
 }
 
 .inscricao{
-    padding: 50px 0;
-    background: #215D94;
-    width: 100%;
+    padding: 90px 0;
+    background-image:url('../images/fundo-formulario.png');
+    background-size:cover;
+    background-position: center;
 }
 .form{
+    padding: 40px 0;
+    background: rgba(250,255,250,0.5);
+    border-radius: 10px;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 350px;
     width: 100%;
     text-align: center;
 }
 label{
     width: 50%;
-    color: white;
+    font-weight: bolder;
+    color:rgba(0, 0, 0, 0.5);
 }
 .campus-form input{
     padding: 5px;
     max-width: 150px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.664);
-    border:  rgba(255, 255, 255, 0.664);
+    background-color: white;
+    border:  1px solid gray;
+    border-radius: 15px;
 }
 .campus-form{
     margin: 0 auto;
@@ -37,10 +43,19 @@ label{
 #btn-enviar-inscricao{
     padding: 5px;
     margin-top: 20px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.596);
+    color: gray;
+    border: 1px solid gray;
+    background-color: yellow;
+    border-radius: 20PX;
+    width: 80px;
+    font-weight: bolder;
+    font-size: 20px;
 }
 h1{
+    color:rgba(0, 0, 0, 0.7);
+    margin-bottom: 40px;
+}
+.inscritos h1 {
     color: white;
 }
 .center{

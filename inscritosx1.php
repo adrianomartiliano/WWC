@@ -11,7 +11,6 @@ $sql = mysqli_query($conectar, "SELECT * FROM inscritosx1") or die(
 
 ?>
 
-<link rel="stylesheet" href="css/inscritosx1.css">
 <section class="inscritos">
     <h1>COMPETIDORES - COMPETITORS</h1>
     <table id="inscritosx1">

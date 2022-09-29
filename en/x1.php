@@ -7,6 +7,7 @@
     <script src="https://kit.fontawesome.com/35d9b76d78.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/x1.css">
+    <link rel="stylesheet" href="../css/inscritosx1.css">
     <title>X1</title>
 </head>
     
@@ -17,29 +18,36 @@
     ?>
     <section class="inscricao">
         <div class="center">
+            <div class="fundo-form">
+            </div>
             <div class="form">
                 <form action="">
                     <h1>SUBSCRIPTION</h1>
                     <div class="campus-form">
-                        <label for="nickname">NickName</label><input type="text" name="nickname" id="nickname">
+                        <label for="identidade">ID</label><input type="text" name="identidade" id="identidade">
                     </div>
                     <div class="campus-form">
-                        <label for="identidada">ID</label><input type="text" name="identidade" id="identidade">
+                        <label for="nickname">NICKNAME</label><input type="text" name="nickname" id="nickname">
                     </div>
                     <div class="campus-form">
-                        <label for="contato">WhatsApp</label><input type="text" name="contato" id="contato">
+                        <label for="clan">CLAN</label><input type="text" name="clan" id="clan">
                     </div>
                     <div class="campus-form">
-                        <label for="pais">Country</label><input type="text" name="pais" id="pais">
+                        <label for="pais">COUNTRY</label><input type="text" name="pais" id="pais">
+                    </div>
+                    <div class="campus-form">
+                        <label for="contato">WHATSAPP</label><input type="text" name="contato" id="contato">
                     </div>
                     
-                    <input type="button" value="COMING SOON" id="btn-enviar-inscricao">
+                    
+                    <input type="button" value="OK" id="btn-enviar-inscricao">
                 </form>
             </div>
         </div>
     </section><!--INSCRICAO-->
-    <section class="regras"></section><!--REGRAS-->
-    <section class="inscritos"></section><!--INSCRITOS-->
+    <?php
+     require_once '../inscritosx1.php';
+    ?>
     
 </body>
 </html>
