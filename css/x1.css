@@ -27,13 +27,16 @@ label{
     font-weight: bolder;
     color:rgba(0, 0, 0, 0.5);
 }
-.campus-form input{
-    padding: 5px;
-    max-width: 150px;
+.campus-form input, select{
+    padding: 8px;
+    max-width: 140px;
     width: 100%;
     background-color: white;
     border:  1px solid gray;
     border-radius: 15px;
+}
+select{
+    max-width: 158px;
 }
 .campus-form{
     margin: 0 auto;
