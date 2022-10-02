@@ -1,0 +1,17 @@
+.campeoes{
+    background-image: url('../images/fundo-campeoes.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 60px;
+}
+.conteudo-campeoes{
+    border: 1px solid black;
+    max-width: 600px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+
+}
