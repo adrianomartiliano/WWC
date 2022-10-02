@@ -1,17 +1,24 @@
 
 <?php
     include_once ('conexao.php');
-
+    $sql = mysqli_query($conectar, "SELECT * FROM inscritosx1") or die( 
+        mysqli_error($conectar) //caso haja um erro na consulta 
+      );
+    $qtdinscritos = mysqli_num_rows($sql);
     if(isset($_POST['submit'])){
-        $identidade = $_POST['identidade'];
-        $nickname = $_POST['nickname'];
-        $clan = $_POST['clan'];
-        $pais = $_POST['pais'];
-        $contato = $_POST['contato'];
+        if ($qtdinscritos > 31){
+            echo "<script>alert('SEM VAGAS!!!');</script>";
+        }else{
+            $identidade = $_POST['identidade'];
+            $nickname = $_POST['nickname'];
+            $clan = $_POST['clan'];
+            $pais = $_POST['pais'];
+            $contato = $_POST['contato'];
 
-        $resultado = mysqli_query($conectar, "insert into inscritosx1
-        values ('$identidade', '$nickname', '$clan', '$pais', '$contato')");
-        echo '<script>alert("Sucesso")</script>';
+            $resultado = mysqli_query($conectar, "INSERT INTO inscritosx1
+            VALUES ('$identidade', '$nickname', '$clan', '$pais', '$contato')");
+            echo '<script>alert("Sucesso")</script>';
+        }   
     }
 ?>
 <!DOCTYPE html>
