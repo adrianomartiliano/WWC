@@ -1,4 +1,4 @@
-const caixasRodadas = document.querySelectorAll('.rodadaA');
+const caixasRodadas = document.querySelectorAll('.rodada');
 const caixasRodadasB = document.querySelectorAll('.rodadaB');
 const caixasRodadasC = document.querySelectorAll('.rodadaC');
 const caixasRodadasD = document.querySelectorAll('.rodadaD');
