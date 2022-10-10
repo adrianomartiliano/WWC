@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/x1.css">
     <link rel="stylesheet" href="../css/inscritosx1.css">
+    <link rel="stylesheet" href="../css/gruposx1.css">
     
     <title>X1</title>
 </head>
@@ -39,6 +40,7 @@
     <?php
      require_once 'menu.html';
      require_once '../regrasx1.html';
+     require_once '../gruposx1.php';
      require_once '../inscritosx1.php';
     ?>
     <section class="inscricao">
