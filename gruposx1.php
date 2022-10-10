@@ -15,13 +15,13 @@ $sql = mysqli_query($conectar, "SELECT * FROM inscritosx1 ORDER BY numerojogador
         $jogador[] = $aux["nickname"];
     }
     
-    for ($i = 0; $i<8; $i++)
+    for ($i = 1; $i<9; $i++)
     {
         echo "
         <div class='grupo'>
             <table border='1' class='classificao'>
                 <tr>
-                    <th colspan='3'>GRUPO ". $i+1 ."</th><th colspan='3'>P</th><th colspan='3'>PC</th>
+                    <th colspan='3'>GRUPO ". $i ."</th><th colspan='3'>P</th><th colspan='3'>PC</th>
                 </tr>";
                 for ($y=0; $y<4; $y++)
                 {
