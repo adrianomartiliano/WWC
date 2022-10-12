@@ -14,6 +14,7 @@
 
     <section class="campeoes">
         <div class="center">
+            <div class="menucampeoes"><h1 id="menuclans" onclick="listvisivel()">CLANS</h1><h1 id="menujogadores" onclick="listvisivel()">JOGADORES</h1></div>
             <div class="conteudo-campeoes">
                 <div class="clans-campeoes">
                     <div class="list-clan"><p>WU</p><img src="images/ourox4.png" alt=""></div>
@@ -39,3 +40,10 @@
     </section>
 </body>
 </html>
+
+<script>
+    var menucampeoes = document.getElementsByClassName("clans-campeoes");
+    function listvisivel(){
+        menucampeoes.classList.add('inativo');
+    }
+</script>
