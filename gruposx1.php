@@ -2,6 +2,7 @@
 
 <?php
 require_once 'conexao.php';
+require_once 'menu.html';
 //selecionando o banco de dados 
 $db = mysqli_select_db($conectar, 'u836711676_wwc');
 
@@ -14,7 +15,7 @@ $sql = mysqli_query($conectar, "SELECT * FROM inscritosx1 ORDER BY numerojogador
     while($aux = mysqli_fetch_assoc($sql)) {  
         $jogador[] = $aux["nickname"];
     }
-    
+    echo "<div class='seta'><a href='rodada1x1.php'><img src='icons/seta-direita.ico'></a></div>";
     for ($i = 1; $i<9; $i++)
     {
         echo "
@@ -32,40 +33,8 @@ $sql = mysqli_query($conectar, "SELECT * FROM inscritosx1 ORDER BY numerojogador
                         $cont++;
                 }
         echo "</table>
-        </div>";
+        </div>
+        ";
         
-        /*echo "       
-            </table>
-            <table border='1' class='<script></script> rodada-ativa'>
-                <tr class='tamanho-rodada'><th colspan='6' ><div class='titulo-rodada'><div class='btn-esquerda'><</div>RODADA 1<div class='btn-direita' onclick='NextRodadaB();'>></div></div></th></tr>
-                <tr>
-                    <th>Jogador ". $numeroJogador-3; echo "</th><td> - </td><th>X</th><td> - </td><th>Jogador ". $numeroJogador-2; echo"</th>
-                </tr>
-                <tr>
-                    <th>Jogador ". $numeroJogador-1; echo"</th><td> - </td><th>X</th><td> - </td><th>Jogador ". $numeroJogador; echo"</th>
-                </tr>
-            </table>
-            <table border='1' class='rodadaB'>
-                <tr class='tamanho-rodada'><th colspan='6' ><div class='titulo-rodada'><div class='btn-esquerda'><</div>RODADA 2<div class='btn-direita' onclick='NextRodadaB();'>></div></div></th></tr>
-                <tr>
-                    <th>Jogador ". $numeroJogador-2; echo"</th><td> - </td><th>X</th><td> - </td><th>Jogador ". $numeroJogador-1; echo"</th>
-                </tr>
-                <tr>
-                    <th>Jogador ". $numeroJogador-3; echo"</th><td> - </td><th>X</th><td> - </td><th>Jogador ". $numeroJogador; echo"</th>
-                </tr>
-            </table>
-            <table border='1' class='rodadaB'>
-                <tr class='tamanho-rodada'><th colspan='6' ><div class='titulo-rodada'><div class='btn-esquerda'><</div>RODADA 3<div class='btn-direita' onclick='NextRodadaB();'>></div></div></th></tr>
-                <tr>
-                    <th>Jogador ". $numeroJogador-1; echo"</th><td> - </td><th>X</th><td> - </td><th>Jogador ". $numeroJogador-3; echo"</th>
-                </tr>
-                <tr>
-                    <th>Jogador ". $numeroJogador; echo"</th><td> - </td><th>X</th><td> - </td><th>Jogador ". $numeroJogador-2; echo"</th>
-                </tr>
-            </table>
-        </div>";*/
     }
 ?>
-
-<script src="js/rodada.js"></script>
-<script src="../js/controles-fases.js"></script>

@@ -62,6 +62,10 @@ table{
         width: 90%;
         margin: 10px auto;
     }
+    .seta{
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 .btn-direita, .btn-esquerda{
     cursor: pointer;
@@ -70,7 +74,7 @@ table{
     display: block;
 }
 .titulo-rodada{
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     padding: 5px;
 }
@@ -79,4 +83,16 @@ table{
 }
 .fase-ativa{
     display: block !important;
+}
+.seta{
+    display: flex;
+    margin: 10 0;
+    align-items: center;
+    justify-content: center;
+}
+.seta img{
+    margin: 0 40px;
+}
+.rodada {
+    margin: 20px auto;
 }
