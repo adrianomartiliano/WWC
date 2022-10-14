@@ -1,8 +1,7 @@
 <?php
 
     include('menu.html');
-
-    include('conexao-login.php');
+    include('conexao.php');
 
     if(isset($_POST['usuario']) || isset($_POST['senha'])){
         if(strlen($_POST['usuario']) == 0 ){
@@ -10,11 +9,11 @@
         } else if (strlen($_POST['senha']) == 0 ){
             echo "Preencha a senha";
         } else{
-            $usuario = $mysqli->real_escape_string($_POST['usuario']);
-            $senha = $mysqli->real_escape_string($_POST['senha']);
+            $usuario = $conectar->real_escape_string($_POST['usuario']);
+            $senha = $conectar->real_escape_string($_POST['senha']);
 
             $sql_code = "SELECT * FROM usuario WHERE usuario = '$usuario' AND senha = '$senha'";
-            $sql_query = $mysqli->query($sql_code) or die("Falha na execução!" . $mysqli->error);
+            $sql_query = $conectar->query($sql_code) or die("Falha na execução!" . $conectar->error);
             
 
             $quantidade_linhas = $sql_query->num_rows;//Quantas linhas a consulta retorna
@@ -37,7 +36,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -81,7 +80,7 @@
 </head>
 <body>
     <div id="caixa-login">
-        <form action="" method="POST" >
+        <form action="adm.php" method="POST" >
             <label class="titulo_input" for="usuario">USUÁRIO: </label>
             <input class="input_login" type="text" name="usuario">
             <label class="titulo_input" for="senha">SENHA: </label>
