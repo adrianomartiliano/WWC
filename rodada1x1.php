@@ -23,6 +23,7 @@
     while($aux = mysqli_fetch_assoc($sql)) {  
         $jogador[] = $aux["nickname"];
         $contatojogador[] = $aux["pais"];
+        $rodada1[] = $aux["rodada1"];
     }
 
 
@@ -35,10 +36,10 @@
             <table border='1' class='rodada'>
                 <tr class='tamanho-rodada'><th colspan='6' ><div class='titulo-rodada'>GRUPO ". $cont; echo "</div></th></tr>
                 <tr>
-                    <th>". $jogador[$ajud]; echo "<a href='https://api.whatsapp.com/send?phone=". $contatojogador[$ajud]; echo "'><i style='margin:5px;' class='fa-brands fa-whatsapp'></i></a></th><td> - </td><th>X</th><td> - </td><th>"; echo "<a href='https://api.whatsapp.com/send?phone=". $contatojogador[$ajud+3]; echo "'><i style='margin:5px;' class='fa-brands fa-whatsapp'></i></a>". $jogador[$ajud+3]; echo"</th>
+                    <th>". $jogador[$ajud]; echo "<a href='https://api.whatsapp.com/send?phone=". $contatojogador[$ajud]; echo "'><i style='margin:5px;' class='fa-brands fa-whatsapp'></i></a></th><td>". $rodada1[$ajud]; echo" </td><th>X</th><td>". $rodada1[$ajud+3]; echo "</td><th>"; echo "<a href='https://api.whatsapp.com/send?phone=". $contatojogador[$ajud+3]; echo "'><i style='margin:5px;' class='fa-brands fa-whatsapp'></i></a>". $jogador[$ajud+3]; echo"</th>
                 </tr>
                 <tr>
-                    <th>". $jogador[$ajud+1]; echo "<a href='https://api.whatsapp.com/send?phone=". $contatojogador[$ajud+1]; echo "'><i style='margin:5px;' class='fa-brands fa-whatsapp'></i></a></th><td> - </td><th>X</th><td> - </td><th>"; echo "<a href='https://api.whatsapp.com/send?phone=". $contatojogador[$ajud+2]; echo "'><i style='margin:5px;' class='fa-brands fa-whatsapp'></i></a>". $jogador[$ajud+2]; echo"</th>
+                    <th>". $jogador[$ajud+1]; echo "<a href='https://api.whatsapp.com/send?phone=". $contatojogador[$ajud+1]; echo "'><i style='margin:5px;' class='fa-brands fa-whatsapp'></i></a></th><td>". $rodada1[$ajud+1]; echo" </td><th>X</th><td>". $rodada1[$ajud+2]; echo" </td><th>"; echo "<a href='https://api.whatsapp.com/send?phone=". $contatojogador[$ajud+2]; echo "'><i style='margin:5px;' class='fa-brands fa-whatsapp'></i></a>". $jogador[$ajud+2]; echo"</th>
                 </tr>
             </table>";
             $ajud += 4;

@@ -23,6 +23,8 @@ $sql = mysqli_query($conectar, "SELECT * FROM inscritosx1 ORDER BY numerojogador
     $jogador = array();
     while($aux = mysqli_fetch_assoc($sql)) {  
         $jogador[] = $aux["nickname"];
+        $pontos[] = $aux["pontos"];
+        $pc[] = $aux["pontoscombate"];
     }
     echo "<div class='seta'><a href='rodada1x1.php'><img src='icons/seta-direita.ico'></a></div>";
     for ($i = 1; $i<9; $i++)
@@ -37,7 +39,7 @@ $sql = mysqli_query($conectar, "SELECT * FROM inscritosx1 ORDER BY numerojogador
                 {
                     echo "
                         <tr>
-                            <td colspan='3' width='200px'>". $jogador[$cont] ."</td><th colspan='3'>0</th><th colspan='3'>0</th>
+                            <td colspan='3' width='200px'>". $jogador[$cont] ."</td><th colspan='3'>". $pontos[$cont]; echo "</th><th colspan='3'>". $pc[$cont]; echo "</th>
                         </tr>";   
                         $cont++;
                 }

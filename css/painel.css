@@ -1,0 +1,30 @@
+.inserirRodada{
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+input{
+    width: 80px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#btn-salvar{
+    margin-top: 30px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+select{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
