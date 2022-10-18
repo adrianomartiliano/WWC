@@ -14,15 +14,15 @@
 
     <section class="campeoes">
         <div class="center">
-            <div class="menucampeoes"><h1 id="menuclans" onclick="listvisivel()">CLANS</h1><h1 id="menujogadores" onclick="listvisivel()">JOGADORES</h1></div>
+            <div class="menucampeoes"><h1 id="menuclans" onClick="clanvisivel()">CLANS</h1><h1 id="menujogadores" onClick="jogadoresvisivel()" style="color:gray">JOGADORES</h1></div>
             <div class="conteudo-campeoes">
-                <div class="clans-campeoes">
+                <div id="clans-campeoes">
                     <div class="list-clan"><p>WU</p><img src="images/ourox4.png" alt=""></div>
                     <div class="list-clan"><p>CANGACEIROS</p><img src="images/pratax4.png" alt=""></div>
                     <div class="list-clan"><p>WINNERS</p><img src="images/bronzex4.png" alt=""></div>
                 </div>
-                <div class="jogadores-campeoes inativo">
-                    <div class="list-jogadores"><p>B O S S</p><img src="images/ourox4.png" alt=""><img src="images/ourox4.png" alt=""></div>
+                <div id="jogadores-campeoes" class="inativo">
+                    <div class="list-jogadores"><p>B O S S</p><img src="images/ourox4.png" alt=""></div>
                     <div class="list-jogadores"><p>1420lopez</p><img src="images/ourox4.png" alt=""></div>
                     <div class="list-jogadores"><p>Joey BRICKWALL</p><img src="images/ourox4.png" alt=""></div>
                     <div class="list-jogadores"><p>ILLUSTRIOUS ONER</p><img src="images/ourox4.png" alt=""></div>
@@ -42,8 +42,20 @@
 </html>
 
 <script>
-    var menucampeoes = document.getElementsByClassName("clans-campeoes");
-    function listvisivel(){
-        menucampeoes.classList.add('inativo');
+    var clans = document.getElementById("clans-campeoes");
+    var textclan = document.getElementById("menuclans");
+    var textjogadores = document.getElementById("menujogadores");
+    var jogadores = document.getElementById("jogadores-campeoes");
+    function clanvisivel(){
+        jogadores.className = "inativo";
+        clans.className = "";
+        textjogadores.style.color = "gray";
+        textclan.style.color = "black";
+    }
+    function jogadoresvisivel(){
+        jogadores.className = "";
+        clans.className = "inativo";
+        textjogadores.style.color = "black";
+        textclan.style.color = "gray";
     }
 </script>
