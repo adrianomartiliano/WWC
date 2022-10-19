@@ -31,7 +31,7 @@
                     <div class="list-jogadores"><p>Maltryx</p><img src="images/pratax4.png" alt=""></div>
                     <div class="list-jogadores"><p>BLДCK -Ф- KELLДЯ</p><img src="images/pratax4.png" alt=""></div>
                     <div class="list-jogadores"><p>GOD OF WAR</p><img src="images/bronzex4.png" alt=""></div>
-                    <div class="list-jogadores"><p>ANGEL MALVADO</p><img src="images/bronzex4.png" alt=""></div>
+                    <div class="list-jogadores"><p>BLESSED</p><img src="images/bronzex4.png" alt=""></div>
                     <div class="list-jogadores"><p>TERMINATOR</p><img src="images/bronzex4.png" alt=""></div>
                     <div class="list-jogadores"><p>KING PITBULL</p><img src="images/bronzex4.png" alt=""></div>
                 </div>
