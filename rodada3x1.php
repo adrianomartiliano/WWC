@@ -27,6 +27,7 @@ while($aux = mysqli_fetch_assoc($sql)) {
 
 echo "<div class='seta'><a href='rodada2x1.php'><img src='icons/seta-esquerda.ico'></a></div>";
 $ajud = 0;
+echo "<h1 class='titulo-rodada'>RODADA 3</h1>";
 for ($cont=1; $cont<9; $cont++)
 {
 

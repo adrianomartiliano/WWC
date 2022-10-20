@@ -29,6 +29,7 @@
 
     echo "<div class='seta'><a href='gruposx1.php'><img src='icons/seta-esquerda.ico'></a><a href='rodada2x1.php'><img src='icons/seta-direita.ico'></a></div>";
     $ajud = 0;
+    echo "<h1 class='titulo-rodada'>RODADA 1</h1>";
     for ($cont=1; $cont<9; $cont++)
     {
         echo "       

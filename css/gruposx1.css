@@ -86,12 +86,12 @@ table{
 }
 .seta{
     display: flex;
-    margin: 10 0;
+    margin: 20px 0;
     align-items: center;
     justify-content: center;
 }
 .seta img{
-    margin: 0 40px;
+    margin: 0 60px;
 }
 .rodada {
     margin: 20px auto;

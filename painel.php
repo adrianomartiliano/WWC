@@ -27,8 +27,8 @@
         $jogadordir = $_POST['direita'];
         $jogadoresq = $_POST['esquerdo'];
     
-        $resultado1 = mysqli_query($conectar, "UPDATE inscritosx1 SET rodada1='$placaresq', pontos='$pontosesq', pontoscombate='$pcesq' WHERE nickname='$jogadoresq'");
-        $resultado2 = mysqli_query($conectar, "UPDATE inscritosx1 SET rodada1='$placardir', pontos='$pontosdir', pontoscombate='$pcdir' WHERE nickname='$jogadordir'");
+        $resultado1 = mysqli_query($conectar, "UPDATE inscritosx1 SET rodada2='$placaresq', pontos='$pontosesq', pontoscombate='$pcesq' WHERE nickname='$jogadoresq'");
+        $resultado2 = mysqli_query($conectar, "UPDATE inscritosx1 SET rodada2='$placardir', pontos='$pontosdir', pontoscombate='$pcdir' WHERE nickname='$jogadordir'");
         echo '<script>alert("Sucesso")</script>';
     }
 ?>
@@ -48,7 +48,7 @@
     <div class="inserirRodada">
         <form action="painel.php" method="post">
             <?php
-                echo "<div class='linha1'><h1>RODADA 1</h1><select name='esquerdo' id='esquerdo'>";
+                echo "<div class='linha1'><h1>RODADA 2</h1><select name='esquerdo' id='esquerdo'>";
                 for ($i=0; $i<32; $i++){
                     echo "<option value='". $jogador[$i]; echo "'>". $jogador[$i]; echo "</option>";
                 }
