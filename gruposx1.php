@@ -15,7 +15,7 @@ require_once 'menu.html';
 //selecionando o banco de dados 
 $db = mysqli_select_db($conectar, 'u836711676_wwc');
 
-$sql = mysqli_query($conectar, "SELECT * FROM inscritosx1 ORDER BY numerojogador") or die( 
+$sql = mysqli_query($conectar, "SELECT * FROM inscritosx1 ORDER BY numerojogadorporgrupo") or die( 
     mysqli_error($conectar) //caso haja um erro na consulta 
   );
 
@@ -25,6 +25,7 @@ $sql = mysqli_query($conectar, "SELECT * FROM inscritosx1 ORDER BY numerojogador
         $jogador[] = $aux["nickname"];
         $pontos[] = $aux["pontos"];
         $pc[] = $aux["pontoscombate"];
+        $numerojogadorporgrupo[] = $aux['numerojogadorporgrupo'];
     }
     echo "<div class='seta'><a href='rodada1x1.php'><img src='icons/seta-direita.ico'></a></div>";
     for ($i = 1; $i<9; $i++)
