@@ -48,7 +48,7 @@
     <div class="inserirRodada">
         <form action="painel.php" method="post">
             <?php
-                echo "<div class='linha1'><h1>RODADA 2</h1><select name='esquerdo' id='esquerdo'>";
+                echo "<div class='linha1'><h1>RODADA 3</h1><select name='esquerdo' id='esquerdo'>";
                 for ($i=0; $i<32; $i++){
                     echo "<option value='". $jogador[$i]; echo "'>". $jogador[$i]; echo "</option>";
                 }
