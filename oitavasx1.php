@@ -1,19 +1,6 @@
 <?php
     require_once 'menu.html';
-    require_once 'conexao.php';
-
-    $db = mysqli_select_db($conectar, 'u836711676_wwc');
-
-    $sql = mysqli_query($conectar, "SELECT * FROM inscritosx1 ORDER BY oitavas") or die( 
-        mysqli_error($conectar) //caso haja um erro na consulta 
-    );
-    $jogador = array();
-    $contatojogador = array();
-    while($aux = mysqli_fetch_assoc($sql)) {  
-        $jogador[] = $aux["nickname"];
-        $contatojogador[] = $aux["pais"];
-        $oitavas[] = $aux["oitavas"];
-    }
+  
 
     
 
