@@ -9,13 +9,16 @@
      
     <title>WWC</title>
     <style>
+        .banner-index {
+            width: 100%;
+        }
+
     </style>
 </head>
 <body>
     
     <?php
         require_once 'menu.html';
-        require_once 'campeonatos.html';
     ?>
 
     <!--<div class="conteudo">
@@ -34,6 +37,7 @@
             </form>
         </div>
     </div><!--idioma-->
+    <img class="banner-index" src="images/torneiox2banner.png" alt="">
 
 
     
