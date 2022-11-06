@@ -52,7 +52,7 @@ echo "<div class='seta'><a href='oitavasx1.php'><img src='icons/seta-esquerda.ic
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>VENCEDOR OITAVAS 7</th><td> - </td><td>X</td><td> - </td><th>VENCEDOR OITAVAS 8</th>
+                            <th>KingPitbull</th><td> - </td><td>X</td><td> - </td><th>VENCEDOR OITAVAS 8</th>
                         </tr>
                     </table>
                 </div>

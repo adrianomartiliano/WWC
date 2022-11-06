@@ -86,7 +86,7 @@
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>KingPitbull</th><td> - </td><td>X</td><td> - </td><th>Matapombo</th>
+                            <th>KingPitbull</th><td> 2 </td><td>X</td><td> 0 </td><th>Matapombo</th>
                         </tr>
                     </table>
                 </div>
