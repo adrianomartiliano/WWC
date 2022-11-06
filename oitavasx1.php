@@ -56,7 +56,7 @@
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>B A B A Y A G A</th><td> - </td><td>X</td><td> - </td><th>-Avast-</th>
+                            <th>B A B A Y A G A</th><td> 2 </td><td>X</td><td> 0 </td><th>-Avast-</th>
                         </tr>
                     </table>
                 </div>
