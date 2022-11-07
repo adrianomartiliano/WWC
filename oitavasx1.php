@@ -36,7 +36,7 @@
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>B O S S</th><td> - </td><td>X</td><td> - </td><th>СФЯISСФ</th>
+                            <th>B O S S</th><td> 0 </td><td>X</td><td> 2 </td><th>СФЯISСФ</th>
                         </tr>
                     </table>
                 </div>
@@ -46,7 +46,7 @@
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>Joey BRICKWALL</th><td> - </td><td>X</td><td> - </td><th>ZEUS GOD SUPREME</th>
+                            <th>Joey BRICKWALL</th><td> 2 </td><td>X</td><td> 1 </td><th>ZEUS GOD SUPREME</th>
                         </tr>
                     </table>
                 </div>
@@ -96,7 +96,7 @@
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>LeLecф_Ф_Mдu_BЯ</th><td> - </td><td>X</td><td> - </td><th>JOLENO MATADOR</th>
+                            <th>LeLecф_Ф_Mдu_BЯ</th><td> 2 </td><td>X</td><td> 0 </td><th>JOLENO MATADOR</th>
                         </tr>
                     </table>
                 </div>

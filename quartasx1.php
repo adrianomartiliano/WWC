@@ -22,7 +22,7 @@ echo "<div class='seta'><a href='oitavasx1.php'><img src='icons/seta-esquerda.ic
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>VENCEDOR OITAVAS 1</th><td> - </td><td>X</td><td> - </td><th>VENCEDOR OITAVAS 2</th>
+                            <th>VENCEDOR OITAVAS 1</th><td> - </td><td>X</td><td> - </td><th>СФЯISСФ</th>
                         </tr>
                     </table>
                 </div>
@@ -32,7 +32,7 @@ echo "<div class='seta'><a href='oitavasx1.php'><img src='icons/seta-esquerda.ic
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>VENCEDOR OITAVAS 3</th><td> - </td><td>X</td><td> - </td><th>B A B A Y A G A</th>
+                            <th>Joey BRICKWALL</th><td> - </td><td>X</td><td> - </td><th>B A B A Y A G A</th>
                         </tr>
                     </table>
                 </div>
@@ -52,7 +52,7 @@ echo "<div class='seta'><a href='oitavasx1.php'><img src='icons/seta-esquerda.ic
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>KingPitbull</th><td> - </td><td>X</td><td> - </td><th>VENCEDOR OITAVAS 8</th>
+                            <th>KingPitbull</th><td> - </td><td>X</td><td> - </td><th>LeLecф_Ф_Mдu_BЯ</th>
                         </tr>
                     </table>
                 </div>
