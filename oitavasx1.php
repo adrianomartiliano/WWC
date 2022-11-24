@@ -26,7 +26,7 @@
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>M E S S I</th><td> - </td><td>X</td><td> - </td><th>-DALMO ROJO-</th>
+                            <th>M E S S I</th><td> 2 </td><td>X</td><td> 0 </td><th>-DALMO ROJO-</th>
                         </tr>
                     </table>
                 </div>
@@ -66,7 +66,7 @@
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>G Ф K Ц</th><td> - </td><td>X</td><td> - </td><th>Corazón negro</th>
+                            <th>G Ф K Ц</th><td> 2 </td><td>X</td><td> 0 </td><th>Corazón negro</th>
                         </tr>
                     </table>
                 </div>
@@ -76,7 +76,7 @@
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>-SOTO-</th><td> - </td><td>X</td><td> - </td><th>-DAS_TREVAS-</th>
+                            <th>-SOTO-</th><td> 2 </td><td>X</td><td> 1 </td><th>-DAS_TREVAS-</th>
                         </tr>
                     </table>
                 </div>

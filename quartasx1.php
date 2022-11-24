@@ -22,7 +22,7 @@ echo "<div class='seta'><a href='oitavasx1.php'><img src='icons/seta-esquerda.ic
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>VENCEDOR OITAVAS 1</th><td> - </td><td>X</td><td> - </td><th>СФЯISСФ</th>
+                            <th>M E S S I</th><td> 2 </td><td>X</td><td> 1 </td><th>СФЯISСФ</th>
                         </tr>
                     </table>
                 </div>
@@ -32,7 +32,7 @@ echo "<div class='seta'><a href='oitavasx1.php'><img src='icons/seta-esquerda.ic
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>Joey BRICKWALL</th><td> - </td><td>X</td><td> - </td><th>B A B A Y A G A</th>
+                            <th>Joey BRICKWALL</th><td> 2 </td><td>X</td><td> 0 </td><th>B A B A Y A G A</th>
                         </tr>
                     </table>
                 </div>
@@ -42,7 +42,7 @@ echo "<div class='seta'><a href='oitavasx1.php'><img src='icons/seta-esquerda.ic
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>VENCEDOR OITAVAS 5</th><td> - </td><td>X</td><td> - </td><th>VENCEDOR OITAVAS 6</th>
+                            <th>G Ф K Ц</th><td> - </td><td>X</td><td> - </td><th>-SOTO-</th>
                         </tr>
                     </table>
                 </div>
@@ -52,7 +52,7 @@ echo "<div class='seta'><a href='oitavasx1.php'><img src='icons/seta-esquerda.ic
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>KingPitbull</th><td> - </td><td>X</td><td> - </td><th>LeLecф_Ф_Mдu_BЯ</th>
+                            <th>KingPitbull</th><td> 2 </td><td>X</td><td> 0 </td><th>LeLecф_Ф_Mдu_BЯ</th>
                         </tr>
                     </table>
                 </div>
