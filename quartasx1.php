@@ -42,7 +42,7 @@ echo "<div class='seta'><a href='oitavasx1.php'><img src='icons/seta-esquerda.ic
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>G Ф K Ц</th><td> - </td><td>X</td><td> - </td><th>-SOTO-</th>
+                            <th>G Ф K Ц</th><td> wo </td><td>X</td><td> wo </td><th>-SOTO-</th>
                         </tr>
                     </table>
                 </div>

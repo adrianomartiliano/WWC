@@ -22,7 +22,7 @@ echo "<div class='seta'><a href='semix1.php'><img src='icons/seta-esquerda.ico'>
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>VENCEDOR SEMI 1</th><td> - </td><td>X</td><td> - </td><th>VENCEDOR SEMI 2</th>
+                            <th>M E S S I</th><td> - </td><td>X</td><td> - </td><th>KingPitbull</th>
                         </tr>
                     </table>
                 </div>
@@ -32,7 +32,7 @@ echo "<div class='seta'><a href='semix1.php'><img src='icons/seta-esquerda.ico'>
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>PERDEDOR SEMI 1</th><td> - </td><td>X</td><td> - </td><th>PERDEDOR SEMI 2</th>
+                            <th>Joey BRICKWALL</th><td> 2 </td><td>X</td><td> 0 </td><th>SOTO</th>
                         </tr>
                     </table>
                 </div>

@@ -22,7 +22,7 @@ echo "<div class='seta'><a href='quartasx1.php'><img src='icons/seta-esquerda.ic
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>M E S S I</th><td> - </td><td>X</td><td> - </td><th>Joey BRICKWALL</th>
+                            <th>M E S S I</th><td> 2 </td><td>X</td><td> 0 </td><th>Joey BRICKWALL</th>
                         </tr>
                     </table>
                 </div>
@@ -32,7 +32,7 @@ echo "<div class='seta'><a href='quartasx1.php'><img src='icons/seta-esquerda.ic
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>VENCEDOR QUARTAS 3</th><td> - </td><td>X</td><td> - </td><th>KingPitbull</th>
+                            <th>SOTO</th><td> 0 </td><td>X</td><td> 2 </td><th>KingPitbull</th>
                         </tr>
                     </table>
                 </div>
