@@ -30,7 +30,7 @@
         require_once 'menu.html';
     ?>
     <div class="center">
-        <a href="contatox2.php"><div class="cardindex" id="x2menu"></div></a>
+        <a href="x2.php"><div class="cardindex" id="x2menu"></div></a>
         <a href="finalx1.php"><div class="torneiox1 cardindex"><h1>TORNEIO X1</h1></div></a>
         <a href="campeoes.php"><div class="campeoes cardindex"><h1>QUADRO DE MEDALHAS</h1></div></a>
     </div>

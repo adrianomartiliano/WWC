@@ -24,6 +24,7 @@
                 </div>
                 <div id="jogadores-campeoes" class="inativo">
                     <div class="list-jogadores"><p>Joey BRICKWALL</p><img src="images/ourox4.png" alt=""><img src="images/bronzex1.png" alt=""></div>
+                    <div class="list-jogadores"><p>KING PITBULL</p><img src="images/ourox1.png" alt=""><img src="images/bronzex4.png" alt=""></div>
                     <div class="list-jogadores"><p>B O S S</p><img src="images/ourox4.png" alt=""></div>
                     <div class="list-jogadores"><p>1420lopez</p><img src="images/ourox4.png" alt=""></div>
                     <div class="list-jogadores"><p>ILLUSTRIOUS ONER</p><img src="images/ourox4.png" alt=""></div>
@@ -31,10 +32,11 @@
                     <div class="list-jogadores"><p>LeLecф_Ф_Mдu_BЯ</p><img src="images/pratax4.png" alt=""></div>
                     <div class="list-jogadores"><p>Maltryx</p><img src="images/pratax4.png" alt=""></div>
                     <div class="list-jogadores"><p>BLДCK -Ф- KELLДЯ</p><img src="images/pratax4.png" alt=""></div>
+                    <div class="list-jogadores"><p>M E S S I</p><img src="images/pratax1.png" alt=""></div>
                     <div class="list-jogadores"><p>GOD OF WAR</p><img src="images/bronzex4.png" alt=""></div>
                     <div class="list-jogadores"><p>BLESSED</p><img src="images/bronzex4.png" alt=""></div>
                     <div class="list-jogadores"><p>TERMINATOR</p><img src="images/bronzex4.png" alt=""></div>
-                    <div class="list-jogadores"><p>KING PITBULL</p><img src="images/bronzex4.png" alt=""></div>
+                    
                 </div>
             </div>
         </div>

@@ -22,7 +22,7 @@ echo "<div class='seta'><a href='semix1.php'><img src='icons/seta-esquerda.ico'>
                 <div class='box-confrontos-oitavas'>
                     <table border='1'>
                         <tr>
-                            <th>M E S S I</th><td> - </td><td>X</td><td> - </td><th>KingPitbull</th>
+                            <th>M E S S I</th><td> 0 </td><td>X</td><td> 2 </td><th>KingPitbull</th>
                         </tr>
                     </table>
                 </div>
