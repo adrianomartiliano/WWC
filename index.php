@@ -9,8 +9,8 @@
     <style>
         
         .cardindex{
-            width: 451px;
-            height: 265px;
+            width: 384px;
+            height: 226px;
             border: 1px solid gray;
             border-radius: 5px;
             margin: 20px auto;
