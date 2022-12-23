@@ -5,6 +5,13 @@
     $senha = 'Dil28Dika7';
     $banco = 'u836711676_wwc';
 
+    /*$local = 'localhost';
+    $user = 'root';
+    $senha = '';
+    $banco = 'wwc';*/
+
+
+
     $conectar = new mysqli($local, $user, $senha, $banco);
 
     if ($conectar->connect_errno){
