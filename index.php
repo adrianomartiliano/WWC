@@ -19,7 +19,11 @@
             background-image: url("images/x2menu.png");
             background-position: center;
             background-size: cover;
-
+        }
+        #campeoesmenu{
+            background-image: url("images/campeoesmenu.png");
+            background-position: center;
+            background-size: cover;
         }
 
     </style>
@@ -31,8 +35,7 @@
     ?>
     <div class="center">
         <a href="x2.php"><div class="cardindex" id="x2menu"></div></a>
-        <a href="finalx1.php"><div class="torneiox1 cardindex"><h1>TORNEIO X1</h1></div></a>
-        <a href="campeoes.php"><div class="campeoes cardindex"><h1>QUADRO DE MEDALHAS</h1></div></a>
+        <a href="campeoes.php"><div class="campeoes cardindex" id="campeoesmenu"><h1></h1></div></a>
     </div>
     
 </body>
