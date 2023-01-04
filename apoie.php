@@ -20,15 +20,15 @@ require_once 'menu.html';
             border-radius: 20px;
             display: flex;
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: space-between;
             color: #215D94;
-            padding: 10px;
+            padding: 0 20px;
             
             
         }
         p{
             margin: 20px;
-            font-size: 40px;
+            font-size: 30px;
         }
         i{
             color: #E0453D;
