@@ -14,6 +14,7 @@
         $dupla[] = $aux["dupla"];
         $pontos[] = $aux["pontos"];
         $kills[] = $aux["kills"];
+        $qtdjogos[] = $aux["qtdjogos"];
         $pc[] = $aux["pontoscombate"];
         $contato[] = $aux["contato"];
     }
@@ -40,14 +41,20 @@
     <div class='grupo'>
         <table border='1' class='classificao'>
                 <tr>
-                    <th colspan='3'>#</th><th colspan='3'>DUPLA</th><th colspan='3'>P</th><th colspan='3'>K</th><th colspan='3'>PC</th>
+                    <th colspan='3'>#</th><th colspan='3'>DUPLA</th><th colspan='3'>P</th><th colspan='3'>K</th><th colspan='3'>PC</th><th>J</th>
                 </tr>
                     <?php
                         for ($i = 0; $i<count($dupla); $i++)
                         {
                             echo "
                                 <tr>
-                                <td colspan='3'>". ($i+1) ."</td><td colspan='3' width='200px'>". $dupla[$i] ."</td><th colspan='3'>". $pontos[$i]; echo "</th><th colspan='3'>". $kills[$i]; echo "</th><th colspan='3'>". $pc[$i]; echo "</th><th><a href='https://api.whatsapp.com/send?phone=". $contato[$i]; echo"'><i style='margin:5px;' class='fa-brands fa-whatsapp'></i></a></th>
+                                <td colspan='3'>". ($i+1) ."</td>
+                                <td colspan='3' width='200px'>". $dupla[$i] ."</td>
+                                <th colspan='3'>". $pontos[$i]; echo "</th>
+                                <th colspan='3'>". $kills[$i]; echo "</th>
+                                <th colspan='3'>". $pc[$i]; echo "</th>
+                                <th colspan='3'>". $qtdjogos[$i]; echo "</th>
+                                <th><a href='https://api.whatsapp.com/send?phone=". $contato[$i]; echo"'><i style='margin:5px;' class='fa-brands fa-whatsapp'></i></a></th>
                                 </tr>";   
                             $cont++;
                         }
