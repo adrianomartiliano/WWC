@@ -20,6 +20,11 @@
             background-position: center;
             background-size: cover;
         }
+        #x1faca{
+            background-image: url("images/x1faca.png");
+            background-position: center;
+            background-size: cover;
+        }
         #campeoesmenu{
             background-image: url("images/campeoesmenu.png");
             background-position: center;
@@ -35,6 +40,7 @@
     ?>
     <div class="center">
         <a href="x2.php"><div class="cardindex" id="x2menu"></div></a>
+        <a href="#"><div class="cardindex" id="x1faca"></div></a>
         <a href="campeoes.php"><div class="campeoes cardindex" id="campeoesmenu"><h1></h1></div></a>
     </div>
     
