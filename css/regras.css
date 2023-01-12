@@ -10,7 +10,7 @@
 #cont-s1, #cont-s2, #cont-s3, #cont-s4, #cont-s5{
     display: none;
 } */
-div > div > ul {
+.regras > div > ul {
     display: none;
 }
 .regras .cont-regras{
