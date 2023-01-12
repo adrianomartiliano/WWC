@@ -15,7 +15,7 @@
             $contato = $_POST['contato'];
 
             $resultado = mysqli_query($conectar, "INSERT INTO modofaca
-            VALUES ('$identidade', '$nickname', '$clan', '$pais', '$contato', '0', '0')");
+            VALUES ('$identidade', '$nickname', '$clan', '$pais', '0', '0', $contato)");
             echo '<script>alert("Sucesso")</script>';
             echo "<META HTTP-EQUIV='Refresh' CONTENT='1 ; URL= modofaca.php'>";   
             }   
