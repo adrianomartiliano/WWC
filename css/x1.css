@@ -9,7 +9,7 @@
 
 .inscricao{
     padding: 90px 0;
-    background-image:url('../images/fundo-formulario.png');
+    background-image:url('../images/fundo-form-modofaca.jpeg');
     background-size:cover;
     background-position: center;
 }
@@ -104,5 +104,9 @@ h1{
 @media (max-width: 700px){
     .regras-idiomas{
         display: block;
+    }
+    .inscricao{
+        background-size:cover;
+        background-position: right;
     }
 }
