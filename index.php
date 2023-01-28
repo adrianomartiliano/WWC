@@ -15,6 +15,11 @@
             border-radius: 5px;
             margin: 20px auto;
         }
+        #x3menu{
+            background-image: url("images/x3menu.png");
+            background-position: center;
+            background-size: cover;
+        }
         #x2menu{
             background-image: url("images/x2menu.png");
             background-position: center;
@@ -39,6 +44,7 @@
         require_once 'menu.html';
     ?>
     <div class="center">
+        <a href="modalidades/x3/x3.php"><div class="cardindex" id="x3menu"></div></a>
         <a href="x2.php"><div class="cardindex" id="x2menu"></div></a>
         <a href="modalidades/faca/modofaca.php"><div class="cardindex" id="x1faca"></div></a>
         <a href="campeoes.php"><div class="campeoes cardindex" id="campeoesmenu"><h1></h1></div></a>
