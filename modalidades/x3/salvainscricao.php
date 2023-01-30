@@ -20,9 +20,14 @@
 
             $resultado = mysqli_query($conectar, "INSERT INTO X3
             VALUES ('$nomeequipe', '$j1', '$j2', '$j3', '$id1', '$id2', '$id3', '$clan', $contato)");
-            echo '<script>alert("Sucesso")</script>';
-            echo "<META HTTP-EQUIV='Refresh' CONTENT='1 ; URL= ../../index.php'>";   
-            }   
+            if ($resultado == true){
+                echo '<script>alert("Sucesso")</script>';
+                  
+            } else{
+                echo '<script>alert("Error")</script>';
+            }
+            echo "<META HTTP-EQUIV='Refresh' CONTENT='1 ; URL= ../../index.php'>"; 
+        }   
     }
     
 ?>
