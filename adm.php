@@ -43,9 +43,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <style>
-        body{
-            
-        }
         #caixa-login{
             width: 250px;
             height: 250px;
