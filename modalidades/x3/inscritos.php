@@ -1,5 +1,10 @@
 <?php 
     require_once '../../menu.html';
+    require_once '../../conexao.php';
+
+    $sql = mysqli_query($conectar, "SELECT * FROM X3 ORDER BY clan") or die( 
+    mysqli_error($conectar) //caso haja um erro na consulta 
+  );
 ?>
 
 <!DOCTYPE html>
@@ -23,31 +28,39 @@
     </style>
 </head>
 <body>
+    <h1 align='center'>EQUIPES / TEAMS</h1>
     <div id="carroselinscritos" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../../images/x1faca.png" class="d-block w-100" alt="...">
+                <img src="../../images/equipe1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="../../images/x2menu.png" class="d-block w-100" alt="...">
+                <img src="../../images/equipe2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="../../images/x3menu.png" class="d-block w-100" alt="...">
+                <img src="../../images/equipe3.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <div id="testee" class="d-block w-100">
-                    Teste
-                </div>
+                <img src="../../images/equipe4.png" class="d-block w-100" alt="...">
             </div>
+            <div class="carousel-item">
+                <img src="../../images/equipe5.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../../images/equipe6.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../../images/equipe7.png" class="d-block w-100" alt="...">
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carroselinscritos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carroselinscritos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carroselinscritos" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carroselinscritos" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 </body>
 </html>

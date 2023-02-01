@@ -1,8 +1,6 @@
 <?php
 require_once '../../conexao.php';
 
-//selecionando o banco de dados 
-$db = mysqli_select_db($conectar, 'u836711676_wwc');
 
 $sql = mysqli_query($conectar, "SELECT * FROM modofaca ORDER BY nickname") or die( 
     mysqli_error($conectar) //caso haja um erro na consulta 
