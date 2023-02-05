@@ -17,7 +17,6 @@
 <?php
     require_once 'inscritosmodofaca.php';
     require_once 'regras.php';
-    require_once 'formulario.html';
 ?>
 
     
