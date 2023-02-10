@@ -2,8 +2,7 @@
     include "menu.html";
     include "protecao.php";
     include "conexao.php";
-    
-    $db = mysqli_select_db($conectar, 'u836711676_wwc');
+
 
     $sql = mysqli_query($conectar, "SELECT * FROM classificacaox2 ORDER BY pontos desc, kills desc, pontoscombate desc") or die( 
         mysqli_error($conectar) //caso haja um erro na consulta 
@@ -16,18 +15,6 @@
             $kills[] = $aux["kills"];
             $pc[] = $aux["pontoscombate"];
             $contato[] = $aux["contato"];
-        }
-        if(isset($_POST['submit'])){
-
-            $duplaesq = $_POST['duplaesq'];
-            $dupladir = $_POST['dupladir'];
-            $kesq = $_POST['kesq'];
-            $kdir = $_POST['kdir'];
-            $pcesq = $_POST['pcesq'];
-            $pcdir = $_POST['pcdir'];
-
-            $alteracao1 = mysqli_query($conectar, "UPDATE classificacaox2 SET kills = '$kesq', pontoscombate='$pcesq' WHERE dupla='$duplaesq'");
-            $alteracao1 = mysqli_query($conectar, "UPDATE classificacaox2 SET kills = '$kdir', pontoscombate='$pcdir' WHERE dupla='$dupladir'");
         }
 ?>
 <!DOCTYPE html>
@@ -58,7 +45,7 @@
     <a href="logout.php">SAIR</a>
 
     <div class="inserirRodada">
-        <form action="painel.php" method="post">
+        <form action="alteratabela.php" method="post">
             <?php
                 echo "<div id='linha1select'><div><select name='duplaesq'>";
                 for ($i=0; $i<count($dupla); $i++){
@@ -72,11 +59,19 @@
                 echo "</select></div>";
 
                 echo "
-                    <div><input type='number' name='kesq' placeholder='Kills'> X
-                    <input type='number' name='kdir' placeholder='Kills'></div>
-                    <input type='number' name='pcesq' placeholder='PC'> X 
+                    <div>
+                      <input type='number' name='pontosesq' placeholder='Pesq' default-value='0'> X
+                      <input type='number' name='pontosdir' placeholder='Pdir' default-value='0'>
+                    </div>
+                    <div><input type='number' name='kesq' placeholder='Kills' default-value='0'> X
+                    <input type='number' name='kdir' placeholder='Kills' default-value='0'></div>
+                    <input type='number' name='pcesq' placeholder='PC' default-value='0'> X 
                     ";
-                echo "<input type='number' name='pcdir' placeholder='PC'>";
+                echo "<input type='number' name='pcdir' placeholder='PC' default-value='0'>
+                      <div>
+                      <input type='number' name='qtdjogosesq' placeholder='QTDJogos' default-value='0'> X
+                      <input type='number' name='qtdjogosdir' placeholder='QTDJogos' default-value='0'>
+                      </div>";
                 echo "<div><input type='submit' value='SALVAR' name='submit' id='btn-salvar'></div></div>";
             ?>
         </form>
