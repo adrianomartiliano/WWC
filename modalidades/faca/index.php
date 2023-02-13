@@ -1,6 +1,6 @@
 <?php
 
-    require_once '../../menu.html';
+    require '../../menu.html';
 
 ?>
 <!DOCTYPE html>
@@ -15,6 +15,7 @@
 <body>
 
 <?php
+    require_once 'grupos.php';
     require_once 'inscritosmodofaca.php';
     require_once 'regras.php';
 ?>
