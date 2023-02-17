@@ -1,0 +1,32 @@
+@media (max-width: 768px){
+    #header{
+        height: 150px;
+        background-image: url('../images/fundo.jpeg');
+        background-size: cover;
+        background-position: right bottom;
+        display: flex;
+        align-items: center;   
+    }
+    #btn-mobile{
+        display: flex;
+        padding: 15px;
+        margin-left: 20px;
+        background: none;
+        border: none;
+        border: 3px solid #FFAB07;
+        border-radius: 50px;
+    }
+    #hamburger{
+        color: #FFAB07;
+        width: 20px;
+        border-top: 3px solid;
+    }
+    #hamburger::after, #hamburger::before{
+        width: 20px;
+        height: 3px;
+        margin-top: 5px;
+        background-color: #FFAB07;
+        content: '';
+        display: block;
+    }
+}
