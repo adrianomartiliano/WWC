@@ -45,7 +45,6 @@ a:hover{
 @media (max-width: 650px){
 
     #header {
-        background-image: url('');
         background-color: #ffab07;
         transition: 0.5s;
     }
