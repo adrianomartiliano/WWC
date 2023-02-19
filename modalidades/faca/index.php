@@ -11,8 +11,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/wwc/css/x1.css">
     <title>Modo Faca</title>
+    <style>
+        .controledefase{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+    </style>
 </head>
 <body>
+    <div class="controledefase">
+        <a href="rodada1/"><img src="../../icons/seta-direita.ico" alt=""></a>
+    </div>
 
 <?php
     require_once 'grupos.php';
