@@ -5,20 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/wwc/css/x1.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="grupos.css">
     
     <title>Document</title>
-    <style>
-        #carroselinscritos{
-            max-width: 400px;
-            margin: 20px auto;
-            border-radius: 20px;
-        }
-    </style>
 </head>
 <body>
-<div id="carroselinscritos" class="carousel slide">
+
+<?php 
+require_once '../../conexao.php';
+
+$sql = mysqli_query($conectar, "SELECT * FROM modofaca ORDER BY grupo, pontos DESC, kills DESC, pontoscombate DESC");
+$cont = 0;
+    $jogador = array();
+    while($aux = mysqli_fetch_assoc($sql)) {  
+        $jogador[] = $aux["nickname"];
+        $pontos[] = $aux["pontos"];
+        $pc[] = $aux["pontoscombate"];
+        $kills[] = $aux['kills'];
+    }
+
+for ($i = 1; $i<8; $i++)
+    {
+        echo "
+        <div class='grupo'>
+            <table>
+                <tr class='cabecalho'>
+                    <th>#</th><th colspan='3'>GRUPO ". $i ."</th><th colspan='3'>P</th><th colspan='3'>K</th>
+                </tr>";
+                for ($y=1; $y<5; $y++)
+                {
+                    echo "
+                        <tr>
+                            <td class='posicao'>". $y ."</td><td class='jogador' colspan='3' width='200px'>". $jogador[$cont] ."</td><th class='pontos' colspan='3'>". $pontos[$cont]; echo "</th><th class='pontos' colspan='3'>". $kills[$cont]; echo "</th>
+                        </tr>";   
+                        $cont++;
+                }
+        echo "</table>
+        </div>
+        ";
+        
+    }
+
+?>
+
+<!-- <div id="carroselinscritos" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="grupos/1.png" class="d-block w-100" alt="...">
@@ -50,7 +80,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
+    </div> -->
     
 </body>
 </html>

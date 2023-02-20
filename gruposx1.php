@@ -12,10 +12,8 @@
 <?php
 require_once 'conexao.php';
 require_once 'menu.html';
-//selecionando o banco de dados 
-$db = mysqli_select_db($conectar, 'u836711676_wwc');
 
-$sql = mysqli_query($conectar, "SELECT * FROM inscritosx1 ORDER BY numerojogadorporgrupo") or die( 
+$sql = mysqli_query($conectar, "SELECT * FROM inscritosx1 ORDER BY grupo, pontos DESC") or die( 
     mysqli_error($conectar) //caso haja um erro na consulta 
   );
 
