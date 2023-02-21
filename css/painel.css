@@ -1,7 +1,15 @@
+body{
+    background-color: rgb(189, 178, 178);
+}
+
 .inserirRodada{
     margin: 0 auto;
     max-width: 600px;
+    width: 90%;
     text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid gray;
 }
 input{
     width: 80px;
