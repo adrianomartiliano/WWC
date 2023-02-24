@@ -44,7 +44,7 @@
         require_once 'menu.html';
     ?>
     <div class="center">
-        <a href="modalidades/x3/x3.php"><div class="cardindex" id="x3menu"></div></a>
+        <a href="modalidades/x3/"><div class="cardindex" id="x3menu"></div></a>
         <a href="x2.php"><div class="cardindex" id="x2menu"></div></a>
         <a href="modalidades/faca/"><div class="cardindex" id="x1faca"></div></a>
         <a href="campeoes.php"><div class="campeoes cardindex" id="campeoesmenu"><h1></h1></div></a>
