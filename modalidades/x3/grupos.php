@@ -37,7 +37,7 @@ for ($i = 1; $i<5; $i++)
                     echo "
                         <tr>
                             <td class='posicao'>". $y ."</td>
-                            <td class='jogador' colspan='3' width='200px'>". $equipe[$cont] ."</td>
+                            <td class='jogador abre-modal' colspan='3' width='200px'>". $equipe[$cont] ."</td>
                             <th class='pontos' colspan='3'>". $pontos[$cont]; echo "</th>
                             <th class='pontos' colspan='3'>". $kills[$cont]; echo "</th>
                             <th class='pc' colspan='3'>". $pc[$cont]; echo "</th>
@@ -45,12 +45,21 @@ for ($i = 1; $i<5; $i++)
                         $cont++;
                 }
         echo "</table>
-        </div>
-        ";
+        </div>";
         
     }
 
 ?>
 
+<div id="modal" style="display: none; ">
+  <p>Este é o conteúdo do modal.</p>
+</div>
+
+
 </body>
+<script>
+  document.getElementsByClassName("abre-modal").addEventListener("click", function() {
+    document.getElementById("modal").style.display = "block";
+  });
+</script>
 </html>
