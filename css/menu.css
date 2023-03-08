@@ -74,13 +74,13 @@ a:hover{
     }
     #btn-mobile{
         display: flex;
-        padding: .5rem 1rem;
+        padding: 10px 30px;
         font-size: 1rem;
         border: none;
         background: none;
         color: #E0453D;
         cursor: pointer;
-        gap: .5rem;
+        gap: 30px;
     }
     #hamburger {
         color: #215D94;
