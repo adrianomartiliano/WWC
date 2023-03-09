@@ -18,7 +18,7 @@
 
             $quantidade_linhas = $sql_query->num_rows;//Quantas linhas a consulta retorna
 
-            if ($quantidade_linhas == 1){
+            if ($quantidade_linhas == 1){ //Quantidade de linhas obtidas da consulta precisa ser 1
                 $dados_usuario = $sql_query->fetch_assoc();
                 
                 if(!isset($_SESSION)){
