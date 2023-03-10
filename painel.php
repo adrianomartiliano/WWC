@@ -45,6 +45,7 @@
     <a href="logout.php">SAIR</a>
 
     <div class="inserirRodada">
+        <br/><h2>X2</h2>
         <form action="alteratabela.php" method="post">
             <?php
                 echo "<div id='linha1select'><div><select name='duplaesq'>";
@@ -76,5 +77,8 @@
             ?>
         </form>
     </div>
+    <?php
+        require_once 'painelx3.php';
+    ?>
 </body>
 </html>

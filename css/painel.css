@@ -3,7 +3,8 @@ body{
 }
 
 .inserirRodada{
-    margin: 0 auto;
+    margin: 30px auto;
+    padding: 10px;
     max-width: 600px;
     width: 90%;
     text-align: center;
