@@ -56,20 +56,23 @@
                     </div>
                     PC<input type='number' name='pcesq' placeholder='PC' default-value='0'> X 
                     ";
+                    
                 echo "<input type='number' name='pcdir' placeholder='PC' default-value='0'>PC
                       
-                    // <div>
-                    // Rodada 1<input type='number' name='pontosesq' placeholder='Pesq' default-value='0'> X
-                    // <input type='number' name='pontosdir' placeholder='Pdir' default-value='0'>Rodada 1
-                    // </div>
-                    // <div>
-                    // Rodada 2<input type='number' name='pontosesq' placeholder='Pesq' default-value='0'> X
-                    // <input type='number' name='pontosdir' placeholder='Pdir' default-value='0'>Rodada 2
-                    // </div>
-                    // <div>
-                    // Rodada 3<input type='number' name='pontosesq' placeholder='Pesq' default-value='0'> X
-                    // <input type='number' name='pontosdir' placeholder='Pdir' default-value='0'>Rodada 3
-                    // </div>
+                    <div>
+                    Rodada 1<input type='number' name='rodada1e' default-value='0'> X
+                    <input type='number' name='rodada1d'default-value='0'>Rodada 1
+                    </div>
+
+                    <div>
+                    Rodada 2<input type='number' name='rodada2e' default-value='0'> X
+                    <input type='number' name='rodada2d' default-value='0'>Rodada 2
+                    </div>
+                    
+                    <div>
+                    Rodada 3<input type='number' name='rodada3e' default-value='0'> X
+                    <input type='number' name='rodada3d' default-value='0'>Rodada 3
+                    </div>
                 ";
                 echo "<div><input type='submit' value='SALVAR' name='submit' id='btn-salvar'></div></div>";
             ?>

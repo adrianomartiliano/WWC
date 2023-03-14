@@ -19,6 +19,12 @@
     if (empty($_POST['rodada1e'])) { $rodada1e = 0;} else { $rodada1e = $_POST['rodada1e'];}
     if (empty($_POST['rodada1d'])) { $rodada1d = 0;} else { $rodada1d = $_POST['rodada1d'];}
 
+    if (empty($_POST['rodada2e'])) { $rodada2e = 0;} else { $rodada2e = $_POST['rodada2e'];}
+    if (empty($_POST['rodada2d'])) { $rodada2d = 0;} else { $rodada2d = $_POST['rodada2d'];}
+
+    if (empty($_POST['rodada3e'])) { $rodada3e = 0;} else { $rodada3e = $_POST['rodada3e'];}
+    if (empty($_POST['rodada3d'])) { $rodada3d = 0;} else { $rodada3d = $_POST['rodada3d'];}
+
 
     
     $query1 = mysqli_query($conectar, "SELECT pontos, kills, pontoscombate, rodada1, rodada2, rodada3 FROM X3 WHERE nome = '$duplaesq'");
@@ -36,11 +42,20 @@
     $novarodada1e = $rodada1e + $result1['rodada1'];
     $novarodada1d = $rodada1d + $result2['rodada1'];
 
+    $novarodada2e = $rodada2e + $result1['rodada2'];
+    $novarodada2d = $rodada2d + $result2['rodada2'];
+    
+    $novarodada3e = $rodada3e + $result1['rodada3'];
+    $novarodada3d = $rodada3d + $result2['rodada3'];
+
 
 
     $alteracao1 = mysqli_query($conectar, "UPDATE X3 
-    SET pontos = '$novoPontos1', kills = '$novoKills1', pontoscombate='$novoPC1' WHERE nome='$duplaesq'");
+    SET pontos = '$novoPontos1', kills = '$novoKills1', pontoscombate='$novoPC1', rodada1='$rodada1e', rodada2='$rodada2e', rodada3='$rodada3e' WHERE nome='$duplaesq'");
+    
     $alteracao2 = mysqli_query($conectar, "UPDATE X3 
-    SET pontos = '$novoPontos2', kills = '$novoKills2', pontoscombate='$novoPC2' WHERE nome='$dupladir'");
+    SET pontos = '$novoPontos2', kills = '$novoKills2', pontoscombate='$novoPC2', rodada1='$rodada1d', rodada2='$rodada2d', rodada3='$rodada3d' WHERE nome='$dupladir'");
+
+    echo "<META HTTP-EQUIV='Refresh' CONTENT='1 ; URL= painel.php'>";
 
 ?>
