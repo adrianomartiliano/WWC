@@ -5,7 +5,7 @@ if(!isset($_SESSION)){
 }
 
 if(!isset($_SESSION['usuario'])){
-    die("USUÁRIO SEM PERMISSÃO!");
+    echo "<META HTTP-EQUIV='Refresh' CONTENT='1 ; URL= fim.php'>";
 }
 
 
