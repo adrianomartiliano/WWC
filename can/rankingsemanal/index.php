@@ -24,9 +24,8 @@
     <title>Ranking Semanal</title>
 
     <style>
-
         .CamposNick {
-            width: 150px;
+            width: 220px;
             text-align: center;
         }
         .LinhaNick{
@@ -42,11 +41,19 @@
 <body>
 
     <form action="">
+<?php
 
-        <div class="input-group input-group-lg LinhaNick">
-            <span class="input-group-text CamposNick" id="inputGroup-sizing-lg">Goku</span>
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        </div>
+    foreach($jogador as $key => $value){
+        echo "
+        <div class='input-group input-group-lg LinhaNick'>
+        <span class='input-group-text CamposNick' id='inputGroup-sizing-lg'>".
+        $value;
+        echo "</span>
+        <input type='text' class='form-control' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-lg' value='". number_format($pontos[$key], 0, '.', '.' ) ."'>
+        </div>";
+    }
+?>
+        
 
     </form>
 
