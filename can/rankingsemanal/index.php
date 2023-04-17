@@ -41,6 +41,7 @@
 <body>
 
     <form action="">
+    <h1>Ranking Semanal</h1>
 <?php
 
     foreach($jogador as $key => $value){
