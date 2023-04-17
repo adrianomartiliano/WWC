@@ -22,7 +22,7 @@
                 <p></p>
             </div></a>
             <a href="#"><div id="campeoes">
-                <p></p>
+                <p>CAMPEÕES</p>
             </div></a>
         </div>
         <div id="coluna2">
