@@ -9,19 +9,17 @@
     <title>WWC</title>
 </head>
 <body>
-    <header id="header">
-        <nav class="nav">
-            <button id="btn-mobile">
-                <span id="hamburger"></span>
-            </button>
-        </nav>
-    </header>
+    <?php
+        require_once 'menu.html';
+    ?>
+
     <section id="section1">
         <div id="coluna1">
-            <a href="#"><div id="torneioatual">
+            <a href="#">
+                <div id="torneioatual">
                 <p></p>
-            </div></a>
-            <a href="#"><div id="campeoes">
+        </div></a>
+            <a href="campeoes/"><div id="campeoes">
                 <p>CAMPEÕES</p>
             </div></a>
         </div>
