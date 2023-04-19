@@ -8,7 +8,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
     <title>Campeões</title>
 </head>
 <body>
@@ -30,7 +29,7 @@
                         <p>WU</p>
                         <div class="trofeus">
                             <img src="../images/ouro.png" alt="">
-                            <img src="..images/bronze.png" alt="">
+                            <img src="../images/bronze.png" alt="">
                         </div>
                     </div>
                     <div class="list-clan">
