@@ -17,6 +17,7 @@ $sql = mysqli_query($conectar, "SELECT * FROM inscritosx1 ORDER BY grupo, pontos
     mysqli_error($conectar) //caso haja um erro na consulta 
   );
 
+  
     $cont = 0;
     $jogador = array();
     while($aux = mysqli_fetch_assoc($sql)) {  
