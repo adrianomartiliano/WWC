@@ -32,4 +32,10 @@
     <section id="rodape"></section>
         
 </body>
+<script src="js/main.js" >
+    alert("Teste")
+
+</script>
+
 </html>
+
