@@ -2,8 +2,6 @@
 #menu {
     display: flex;
     list-style: none;
-   
-    margin-left: 40px
 }
 
 @media (max-width: 768px){
@@ -18,29 +16,28 @@
     }
     #menu{
         position: absolute;
-        width: 60%;
+        top: 0;
+        width: 0;
         display: block;
-        height: 0%;
+        height: 100%;
         transition: .6s;
-        z-index: 1000;
+        z-index: 200;
         background-color: #ffab07;
         visibility: hidden;
         overflow-x: hidden;
+        visibility: visible; 
     }
     #nav.active #menu {
-        visibility: visible;
-        overflow-x: hidden;
-        width: 65%;
-        height: 100%;
+        visibility: visible; 
+        width: 55%;
         position: absolute;
         top: 0;
     }
     #menu a{
-        text-align: center;
-        padding: 1rem 0;
-        margin: 20px 20%;
+        text-align: center;   
         border-bottom: 2px solid #215D94;
     }
+   
     #btn-mobile{
         display: flex;
         padding: 15px;
@@ -49,6 +46,8 @@
         border: none;
         border: 3px solid #FFAB07;
         border-radius: 50px;
+        position: absolute;
+        z-index: 201;
     }
     #hamburger{
         color: #FFAB07;
