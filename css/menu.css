@@ -15,23 +15,25 @@
         transition: 0.5s;
     }
     #menu{
+
         position: absolute;
         top: 0;
+        left: -40px;
         width: 0;
         display: block;
         height: 100%;
-        transition: .6s;
+        transition: .4s;
         z-index: 200;
         background-color: #ffab07;
         visibility: hidden;
         overflow-x: hidden;
-        visibility: visible; 
     }
     #nav.active #menu {
         visibility: visible; 
-        width: 55%;
+        width: 65%;
         position: absolute;
         top: 0;
+        overflow-x: hidden;
     }
     #menu a{
         text-align: center;   
@@ -44,13 +46,13 @@
         margin-left: 20px;
         background: none;
         border: none;
-        border: 3px solid #FFAB07;
+        border: 3px solid #000000;
         border-radius: 50px;
         position: absolute;
         z-index: 201;
     }
     #hamburger{
-        color: #FFAB07;
+        color: #131211;
         width: 20px;
         border-top: 3px solid;
     }
@@ -58,7 +60,7 @@
         width: 20px;
         height: 3px;
         margin-top: 5px;
-        background-color: #FFAB07;
+        background-color: #181817;
         transition: 0.5s;
         content: '';
         display: block;
