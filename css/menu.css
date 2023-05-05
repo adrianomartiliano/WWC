@@ -14,8 +14,10 @@
         align-items: center;   
         transition: 0.5s;
     }
+    #primeiro-item-menu{
+        margin-top: 20px;
+    }
     #menu{
-
         position: absolute;
         top: 0;
         left: -40px;
@@ -35,13 +37,19 @@
         top: 0;
         overflow-x: hidden;
     }
-    /* #menu a{
+    #menu a{
         text-align: center;   
-        border-bottom: 2px solid #215D94;
-    } */
+        border-bottom: 3px solid #E0453D;
+        margin-bottom: 50px;
+        font-size: 40px;
+        color: #215D94;
+        font-family: 'FonteMenu';
+
+    }
     #menu li {
         text-align: right;
         margin-right: 30px;
+        margin-bottom: 15px;
     }
    
     #btn-mobile{
@@ -53,6 +61,10 @@
         border: 3px solid #c4c3c3;
         border-radius: 50px;
         position: absolute;
+    }
+    #btn-mobile-voltar{
+        margin-top: 100px;
+        margin-right: 20px;
     }
     #hamburger{
         color: #c4c3c3;

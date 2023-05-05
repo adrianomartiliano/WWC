@@ -36,6 +36,7 @@ img {
 }
 p{
     max-width: 300px;
+    font-family: 'FonteMenu';
 } 
 .menucampeoes h1{
     cursor: pointer;

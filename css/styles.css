@@ -9,3 +9,8 @@
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+@font-face {
+    font-family: FonteMenu;
+    src: url('../media/fonts/Military\ Kid.ttf');
+}
