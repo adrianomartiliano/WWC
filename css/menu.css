@@ -24,7 +24,7 @@
         width: 0;
         display: block;
         height: 100%;
-        transition: .4s;
+        transition: .8s;
         z-index: 200;
         background-color: #ffab07;
         visibility: hidden;
@@ -64,8 +64,8 @@
     #btn-mobile-voltar{
         background: none;
         border: none;
-        margin-top: 100px;
-        margin-right: 20px;   
+        margin-top: 90px;
+        color: #215D94;  
     }
     
     /* #nav.active #hamburger{
