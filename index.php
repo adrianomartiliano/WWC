@@ -27,8 +27,20 @@
             <a href="#"><div id="doe"></div></a>
         </div>
     </section>
-    <a href="#"><section id="banner"></section></a>
-    <section id="sliders"></section>
+
+    <!-- BANNER -->
+    <a href="#">
+        <section id="banner">
+        </section>
+    </a>
+
+    <!-- SLIDERS -->
+    <section id="sliders">
+        
+        
+    </section>
+
+    <!-- RODAPE -->
     <section id="rodape"></section>
         
 </body>
