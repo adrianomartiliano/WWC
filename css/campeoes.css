@@ -12,6 +12,9 @@
     height: 100vh;
     padding-top: 60px;
 }
+p{
+    font-size: 25px;
+}
 .conteudo-campeoes{
     max-width: 600px;
     display: flex;
