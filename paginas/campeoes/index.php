@@ -1,5 +1,5 @@
 <?php
-    require_once '../menu.html';
+    require_once '../../menu.html';
 ?>
 
 <!DOCTYPE html>
@@ -15,20 +15,20 @@
         <div class="center">
             <div class="menucampeoes"><h1 id="menuclans" onClick="clanvisivel()">CLANS</h1><h1 id="menujogadores" onClick="jogadoresvisivel()" style="color:gray">JOGADORES</h1></div>
             <div class="conteudo-campeoes">
-                <div id="clans-campeoes">
+                <!-- <div id="clans-campeoes">
                     <div class="list-clan">
                         <p>TWIN</p>
                         <div class="trofeus">
-                            <img src="../images/ouro.png" alt="">
-                            <img src="../images/ouro.png" alt="">
-                            <img src="../images/prata.png" alt="">
-                            <img src="../images/bronze.png" alt="">
+                            <img src="../../images/ouro.png" alt="">
+                            <img src="../../images/ouro.png" alt="">
+                            <img src="../../images/prata.png" alt="">
+                            <img src="../../images/bronze.png" alt="">
                         </div>
                     </div>
                     <div class="list-clan">
                         <p>WU</p>
                         <div class="trofeus">
-                            <img src="../images/ouro.png" alt="">
+                            <img src="../../images/ouro.png" alt="">
                             <img src="../images/bronze.png" alt="">
                         </div>
                     </div>
@@ -134,7 +134,7 @@
                         </div>
                     </div>
                     
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

@@ -15,11 +15,11 @@
 
     <section id="section1">
         <div id="coluna1">
-            <a href="campeoes/">
+            <a href="paginas/campeoes/">
                 <div id="torneioatual">
                 <p>RANKING</p>
         </div></a>
-            <a href="#"><div id="campeoes">
+            <a href="paginas/regras/"><div id="campeoes">
                 <p>REGRAS</p>
             </div></a>
         </div>
