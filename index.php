@@ -24,7 +24,7 @@
             </div></a>
         </div>
         <div id="coluna2">
-            <a href="#"><div id="doe"></div></a>
+            <a href="#"><div id="doe"><i class="fa-solid fa-book fa-5x"></i></div></a>
         </div>
     </section>
 
