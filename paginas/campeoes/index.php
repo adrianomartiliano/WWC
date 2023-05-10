@@ -19,7 +19,7 @@
             display: block; 
             vertical-align: bottom; 
         } /* ---- particles.js container ---- */ 
-        #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #ffab07; margin-top:-60px; } 
+        #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #ffab07; margin-top:-60px; display:flex; } 
         /* ---- stats.js ---- */ 
         .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } 
         .js-count-particles{ font-size: 1.1em; } 
@@ -30,8 +30,16 @@
 </head>
 <body>
 <section class="campeoes">
+
         <!-- particles.js container --> 
-        <div id="particles-js"></div> 
+        <div id="particles-js">
+
+            <div id="campeoes-jogadores">
+            </div>
+            <div id="campeoes-clans">
+                
+            </div>
+        </div> 
         <!-- stats - count particles --> 
         <div class="count-particles">  
             <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
