@@ -27,9 +27,10 @@
         <div id="particles-js">
 
             <div id="campeoes-jogadores">
+                <h1 class="btn-jogadores" >JOGADORES</h1>
             </div>
             <div id="campeoes-clans">
-                
+                <h1 class="btn-campeoes">CLANS</h1>
             </div>
         </div> 
         <!-- stats - count particles --> 

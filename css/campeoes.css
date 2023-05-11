@@ -53,12 +53,19 @@ p{
     visibility: hidden;
 }
 
+.btn-campeoes, .btn-jogadores{
+    display: flex;
+    height: 100%;
+    font-family: PaginaCampeoes;
+    font-size: 35px;
+    color: #215D94;
+    align-items: center;
+    justify-content: center;
 
-
-
+}
 #campeoes-jogadores{
     width: 70%;
-    height: 150px;
+    height: 120px;
     opacity: 90%;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
     background: none;
@@ -67,13 +74,13 @@ p{
     position: absolute;
     margin: 60px 15%;
 }
-    #campeoes-clans{
+#campeoes-clans{
     width: 70%;
-    height: 150px;
+    height: 120px;
     opacity: 90%;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     backdrop-filter: blur(6px);
     position: absolute;
-    margin: 260px 15%;
+    margin: 220px 15%;
 }
