@@ -32,6 +32,9 @@
             <div id="campeoes-clans">
                 <h1 class="btn-campeoes">CLANS</h1>
             </div>
+            <div id="campeoes-ranking">
+                <h1 class="btn-campeoes">RANKING <br>DE X1</h1>
+            </div>
         </div> 
         <!-- stats - count particles --> 
         <div class="count-particles">  

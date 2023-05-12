@@ -29,7 +29,7 @@
     </section>
 
     <!-- BANNER -->
-    <a href="#">
+    <a href="paginas/x1/inscricaox1.php">
         <section id="banner">
         </section>
     </a>

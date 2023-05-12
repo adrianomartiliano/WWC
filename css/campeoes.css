@@ -84,3 +84,15 @@ p{
     position: absolute;
     margin: 220px 15%;
 }
+#campeoes-ranking{
+    width: 70%;
+    height: 120px;
+    opacity: 90%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+    background: none;
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+    position: absolute;
+    margin: 380px 15%;
+    text-align: center;
+}
