@@ -11,6 +11,8 @@
     <header>
         <?php 
             require_once '../../menu.html';
+            require_once '../../conexao.php';
+            $sql = mysqli_query($conectar, "SELECT * FROM CLAN ORDER BY nome");
         ?>
     </header>
 
@@ -28,11 +30,11 @@
             <div class="input-group mb-3 form-clan">
                 <span class="input-group-text" id="inputGroup-sizing-default">Clan</span>
                 <select name="clan" id="form-clan" class="form-control">
-                    <option value="CAN">-</option>
-                    <option value="CAN">Can</option>
-                    <option value="CAN">Mund</option>
-                    <option value="CAN">Twin</option>
-                    <option value="CAN">GE</option>
+                    <?php
+                        while($aux = mysqli_fetch_assoc($sql)) {  
+                            echo "<option value='". $aux['nome']. "'>". $aux['nome'] ."</option>";
+                        }
+                    ?>
                 </select>
             </div>
             
