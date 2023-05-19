@@ -1,0 +1,32 @@
+#card-regras{
+    max-width: 300px;
+    height: 60px;
+    margin: 40px auto;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: #215D94;
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+#card-regras > p{
+    font-size: 40px;
+}
+
+.teste{
+    position: absolute;
+    width: 80%;
+    height: 400px;
+    z-index: 1000;
+    background-color: gray;
+    opacity: 0.9;
+    margin: 30px 10%;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+}
+#modal-ativo{
+    visibility: visible;
+    position: absolute;
+}
