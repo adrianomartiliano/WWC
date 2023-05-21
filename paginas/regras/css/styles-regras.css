@@ -14,7 +14,7 @@
     font-size: 40px;
 }
 
-.teste{
+.modal-fechado{
     position: absolute;
     width: 80%;
     height: 400px;
@@ -26,7 +26,8 @@
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
     visibility: hidden;
 }
-#modal-ativo{
+.modal-aberto{
     visibility: visible;
     position: absolute;
+    z-index: 1000;
 }

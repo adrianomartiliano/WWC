@@ -7,7 +7,7 @@
     <title>Doc</title>
 </head>
 <body>
-    <div class="teste" id="teste">
+    <div class="modal-fechado" id="modal">
         <p id="btn-fechar-regras">X</p>
         
     </div>
@@ -27,22 +27,26 @@
 
 <script>
 
-    var btnFecharRegras = getElementById("btn-fechar-regras");
+    var btnFecharRegras = document.getElementById("btn-fechar-regras");
     var brx1 = document.getElementById("br-x1");
     var enx1 = document.getElementById("en-x1");
     var esx1 = document.getElementById("es-x1");
 
-    brx1.addEventListener('click', toggleMenu);
-    btnFecharRegras.addEventListener('click', toggleMenu);
+    
 
     function toggleMenu(event){
-        if(event.type === 'click') event.preventDefault(); 
-        const modal = document.getElementById('teste');
-        modal.classList.toggle('modal-ativo');
+        if(event.type === 'touchstart') event.preventDefault(); 
+        const modal = document.getElementById('modal');
+        modal.classList.toggle('modal-aberto');
 
-        const fechaRegras = document.getElementById('teste');
-        fechaRegras.classList.toggle('modal-ativo');
+        // const fechaRegras = document.getElementById('modal');
+        // fechaRegras.classList.toggle('modal-aberto');
     }
+
+    brx1.addEventListener('touchstart', toggleMenu);
+    enx1.addEventListener('touchstart', toggleMenu);
+    esx1.addEventListener('touchstart', toggleMenu);
+    btnFecharRegras.addEventListener('touchstart', toggleMenu);
 
     
 

@@ -5,7 +5,7 @@
       );
     $qtd_inscritos = mysqli_num_rows($sql);
     if(isset($_POST['submit'])){
-        if ($qtdinscritos > 31){
+        if ($qtdinscritos > 63){
             echo "<script>alert('SEM VAGAS!!!');</script>";
         }else{
             $nickname = $_POST['nickname'];

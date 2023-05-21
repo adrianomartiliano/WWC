@@ -34,7 +34,7 @@
     #nav.active #menu {
         visibility: visible; 
         width: 65%;
-        position: absolute;
+        position: absolute; 
         top: 0;
         overflow-x: hidden;
     }
