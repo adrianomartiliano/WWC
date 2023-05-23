@@ -15,9 +15,9 @@
     </header>
     <?php
         require_once 'regrasx1.html';
-        require_once 'regrasx2.html';
-        require_once 'regrasx3.html';
-        require_once 'regrasx4.html';
+        // require_once 'regrasx2.html';
+        // require_once 'regrasx3.html';
+        // require_once 'regrasx4.html';
     ?>
     
 </body>
