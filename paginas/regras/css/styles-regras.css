@@ -16,11 +16,12 @@
 
 .modal-fechado{
     position: absolute;
-    width: 80%;
+    width: 85%;
     z-index: 1000;
     background-color: white;
 
-    margin: 30px 8%;
+    margin-top: 30px;
+    margin-left: 5%;
     border-radius: 20px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
     visibility: hidden;
@@ -40,12 +41,17 @@
     height: 30px;
     justify-content: center;
     align-items: center;
+    margin-left: 90%;
 }
-
+.titulo-regras{
+    color: #215D94;
+}
 .texto-regras{
     display: none;
     opacity: 0;
     transition: opacity 1.5s ease;
+    font-family:sans-serif;
+    font-size: 14px;
 }
 
 .texto-regras-ativo{
