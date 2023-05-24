@@ -17,26 +17,38 @@
 .modal-fechado{
     position: absolute;
     width: 80%;
-    height: 400px;
     z-index: 1000;
-    background-color: gray;
-    opacity: 0.9;
-    margin: 30px 10%;
+    background-color: white;
+
+    margin: 30px 8%;
     border-radius: 20px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
-    /* visibility: hidden; */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    padding: 10px;
 }
 .modal-aberto{
-    visibility: visible;
+    visibility:visible;
     position: absolute;
     z-index: 1000;
 }
-
 #btn-fechar-regras{
+    display: flex;
     color: #215D94;
     border-radius: 20px;
-    background-color: gold;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
-    width: 40px;
-    height: 40px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-regras{
+    display: none;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.texto-regras-ativo{
+    display: flex;
+    opacity: 1;
 }
