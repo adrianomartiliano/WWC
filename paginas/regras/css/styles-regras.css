@@ -17,7 +17,7 @@
 .modal-fechado{
     position: absolute;
     width: 85%;
-    z-index: 1000;
+    z-index: 50;
     background-color: white;
 
     margin-top: 30px;
@@ -30,7 +30,7 @@
 .modal-aberto{
     visibility:visible;
     position: absolute;
-    z-index: 1000;
+    z-index: 50;
 }
 #btn-fechar-regras{
     display: flex;
