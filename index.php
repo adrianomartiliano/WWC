@@ -20,11 +20,11 @@
                 <p>RANKING</p>
         </div></a>
             <a href="paginas/regras/"><div id="campeoes">
-                <p>REGRAS</p>
+                <p>-</p>
             </div></a>
         </div>
         <div id="coluna2">
-            <a href="#"><div id="doe"><i class="fa-solid fa-book fa-5x"></i></div></a>
+            <a href="paginas/regras/"><div id="doe"><i class="fa-solid fa-book fa-5x"></i></div></a>
         </div>
     </section>
 

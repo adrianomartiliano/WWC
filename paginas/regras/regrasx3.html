@@ -11,44 +11,15 @@
         <p id="btn-fechar-regras">X</p>
         
     </div>
-    <div class="conteudo-regras-x1">
+    <div class="conteudo-regras-x3">
         <div id="card-regras">
             <p>X3</p>
             <div>
                 <a href="#"><img src="icons-regras/br.png" alt="pt-br" id="br-x1"></a>
-                <a href="#"><img src="icons-regras/en.png" alt="en" id="en-x1"></a>
-                <a href="#"><img src="icons-regras/es.png" alt="es" id="es-x1"></a>
+                <!-- <a href="#"><img src="icons-regras/en.png" alt="en" id="en-x1"></a>
+                <a href="#"><img src="icons-regras/es.png" alt="es" id="es-x1"></a> -->
             </div>
         </div>
     </div>
 </body>
 </html>
-
-
-<script>
-
-    var btnFecharRegras = document.getElementById("btn-fechar-regras");
-    var brx1 = document.getElementById("br-x1");
-    var enx1 = document.getElementById("en-x1");
-    var esx1 = document.getElementById("es-x1");
-
-    
-
-    function toggleMenu(event){
-        if(event.type === 'touchstart') event.preventDefault(); 
-        const modal = document.getElementById('modal');
-        modal.classList.toggle('modal-aberto');
-
-        // const fechaRegras = document.getElementById('modal');
-        // fechaRegras.classList.toggle('modal-aberto');
-    }
-
-    brx1.addEventListener('touchstart', toggleMenu);
-    enx1.addEventListener('touchstart', toggleMenu);
-    esx1.addEventListener('touchstart', toggleMenu);
-    btnFecharRegras.addEventListener('touchstart', toggleMenu);
-
-    
-
-
-</script>

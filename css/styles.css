@@ -21,3 +21,10 @@
     font-family: PaginaCampeoes;
     src: url('../media/fonts/Revamped.otf');
 }
+
+body{
+    background-color: white;
+}
+form{
+    background-color: #ffab07;
+}
