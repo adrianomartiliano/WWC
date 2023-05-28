@@ -15,7 +15,7 @@
 
             $resultado = mysqli_query($conectar, "INSERT INTO X1
             VALUES ('$nickname', '$id', '$clan', '$whatsapp')");
-            echo '<script>alert("Sucesso")</script>';
+            echo '<script>alert("Sucesso! Inscrição Confirmada!")</script>';
             echo "<META HTTP-EQUIV='Refresh' CONTENT='1 ; URL= /'>";   
             }   
     }
