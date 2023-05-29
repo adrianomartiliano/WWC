@@ -8,10 +8,9 @@
     <title>Painel</title>
     <style>
         #conteudo-x1{
-            width: 200px;
+            width: 300px;
             padding: 20px;
             margin: 20px auto;
-            border: 1px solid gray;
             border-radius: 15px;
             text-align: center;
             background-color: #ffab07;
@@ -19,9 +18,13 @@
             color: #215D94;
         }
         .op-adm{
-            width: 100px;
+            width: 150px;
             text-align: center;
             border-radius: 5px;
+            font-size: 20px;
+        }
+        #conteudo-x1 p {
+            font-size: 40px;
         }
 
     </style>
