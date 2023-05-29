@@ -6,6 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Painel</title>
+    <style>
+        #conteudo-x1{
+            width: 200px;
+            padding: 20px;
+            margin: 20px auto;
+            border: 1px solid gray;
+            border-radius: 15px;
+            text-align: center;
+            background-color: #ffab07;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+            color: #215D94;
+        }
+        .op-adm{
+            width: 100px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+    </style>
 </head>
 <body>
 <header>
@@ -13,6 +32,19 @@
             require_once '../menu.html';
         ?>
     </header>
+
+    <div id="conteudo-x1" >
+        <p>X1</p>
+        <select class='op-adm'>
+            <option value="r1">Rodada 1<option>
+            <option value="r2">Rodada 2</option>
+            <option value="r3">Rodada 3</option>
+            <option value="oitavas">Oitavas</option>
+            <option value="oitavas">Quartas</option>
+            <option value="oitavas">Semi-final</option>
+        </select>
+
+    </div>
     
 </body>
 </html>
