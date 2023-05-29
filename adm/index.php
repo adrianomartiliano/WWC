@@ -1,3 +1,45 @@
+<?php
+
+    include('../conexao.php');
+
+    if(isset($_POST['id-adm']) || isset($_POST['senha-adm'])){
+        if(strlen($_POST['id-adm']) == 0 ){
+            echo "Preencha o nickname";
+        } else if (strlen($_POST['senha-adm']) == 0 ){
+            echo "Preencha a senha";
+            //Código acima verifica se algo foi digitado nos campos
+        } else{
+            $nickname = $conectar->real_escape_string($_POST['id-adm']);
+            $senha = $conectar->real_escape_string($_POST['senha-adm']);
+
+            $sql_code = "SELECT * FROM ADM WHERE nickname = '$nickname' AND senha = '$senha'";
+            $sql_query = $conectar->query($sql_code) or die("Falha na execução!" . $conectar->error);
+            
+
+            $qtd_registros = $sql_query->num_rows;//Quantas linhas a consulta retorna
+
+            if ($qtd_registros == 1){ //Quantidade de linhas obtidas da consulta precisa ser 1
+                $dados_usuario = $sql_query->fetch_assoc();
+                
+                if(!isset($_SESSION)){
+                    session_start();
+                }
+                $_SESSION['id-adm'] = $dados_usuario['id-adm'];
+
+                header("Location: painel.php"); //Se a quantidade de regristros for igual a 1, ele direciona para o painel.php
+            }else {
+                echo "<script>
+                        alert('Nickname ou senha incorretos!')
+                </script>";
+            }
+        }
+    }
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +62,7 @@
             require_once '../menu.html';
         ?>
     </header>
-    <form action="#" method="post" id="form-x1">
+    <form action="index.php" method="post" id="form-x1">
         <h1 class="tit-form">LOGIN</h1>
         
         <div id="linha2-clan-e-id">
