@@ -39,14 +39,13 @@
     <div id="conteudo-x1" >
         <p>X1</p>
         <select class='op-adm'>
-            <option value="r1">Rodada 1<option>
+            <option value="r1">Rodada 1</option>
             <option value="r2">Rodada 2</option>
             <option value="r3">Rodada 3</option>
             <option value="oitavas">Oitavas</option>
             <option value="oitavas">Quartas</option>
             <option value="oitavas">Semi-final</option>
         </select>
-
     </div>
     
 </body>
