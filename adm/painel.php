@@ -26,6 +26,25 @@
         #conteudo-x1 p {
             font-size: 40px;
         }
+        .round-card{
+            max-width: 300px;
+            height: 130px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .lin1{
+            display: flex;
+        }
+        .placar, .placar-kills, .placar-pontosCombate{
+            background-color: gray;
+        }
+        .nome-jogador{
+            padding: 5px;
+            width: 50%;
+            background-color: red;
+        }
 
     </style>
 </head>
@@ -46,6 +65,12 @@
             <option value="oitavas">Quartas</option>
             <option value="oitavas">Semi-final</option>
         </select>
+    </div>
+
+    <div class="round-card">
+        <div class="lin1"><div class='nome-jogador'>GOKU</div><div class='placar'>2</div><div class='placar-kills'>18</div><div class='placar-pontosCombate'>565</div></div>
+        <div class="lin2"><div>DALMO</div></div>
+        <div class="lin3"></div>
     </div>
     
 </body>
