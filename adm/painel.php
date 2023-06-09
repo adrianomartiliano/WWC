@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://kit.fontawesome.com/35d9b76d78.js" crossorigin="anonymous"></script>
     <title>Painel</title>
     <style>
         #conteudo-x1{
@@ -33,17 +34,53 @@
             border-radius: 15px;
             margin: 20px auto;
             padding: 20px;
+            background-color: #ffab07;
+            color: #215D94;
         }
         .lin1{
             display: flex;
         }
-        .placar, .placar-kills, .placar-pontosCombate{
-            background-color: gray;
-        }
         .nome-jogador{
             padding: 5px;
-            width: 50%;
-            background-color: red;
+            width: 60%;
+            background-color: white;
+            margin: 3px;
+            border-radius: 5px;
+        }
+        .placar, .placar-kills{
+            width: 10%;
+            padding: 5px;
+            margin: 3px;
+            background-color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .placar-pontosCombate{
+            width: 20%;
+            padding: 5px;
+            margin: 3px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        input{
+            border: none;
+            width: 100%;
+            color: #215D94;
+            text-align: center;
+        }
+        option, select{
+            color: #215D94;
+        }
+
+        .section-imagens{
+            width: 100%;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .section-imagens i{
+            margin: 10px;
+            align-items: center;
         }
 
     </style>
@@ -64,13 +101,23 @@
             <option value="oitavas">Oitavas</option>
             <option value="oitavas">Quartas</option>
             <option value="oitavas">Semi-final</option>
+            <option value="oitavas">Final</option>
         </select>
     </div>
 
-    <div class="round-card">
+    <!-- <div class="round-card">
         <div class="lin1"><div class='nome-jogador'>GOKU</div><div class='placar'>2</div><div class='placar-kills'>18</div><div class='placar-pontosCombate'>565</div></div>
-        <div class="lin2"><div>DALMO</div></div>
+        <div class="lin1"><div class='nome-jogador'>DALMO-ROJO</div><div class='placar'>1</div><div class='placar-kills'>15</div><div class='placar-pontosCombate'>465</div></div>
         <div class="lin3"></div>
+    </div> -->
+    <div class="round-card">
+        <div class="lin1"><div class='nome-jogador'>GOKU</div><div class='placar'><input type="number" value='2'></div><div class='placar-kills'><input type="number" value='18'></div><div class='placar-pontosCombate'><input type="number" value='715'></div></div>
+        <div class="lin1"><div class='nome-jogador'>DALMO-ROJO</div><div class='placar'><input type="number" value='1'></div><div class='placar-kills'><input type="number" value='15'></div><div class='placar-pontosCombate'><input type="number" value='465'></div></div>
+        <div class="section-imagens">
+            <i class="fa-solid fa-image fa-2x"></i>
+            <i class="fa-solid fa-image fa-2x"></i>
+            <i class="fa-solid fa-image fa-2x"></i>
+        </div>
     </div>
     
 </body>
