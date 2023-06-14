@@ -1,9 +1,9 @@
 <?php
 
-    $local = 'sql541.main-hosting.eu';
-    $user = 'u836711676_goku';
-    $senha = 'Dil28Dika7';
-    $banco = 'u836711676_wwc';
+    $local = 'localhost';
+    $user = 'root';
+    $senha = '';
+    $banco = 'wwc';
 
     /*$local = 'localhost';
     $user = 'root';
