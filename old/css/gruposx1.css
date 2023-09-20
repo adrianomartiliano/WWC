@@ -1,0 +1,117 @@
+.fases{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+.controles-fase{
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.controles-fase > p{
+    cursor: pointer;
+}
+
+th{
+    padding: 5px;
+}
+td{
+    padding: 5px;
+}
+.tamanho-rodada th{
+    width: 450px;
+}
+.grupo{
+    display: flex;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    justify-content: space-between;   
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+    padding: 5px;
+}
+table{
+    border: 50px;
+}
+.rodadaA, .rodadaB, .rodadaC, .rodadaD, .rodadaE, .rodadaF{
+    display: none;
+}
+@media (max-width:600px){
+    .fases{width: 95%;}
+    .grupo{
+        padding: 5px;
+        display: block;
+        width: 90%;
+    }
+    .classificao{
+        width: 90%;
+        margin: 10px auto;
+    }
+    th{
+    padding: 5px;
+    }
+    td{
+    padding: 5px;
+    }
+    .rodada-ativa{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .seta{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.btn-direita, .btn-esquerda{
+    cursor: pointer;
+}
+.rodada-ativa {
+    display: block;
+}
+.titulo-rodada{
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+}
+.fases > div{
+    display: none;
+}
+.fase-ativa{
+    display: block !important;
+}
+.seta{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+.seta img{
+    margin: 0 60px;
+}
+.rodada {
+    margin: 20px auto;
+}
+
+.box-oitavas{
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 0 0 10px gray;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 600px;
+    padding: 10px;
+}
+.box-oitavas th {width: 250px;}
+.box-oitavas h4{
+    color: gray;
+    opacity: 0.7;
+}
+.box-confrontos-oitavas{
+    display: flex;
+    justify-content: space-between;
+}

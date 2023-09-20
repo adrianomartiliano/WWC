@@ -1,0 +1,30 @@
+@import url('menu.css');
+@import url('section1.css');
+@import url('banner.css');
+@import url('slider.css');
+@import url('rodape.css');
+@import url('campeoes.css');
+
+@import url('modalidades/x1.css');
+
+*{
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@font-face {
+    font-family: FonteMenu;
+    src: url('../media/fonts/menu.otf');
+}
+
+@font-face{
+    font-family: PaginaCampeoes;
+    src: url('../media/fonts/Revamped.otf');
+}
+
+body{
+    background-color: rgb(238, 232, 232);
+}
+form{
+    background-color: #ffab07;
+}

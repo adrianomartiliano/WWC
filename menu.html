@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <script src="https://kit.fontawesome.com/35d9b76d78.js" crossorigin="anonymous"></script>
+    <title>WWC</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav" >
+            <div class="btnarea">
+                <button id="btn-mobile">
+                    <i class="fa-solid fa-bars fa-3x"></i>
+                </button>
+                <button id="btn-login">
+                    <a href="paginas/login/"><img src="/WWC/images/iconLogin.png" alt=""></a>
+                </button>
+                
+            </div>
+            
+            
+            <ul id="menu">
+                <li>
+                    <button id="btn-mobile-voltar">
+                        <i class="fa-solid fa-square-caret-left fa-3x"></i>
+                    </button>
+
+                </li>
+                <li id="primeiro-item-menu"><a href="/WWC/">HOME</a></li>
+                <li><a href="/WWC/paginas/campeoes/">RANKING</a></li>
+                <li><a href="#">TORNEIOS</a></li>
+                <li><a href="#">REGRAS</a></li>
+                <li><a href="/WWC/adm/">ADM</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+<script>
+    const btnmobile = document.getElementById('btn-mobile');
+    const btnMobileVoltar = document.getElementById('btn-mobile-voltar');
+
+
+    function toggleMenu(event){
+        if(event.type === 'touchstart') event.preventDefault(); 
+        const nav = document.getElementById('nav');
+        nav.classList.toggle('active');
+    }
+
+    btnmobile.addEventListener('click', toggleMenu);
+    btnmobile.addEventListener('touchstart', toggleMenu);
+    btnMobileVoltar.addEventListener('click', toggleMenu);
+    btnMobileVoltar.addEventListener('touchstart', toggleMenu);
+</script>
+</html>

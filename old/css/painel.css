@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(189, 178, 178);
+}
+
+.inserirRodada{
+    margin: 30px auto;
+    padding: 10px;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+input{
+    width: 80px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#btn-salvar{
+    margin-top: 30px;
+    width: 160px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+select{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}

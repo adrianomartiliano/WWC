@@ -1,0 +1,112 @@
+
+.regras{
+    width: 100%;
+    background: #ffab07;
+    padding-top: 40px;
+    padding-bottom: 100px;
+
+}
+
+.inscricao{
+    padding: 90px 0;
+    background-image:url('../images/fundo-form-modofaca.jpeg');
+    background-size:cover;
+    background-position: center;
+}
+.form{
+    padding: 40px 0;
+    background: rgba(250,255,250,0.5);
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+}
+label{
+    width: 50%;
+    font-weight: bolder;
+    color:rgba(0, 0, 0, 0.5);
+}
+.campus-form input, select{
+    padding: 8px;
+    max-width: 140px;
+    width: 100%;
+    background-color: white;
+    border:  1px solid gray;
+    border-radius: 15px;
+}
+select{
+    max-width: 158px;
+}
+.campus-form{
+    margin: 0 auto;
+    display: flex;
+    padding: 5px;
+}
+#btn-enviar-inscricao{
+    padding: 5px;
+    margin-top: 20px;
+    color: gray;
+    border: 1px solid gray;
+    background-color: yellow;
+    border-radius: 20PX;
+    width: 80px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+h1{
+    color:rgba(0, 0, 0, 0.7);
+    margin-bottom: 40px;
+}
+.inscritos h1 {
+    color: white;
+}
+.center{
+    display: block;
+}
+.inscritos{
+    width: 100%;
+
+}
+.tituloregras{
+    width: 100%;
+}
+.regras h1 {
+    text-align: center;
+    margin: 0 auto;
+    color: #E0453D;
+    text-shadow: -2px 1px 1px #215D94;
+}
+.regras h3{
+    text-shadow: -1px 1px 1px #215D94;
+    color: #E0453D;
+}
+.baixar-regras{
+    color: #E0453D;
+}
+.regras-idiomas{
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.regras-idiomas h3{
+    margin: 10px;
+}
+
+.regras-idiomas div{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media (max-width: 700px){
+    .regras-idiomas{
+        display: block;
+    }
+    .inscricao{
+        background-size:cover;
+        background-position: right;
+    }
+}
