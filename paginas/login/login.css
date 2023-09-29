@@ -1,84 +1,105 @@
 
 
 @media  (max-width: 700px) {
-.formarea{
-    width: 90%;
-    margin: 50px auto;
-    border-radius: 20px;
-    padding: 20px 0;
-    box-shadow: 0 5px 10px gray;
-}
 
-.idclanarea{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    form{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .loginarea {
+        display: flex;
+        max-width: 300px;
+        margin: 50px auto;
+        background-color: #ffab07;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-.idarea, .clanarea, .emailarea, .nicknamearea, .whatsapparea, .senhaarea, .senhaconfirmarea{
-    display: flex;
-    flex-direction: column;
-    margin: 10px 20px;
-}
+    input[type="text"],
+    input[type="password"] {
+        background-color: #D69006;
+        color: #215D94;
+        border: none;
+        outline: none;
+    }
+    
+    input:-webkit-autofill {
+        -webkit-text-fill-color: #215D94 !important;
+        -webkit-box-shadow: 0 0 0 30px #D69006 inset !important;
+        border: none;
+    }
+    input:focus{
+        outline: none;
+        background-color: #D69006;
+    }
 
-.inputclan{
-    width: 130px;
-}
-.inputid{
-    width: 120px;
-}
+    .btnEntrar {
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        background-color:#215D94;
+        border-radius: 3px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.inputform, option{
+    .btnEntrar input{
+        background-color: #215D94;
+        font-size: 20px;
+        color: #fff;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .btnOutros{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        text-align: left;
+        margin-top: 15px;
+        padding: 20px;
+        color: #215D94;
+    }
+    a{
+        color: #215D94;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+    .forgot-password,
+    .create-account {
+        margin-top: 10px;
+    }
+
+    .inputsenhaarea, .inputidarea{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        background-color: #D69006;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 3px;
         background-color: #D69006;
         border: none;
-        padding: 10px;
-        color: #215D94;
-        font-size: 15px;
-        font-family: Arial, Helvetica, sans-serif;     
-}
-
-input:-webkit-autofill {
-    -webkit-text-fill-color: #215D94 !important;
-    -webkit-box-shadow: 0 0 0 30px #D69006 inset !important;
-}
-input:focus{
-    outline: none;
-    background-color: #df990fd2;
-}
-
-.formarea  label {
-    margin-bottom: 8px;
-    color: #215D94;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.btnArea{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.btn{
-    margin: 20px;
-    color: #215D94;
-    background-color:#ffab07;
-    border: none;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.btnArea a{
-    width: 120px;
-    color: #215D94;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    margin-bottom: 10px;
-}
-form h2{
-    text-align: center;
-    color: #215D94;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
+        height: 30px;
+    }
 
 }

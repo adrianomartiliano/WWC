@@ -1,0 +1,92 @@
+
+
+@media  (max-width: 700px) {
+.formarea{
+    width: 90%;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 20px 0;
+    box-shadow: 0 5px 10px gray;
+}
+
+.idclanarea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.idarea, .clanarea, .emailarea, .nicknamearea, .whatsapparea, .senhaarea, .senhaconfirmarea{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+.senha_confirm{
+    width: 100%;
+}
+
+.inputclan{
+    width: 130px;
+}
+.inputid{
+    width: 120px;
+}
+
+.inputform, option{
+        background-color: #D69006;
+        border: none;
+        padding: 10px;
+        color: #215D94;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;     
+}
+#senha-confirm-message{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: #215D94 !important;
+    -webkit-box-shadow: 0 0 0 30px #D69006 inset !important;
+}
+input:focus{
+    outline: none;
+    background-color: #df990fd2;
+}
+
+.formarea  label {
+    margin-bottom: 8px;
+    color: #215D94;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btnArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin: 20px;
+    color: #215D94;
+    background-color:#ffab07;
+    border: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btnArea a{
+    width: 120px;
+    color: #215D94;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+form h2{
+    text-align: center;
+    color: #215D94;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+}
