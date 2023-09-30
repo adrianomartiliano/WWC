@@ -11,6 +11,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        
     }
     .loginarea {
         display: flex;
@@ -19,7 +20,7 @@
         background-color: #ffab07;
         padding: 20px;
         border-radius: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 5px 10px gray;
         text-align: center;
         flex-direction: column;
         align-items: center;
@@ -32,12 +33,14 @@
         color: #215D94;
         border: none;
         outline: none;
+        font-size: 20px;
     }
     
     input:-webkit-autofill {
         -webkit-text-fill-color: #215D94 !important;
         -webkit-box-shadow: 0 0 0 30px #D69006 inset !important;
         border: none;
+        font-size: 20px;
     }
     input:focus{
         outline: none;
