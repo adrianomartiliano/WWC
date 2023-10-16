@@ -22,16 +22,48 @@
     justify-content: center;
 }
 
-.torneioX1{
+.torneiosAbertosArea{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 90%;
-    height: 100px;
+    height: 100%;
     background-color: #ffab07;
     border-radius: 15px;
     margin-top: 30px;
 }
-.torneioX1 p{
+
+.torneiosAbertosArea img{
+    width: 70px;
+    height: 50px;
+}
+.torneioX1{
+    margin: 20px;
+    background-color: #D69006;
+    width: 90%;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.linhaRegrasInscricao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.regrasX1, .inscricaoX1{
+    width: 50%;
+}
+.jogadoresInscritos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.jogadoresInscritos > p{
+    width: 40px;
     text-align: center;
 }

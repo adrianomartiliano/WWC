@@ -23,8 +23,27 @@
         </div>
 
         <div class="painelArea">
-            <div class="torneioX1">
-                <p>Em breve inscrição do torneio aqui</p>
+            <div class="torneiosAbertosArea">
+                <p>Torneios Abertos</p>
+                <div class="torneioX1">
+                    <p>X - 1</p>
+
+                    <div class="linhaRegrasInscricao">
+                        <div class="regrasX1">
+                            <img src="../icones/iconregras.png" alt="" class="icon_x1">
+                            <p>Regras</p>
+                        </div>
+                        <div class="inscricaoX1">
+                            <img src="../icones/icons_inscricao.png" alt="">
+                            <p>Inscricao</p>
+                        </div>
+                    </div>
+                    <div class="jogadoresInscritos">
+                        <img src="../icones/icon_confirmacao.png" alt="">
+                        <p>Jogadores Inscritos</p>
+                    </div>
+
+                </div>
             </div>
 
         </div>
