@@ -24,9 +24,9 @@
 
         <div class="painelArea">
             <div class="torneiosAbertosArea">
-                <p>Torneios Abertos</p>
+                <p class="tituloCard">Torneios Abertos</p>
                 <div class="torneioX1">
-                    <p>X - 1</p>
+                    <p class="tituloTorneio">X - 1</p>
 
                     <div class="linhaRegrasInscricao">
                         <div class="regrasX1">
@@ -35,12 +35,12 @@
                         </div>
                         <div class="inscricaoX1">
                             <img src="../icones/icons_inscricao.png" alt="">
-                            <p>Inscricao</p>
+                            <p>Inscrição</p>
                         </div>
                     </div>
                     <div class="jogadoresInscritos">
                         <img src="../icones/icon_confirmacao.png" alt="">
-                        <p>Jogadores Inscritos</p>
+                        <p>Jogadores <br />Inscritos</p>
                     </div>
 
                 </div>
