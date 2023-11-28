@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu {
+    list-style: none;
+}
+#header{
+    background-color: #ffab07;
+    height: 130px;
+    display: flex;
+    align-items: center;
+
+}
+#logo-menu{
+    width: 67px;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav img, #menu{
+    margin: 34px;
+}
+#menu a{
+    font-style: none;
+    text-decoration: none;
+    text-align: center;   
+    color: #2e5899;
+}
